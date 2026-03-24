@@ -95,7 +95,7 @@ export const lessons: Lesson[] = [
   { id: 77, title: "The Preliminary Discourse", book: "Encyclopédie", author: "Denis Diderot & Jean le Rond d'Alembert", chapter: "Preliminary Discourse", description: "The manifesto of the Enlightenment—a systematic map of all human knowledge.", era: "Enlightenment", slug: "diderot-encyclopedie", hasContent: false },
   { id: 78, title: "The Progress of the Human Mind", book: "Sketch for a Historical Picture of the Progress of the Human Mind", author: "Marquis de Condorcet", chapter: "Tenth Epoch", description: "Humanity's future perfection through reason, science, and universal education.", era: "Enlightenment", slug: "condorcet-progress", hasContent: false },
   { id: 79, title: "The Mohist Challenge", book: "Mozi", author: "Mozi", chapter: "Universal Love", description: "Against Confucianism: universal love vs. graded love.", era: "Eastern", slug: "mozi-love", hasContent: false },
-  { id: 80, title: "The Bhagavad Gita", book: "Bhagavad Gita", author: "Hindu Text", chapter: "Chapters 1-6", description: "Duty, action, and the nature of the self.", era: "Eastern", slug: "gita-1", hasContent: false },
+  { id: 80, title: "Moral Sentiments", book: "The Theory of Moral Sentiments", author: "Adam Smith", chapter: "Part I", description: "Sympathy as the foundation of morality—Smith's ethical masterpiece before The Wealth of Nations.", era: "Enlightenment", slug: "smith-moral-sentiments", hasContent: false },
 
   // === MEDIEVAL & RENAISSANCE (81-100) ===
   { id: 81, title: "The Restless Heart", book: "Confessions", author: "Augustine", chapter: "Books I-III", description: "Our hearts are restless until they rest in God.", era: "Medieval", slug: "augustine-1", hasContent: true },
