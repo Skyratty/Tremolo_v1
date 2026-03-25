@@ -121,7 +121,83 @@ export const chapters: Record<string, ChapterContent> = {
     externalUrl: "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm#link2H_4_0004"
   },
 
-  "plato-symposium": {
+  "plato-republic-2": {
+    slug: "plato-republic-2",
+    title: "The Ring of Gyges",
+    book: "The Republic, Book II",
+    author: "Plato",
+    era: "Ancient Greece (c. 375 BCE)",
+    overview: "Book II opens with Glaucon and Adeimantus refusing to let Socrates off the hook. Glaucon presents the famous Ring of Gyges thought experiment: if you had a ring that made you invisible, would you still act justly? He argues that people are only just because they fear punishment, and that anyone with the power of invisibility would behave unjustly. He challenges Socrates to prove that justice is good in itself — not merely for its consequences. Adeimantus adds that even the poets and educators praise justice only for its rewards. The brothers demand that Socrates show justice is intrinsically valuable. Socrates responds by proposing to examine justice 'writ large' in a city before looking for it in the individual soul, launching the construction of the ideal city.",
+    keyConcepts: [
+      "The Ring of Gyges — A thought experiment about invisibility and moral motivation",
+      "Justice as intrinsic good vs. instrumental good",
+      "The social contract theory of justice — people are just only from fear",
+      "The City-Soul analogy — examining justice in the state to find it in the individual",
+      "The challenge of Glaucon and Adeimantus to defend justice for its own sake"
+    ],
+    sections: [],
+    reflectionQuestions: [
+      "If you could act with complete impunity, would you still behave justly?",
+      "Is justice valuable in itself, or only because of its rewards and reputation?",
+      "Does Glaucon's argument reflect how most people actually think about morality?",
+      "Why does Socrates turn to the city to understand justice in the individual?"
+    ],
+    furtherReading: "Continue with Republic Books III-IV for the construction of the ideal city and the discovery of justice within it.",
+    externalUrl: "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm#link2H_4_0005"
+  },
+
+  "plato-republic-5": {
+    slug: "plato-republic-5",
+    title: "The Philosopher King",
+    book: "The Republic, Books V-VI",
+    author: "Plato",
+    era: "Ancient Greece (c. 375 BCE)",
+    overview: "Books V and VI contain some of the Republic's most radical proposals. Socrates argues that women should receive the same education and roles as men, that the guardian class should hold wives and children in common, and — most controversially — that cities will never be well-governed until philosophers become kings or kings become philosophers. He then faces the challenge of defining what a philosopher is: a lover of wisdom who grasps the eternal Forms rather than merely the shifting appearances of the sensible world. Book VI explores why philosophers are nevertheless despised in existing cities and offers the famous analogies of the Sun and the Divided Line to explain the relationship between the visible and intelligible worlds.",
+    keyConcepts: [
+      "The Philosopher King thesis — cities need philosopher-rulers",
+      "The equality of women in the guardian class",
+      "Community of wives and children among guardians",
+      "The distinction between knowledge (of Forms) and opinion (of appearances)",
+      "The Sun analogy — the Form of the Good illuminates truth as the sun illuminates sight",
+      "The Divided Line — four levels of cognition from imagination to pure reason"
+    ],
+    sections: [],
+    reflectionQuestions: [
+      "Is Plato right that only those who understand truth should govern?",
+      "Why are philosophers often ineffective or unwelcome in politics?",
+      "What does the Sun analogy reveal about Plato's view of the Good?",
+      "How does the Divided Line organize different types of knowledge?"
+    ],
+    furtherReading: "Continue with Republic Book VII (the Allegory of the Cave) for the dramatic culmination of Plato's epistemology.",
+    externalUrl: "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm#link2H_4_0008"
+  },
+
+  "plato-republic-6": {
+    slug: "plato-republic-6",
+    title: "The Divided Line and the Sun",
+    book: "The Republic, Book VI",
+    author: "Plato",
+    era: "Ancient Greece (c. 375 BCE)",
+    overview: "Book VI presents two of Plato's most important philosophical images. The Sun analogy compares the Form of the Good to the sun: just as the sun provides light that makes visible objects seen and gives them the power to be seen, the Good provides the 'light' of truth that makes the Forms knowable and gives them their being. The Divided Line then maps out four levels of reality and corresponding states of mind: imagination (eikasia), belief (pistis), reasoning (dianoia), and understanding (noesis). Together these analogies establish the metaphysical and epistemological framework for the entire Republic.",
+    keyConcepts: [
+      "The Sun analogy — the Good is to intelligible reality what the sun is to visible reality",
+      "The Divided Line — a proportional division representing levels of reality and knowledge",
+      "Eikasia (imagination) — the lowest cognitive state, dealing with shadows and reflections",
+      "Pistis (belief) — dealing with physical objects in the visible world",
+      "Dianoia (reasoning) — mathematical and hypothetical thinking",
+      "Noesis (understanding) — direct apprehension of the Forms through dialectic"
+    ],
+    sections: [],
+    reflectionQuestions: [
+      "What role does the Form of the Good play in Plato's philosophy?",
+      "How do the four segments of the Divided Line relate to everyday experience?",
+      "Why does Plato place mathematical reasoning below dialectic?",
+      "Is there a modern equivalent to Plato's distinction between opinion and knowledge?"
+    ],
+    furtherReading: "Read alongside Republic Book VII (the Cave) to see how these analogies connect to education and the philosopher's journey.",
+    externalUrl: "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm#link2H_4_0009"
+  },
+
     slug: "plato-symposium",
     title: "The Nature of Love",
     book: "Symposium",
