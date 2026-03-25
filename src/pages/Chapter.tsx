@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { chapters } from "@/data/chapters";
 import { lessons } from "@/data/lessons";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Chapter = () => {

@@ -60,7 +60,7 @@ export const chapters: Record<string, ChapterContent> = {
     book: "The Republic, Book VII",
     author: "Plato",
     era: "Ancient Greece (c. 375 BCE)",
-    overview: "Book VII of the Republic contains Plato's most famous philosophical image: the Allegory of the Cave. In this thought experiment, Plato describes prisoners chained in a cave who mistake shadows on the wall for reality. When one prisoner is freed and dragged into the sunlight, he discovers the true world — but returning to tell the others proves nearly impossible. The allegory illustrates Plato's theory of Forms, the transformative power of education, and the philosopher's difficult relationship with society.",
+    overview: "Book VII of the Republic contains Plato's most famous philosophical image: the Allegory of the Cave. Read the full text of Book VII in Benjamin Jowett's translation via the link below.",
     keyConcepts: [
       "The Cave — Our ordinary experience as a world of shadows and illusion",
       "The Ascent — Education as a turning of the soul toward truth",
@@ -68,31 +68,15 @@ export const chapters: Record<string, ChapterContent> = {
       "The Return — The philosopher's duty to go back and enlighten others",
       "The Forms — True reality exists beyond the physical world we perceive"
     ],
-    sections: [
-      {
-        heading: "The Prisoners in the Cave",
-        content: "Plato asks us to imagine prisoners who have been chained in an underground cave since childhood, facing a blank wall. Behind them burns a fire, and between the fire and the prisoners, people walk carrying objects that cast shadows on the wall. The prisoners, having never seen anything else, take these shadows to be the entirety of reality. They give names to the shadows, compete to predict which shadow will appear next, and consider those who are best at this game to be the wisest among them. This is Plato's image of ordinary human existence — we mistake appearances for reality."
-      },
-      {
-        heading: "The Liberation and Ascent",
-        content: "One prisoner is freed from his chains and compelled to turn around. The firelight hurts his eyes, and the objects casting the shadows confuse him — they seem less real than the shadows he has always known. He is then dragged up a steep path into the sunlight, where the pain is even more intense. Gradually, his eyes adjust. He can first see shadows, then reflections in water, then objects themselves, then the stars, and finally the sun itself. He realizes that the sun is the source of everything he sees — it gives light, governs the seasons, and makes vision possible. This ascent represents the philosophical journey from ignorance to knowledge, from the world of appearances to the world of true being."
-      },
-      {
-        heading: "The Form of the Good",
-        content: "The sun in the allegory represents the Form of the Good — the highest principle in Plato's philosophy. Just as the sun illuminates the visible world and makes sight possible, the Form of the Good illuminates the intelligible world and makes knowledge possible. It is the source of truth, beauty, and justice. Understanding the Good is the ultimate goal of philosophy, and it is what qualifies the philosopher to rule: only someone who has seen the Good can organize society in accordance with it."
-      },
-      {
-        heading: "The Return to the Cave",
-        content: "Having seen the truth, the philosopher must return to the cave. This is not optional — it is a duty. But the return is painful and dangerous. Coming back into the darkness, his eyes can no longer see the shadows clearly. The other prisoners think he has been ruined by his journey. If he tries to free them, they may resist violently — Plato hints here at the fate of Socrates, who was executed for trying to enlighten Athens. The allegory raises a profound question: can truth be communicated to those who have never experienced it, or must each person make the journey for themselves?"
-      }
-    ],
+    sections: [],
     reflectionQuestions: [
       "What are the 'shadows on the wall' in your own life — beliefs or assumptions you've never questioned?",
       "Is education truly a 'turning of the soul,' or simply the transmission of information?",
       "Do you think people resist being shown uncomfortable truths? Why?",
       "Does the philosopher have a duty to return to the cave and help others?"
     ],
-    furtherReading: "Read alongside Republic Books V-VI (the Divided Line and Sun analogies) for the full picture. Available on Project Gutenberg. See also the 2016 animated short film 'Plato's Allegory of the Cave' for a visual interpretation."
+    furtherReading: "Read alongside Republic Books V-VI (the Divided Line and Sun analogies) for the full picture.",
+    externalUrl: "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm"
   },
 
   "plato-republic-1": {
