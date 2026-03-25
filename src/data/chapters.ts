@@ -9,6 +9,7 @@ export interface ChapterContent {
   sections: { heading: string; content: string }[];
   reflectionQuestions: string[];
   furtherReading: string;
+  externalUrl?: string;
 }
 
 export const chapters: Record<string, ChapterContent> = {
