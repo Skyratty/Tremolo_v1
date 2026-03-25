@@ -117,7 +117,8 @@ export const chapters: Record<string, ChapterContent> = {
       "Can you think of situations where conventional justice (following rules) conflicts with true justice?",
       "Why does Socrates think it's important to define justice precisely rather than just give examples?"
     ],
-    furtherReading: "Continue with Republic Books II-IV for Plato's positive account of justice. Available on Project Gutenberg and MIT Classics."
+    furtherReading: "Continue with Republic Books II-IV for Plato's positive account of justice. Available on Project Gutenberg and MIT Classics.",
+    externalUrl: "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm#link2H_4_0004"
   },
 
   "plato-symposium": {
