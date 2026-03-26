@@ -557,7 +557,8 @@ export const chapters: Record<string, ChapterContent> = {
       "How much of your life is spent in the present moment vs. worrying about the future?",
       "What would you do differently if you truly believed life was long enough?"
     ],
-    furtherReading: "On the Shortness of Life is brief and very readable. Available in many translations. Pair with Seneca's Moral Letters for more practical Stoic wisdom."
+    furtherReading: "On the Shortness of Life is brief and very readable. Available in many translations. Pair with Seneca's Moral Letters for more practical Stoic wisdom.",
+    externalUrl: "https://en.wikisource.org/wiki/On_the_Shortness_of_Life"
   },
 
   "laotzu-1": {
