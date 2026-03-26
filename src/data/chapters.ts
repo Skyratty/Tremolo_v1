@@ -152,7 +152,24 @@ export const chapters: Record<string, ChapterContent> = {
       "The City-Soul analogy — examining justice in the state to find it in the individual",
       "The challenge of Glaucon and Adeimantus to defend justice for its own sake"
     ],
-    sections: [],
+    sections: [
+      {
+        heading: "Glaucon's Challenge",
+        content: "Glaucon is unsatisfied with how Book I ended. He doesn't personally believe that injustice is better than justice, but he wants Socrates to prove it properly. He divides goods into three categories: things valued for their own sake (like harmless pleasures), things valued both for themselves and their consequences (like health and knowledge), and things valued only for their consequences (like medicine or exercise). Most people, Glaucon argues, place justice in the third category — something unpleasant that we tolerate only for the rewards it brings. He challenges Socrates to show that justice belongs in the second, highest category: good both in itself and for its consequences."
+      },
+      {
+        heading: "The Ring of Gyges",
+        content: "To sharpen the challenge, Glaucon tells the story of Gyges, a shepherd who discovers a ring that makes him invisible. With this power, Gyges seduces the queen, kills the king, and takes over the kingdom. Glaucon argues that anyone — even a seemingly just person — would behave the same way if they knew they could never be caught. To truly test whether justice is intrinsically good, Glaucon proposes an extreme thought experiment: compare a perfectly just person who is believed to be unjust (and therefore suffers punishment, disgrace, and torture) with a perfectly unjust person who is believed to be just (and therefore enjoys honor, wealth, and power). If justice is truly good in itself, the just person should still be happier."
+      },
+      {
+        heading: "Adeimantus Deepens the Challenge",
+        content: "Glaucon's brother Adeimantus adds another dimension to the challenge. He observes that even those who praise justice — parents, poets, religious teachers — praise it only for its external rewards: good reputation, divine favor, success in life. No one praises justice for what it does to the soul itself. Meanwhile, people say that injustice is pleasurable and easy, and that the gods can be appeased with sacrifices and rituals anyway. If this is how justice is defended, is it any wonder that clever young people choose injustice? Adeimantus demands that Socrates show what justice and injustice each do to the soul, apart from all external consequences."
+      },
+      {
+        heading: "The City-Soul Analogy",
+        content: "Faced with this formidable challenge, Socrates proposes a methodological breakthrough: justice is hard to see in the individual soul, so let's look for it 'writ large' in a city first. Just as someone with poor eyesight might read large letters before small ones, we can examine the structure of a just city and then look for the same pattern in the individual. This launches the construction of the 'city in speech' — Plato's ideal state — which will occupy the next several books. Socrates builds the city from scratch, starting with basic economic needs and gradually adding complexity, guardians, and education. The city-soul analogy becomes the Republic's central structural device."
+      }
+    ],
     reflectionQuestions: [
       "If you could act with complete impunity, would you still behave justly?",
       "Is justice valuable in itself, or only because of its rewards and reputation?",
