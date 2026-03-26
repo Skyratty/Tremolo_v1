@@ -51,7 +51,8 @@ export const chapters: Record<string, ChapterContent> = {
       "When is it worth standing by your principles even at great personal cost?",
       "Is society better off with 'gadflies' who challenge conventional thinking?"
     ],
-    furtherReading: "The full text of Plato's Apology is available on Project Gutenberg and MIT Classics. For context, read alongside the Crito and Phaedo, which depict Socrates' final days."
+    furtherReading: "The full text of Plato's Apology is available on Project Gutenberg and MIT Classics. For context, read alongside the Crito and Phaedo, which depict Socrates' final days.",
+    externalUrl: "https://www.gutenberg.org/files/1656/1656-h/1656-h.htm"
   },
 
   "plato-republic-7": {
