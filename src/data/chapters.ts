@@ -893,7 +893,8 @@ export const chapters: Record<string, ChapterContent> = {
       "Is representative democracy a betrayal of Rousseau's ideal, or a practical necessity?",
       "How can citizens be encouraged to think about the common good rather than their private interests?"
     ],
-    furtherReading: "The Social Contract is relatively short. For context, read Rousseau's Discourse on Inequality, which explains how society corrupted humanity's natural freedom. Available on Project Gutenberg."
+    furtherReading: "The Social Contract is relatively short. For context, read Rousseau's Discourse on Inequality, which explains how society corrupted humanity's natural freedom. Available on Project Gutenberg.",
+    externalUrl: "https://www.gutenberg.org/files/46333/46333-h/46333-h.htm"
   },
 
   "kant-critique-preface": {
