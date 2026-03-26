@@ -515,7 +515,8 @@ export const chapters: Record<string, ChapterContent> = {
       "Is the 'inner citadel' a realistic psychological strategy, or wishful thinking?",
       "How would you prepare yourself each morning for the challenges of the day?"
     ],
-    furtherReading: "The Meditations is widely available in many translations. Gregory Hays's 2002 translation is highly recommended for modern readers. Pierre Hadot's 'The Inner Citadel' is the definitive scholarly study."
+    furtherReading: "The Meditations is widely available in many translations. Gregory Hays's 2002 translation is highly recommended for modern readers. Pierre Hadot's 'The Inner Citadel' is the definitive scholarly study.",
+    externalUrl: "https://www.gutenberg.org/files/2680/2680-h/2680-h.htm"
   },
 
   "seneca-shortness": {
