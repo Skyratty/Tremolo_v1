@@ -1103,6 +1103,7 @@ export const chapters: Record<string, ChapterContent> = {
       "Is it possible that the physical world doesn't exist independently of perception?",
       "How much of your knowledge is by 'acquaintance' and how much by 'description'?"
     ],
-    furtherReading: "The Problems of Philosophy is short, clear, and freely available on Project Gutenberg. Continue with chapters 6-15 for Russell's account of induction, universals, and the value of philosophy."
+    furtherReading: "The Problems of Philosophy is short, clear, and freely available on Project Gutenberg. Continue with chapters 6-15 for Russell's account of induction, universals, and the value of philosophy.",
+    externalUrl: "https://www.gutenberg.org/files/5827/5827-h/5827-h.htm"
   },
 };
