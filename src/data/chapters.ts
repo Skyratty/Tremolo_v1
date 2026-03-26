@@ -767,7 +767,8 @@ export const chapters: Record<string, ChapterContent> = {
       "Are you fundamentally a mind or a body? Or both equally?",
       "Does Descartes's method of doubt go too far, or is it a necessary starting point?"
     ],
-    furtherReading: "Continue with Meditations III-VI for Descartes's arguments for God's existence and the real distinction between mind and body. Available on Project Gutenberg."
+    furtherReading: "Continue with Meditations III-VI for Descartes's arguments for God's existence and the real distinction between mind and body. Available on Project Gutenberg.",
+    externalUrl: "https://www.gutenberg.org/files/59/59-h/59-h.htm"
   },
 
   "hobbes-leviathan-13": {
