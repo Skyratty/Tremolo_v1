@@ -599,7 +599,8 @@ export const chapters: Record<string, ChapterContent> = {
       "What would wu wei look like in your daily life?",
       "Is the best leadership really the kind that goes unnoticed?"
     ],
-    furtherReading: "The Tao Te Ching exists in hundreds of translations. Stephen Mitchell's version is poetic; D.C. Lau's is scholarly. The complete text is very short (about 5,000 characters in Chinese) and rewards rereading."
+    furtherReading: "The Tao Te Ching exists in hundreds of translations. Stephen Mitchell's version is poetic; D.C. Lau's is scholarly. The complete text is very short (about 5,000 characters in Chinese) and rewards rereading.",
+    externalUrl: "https://www.gutenberg.org/files/216/216-h/216-h.htm"
   },
 
   "confucius-1": {
