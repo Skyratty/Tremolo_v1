@@ -238,7 +238,24 @@ export const chapters: Record<string, ChapterContent> = {
       "Dianoia (reasoning) — mathematical and hypothetical thinking",
       "Noesis (understanding) — direct apprehension of the Forms through dialectic"
     ],
-    sections: [],
+    sections: [
+      {
+        heading: "The Sun Analogy",
+        content: "Socrates introduces the Form of the Good through analogy. In the visible world, the sun is the source of light, which enables the eye to see and objects to be seen. The sun also provides warmth and growth — it doesn't just illuminate things, it sustains them. In the intelligible world, the Good plays the same role: it is the source of truth, which enables the mind to know and the Forms to be known. But the Good goes even further: it gives the Forms their very being and reality, just as the sun gives living things their existence. The Good itself, however, is 'beyond being' — it is not just another Form but the source and ground of all Forms."
+      },
+      {
+        heading: "The Divided Line",
+        content: "To clarify the relationship between visible and intelligible reality, Socrates asks Glaucon to imagine a line divided into two unequal sections: one representing the visible world, the other the intelligible world. Each section is then divided again in the same ratio, yielding four segments. The lower visible segment contains shadows, reflections, and images (eikasia/imagination). The upper visible segment contains physical objects — animals, plants, artifacts (pistis/belief). The lower intelligible segment contains mathematical and geometrical objects, grasped through reasoning from hypotheses (dianoia/reasoning). The upper intelligible segment contains the Forms themselves, grasped through pure dialectic that ascends to an unhypothetical first principle — the Good (noesis/understanding)."
+      },
+      {
+        heading: "The Two Modes of Thought",
+        content: "The crucial distinction in the intelligible realm is between dianoia and noesis. Mathematicians use dianoia: they take hypotheses (definitions, axioms, postulates) as their starting points and reason downward to conclusions. They also use visible diagrams as aids, even though they're really thinking about the perfect triangle or circle, not the drawn one. Dialecticians use noesis: they treat hypotheses not as fixed starting points but as stepping-stones to be examined and transcended, ascending until they reach the unhypothetical first principle — the Good itself. From there they descend back through the Forms without any sensible aids, using only Forms to reach conclusions about Forms."
+      },
+      {
+        heading: "Implications for Knowledge and Education",
+        content: "The Divided Line establishes a hierarchy of both reality and cognition. Most people live in the lower segments, mistaking shadows and physical objects for the whole of reality. Education, for Plato, means ascending the line — moving from imagination to belief to reasoning to understanding. Each transition requires a 'turning' of the mind that can be uncomfortable and disorienting. The Sun and Line analogies together set the stage for the Cave allegory in Book VII, which dramatizes this intellectual ascent as a physical journey from darkness to light. Together, these three images form the philosophical heart of the Republic."
+      }
+    ],
     reflectionQuestions: [
       "What role does the Form of the Good play in Plato's philosophy?",
       "How do the four segments of the Divided Line relate to everyday experience?",
