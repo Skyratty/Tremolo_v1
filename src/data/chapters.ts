@@ -1019,7 +1019,8 @@ export const chapters: Record<string, ChapterContent> = {
       "Where should the line be drawn between actions that affect only the individual and those that affect others?",
       "Can social media amplify the 'tyranny of the majority' that Mill describes?"
     ],
-    furtherReading: "Continue with Chapters 2-3 for Mill's arguments for free speech and individuality. On Liberty is short and very readable. Available on Project Gutenberg."
+    furtherReading: "Continue with Chapters 2-3 for Mill's arguments for free speech and individuality. On Liberty is short and very readable. Available on Project Gutenberg.",
+    externalUrl: "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm"
   },
 
   "nietzsche-genealogy-1": {
