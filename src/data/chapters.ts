@@ -68,7 +68,24 @@ export const chapters: Record<string, ChapterContent> = {
       "The Return — The philosopher's duty to go back and enlighten others",
       "The Forms — True reality exists beyond the physical world we perceive"
     ],
-    sections: [],
+    sections: [
+      {
+        heading: "The Prisoners in the Cave",
+        content: "Socrates asks Glaucon to imagine prisoners chained in an underground cave since childhood, unable to turn their heads. Behind them burns a fire, and between the fire and the prisoners is a raised walkway along which people carry objects — statues, figures of animals, vessels — whose shadows are cast on the wall the prisoners face. For the prisoners, these shadows ARE reality. They give names to the shadows, they compete to predict which shadow will come next, and they honor those among them who are best at this game. The prisoners have no idea that what they see is merely a shadow of a copy of the real thing."
+      },
+      {
+        heading: "The Ascent into Light",
+        content: "Now imagine one prisoner is freed and compelled to stand, turn around, and walk toward the fire. The light would be painful; the real objects would seem less real than the familiar shadows. If dragged up the steep passage and out of the cave into sunlight, the prisoner would be dazzled and unable to see anything at first. Gradually, the freed prisoner would adapt — first seeing shadows, then reflections in water, then objects themselves, then the night sky, and finally the sun itself. The prisoner would understand that the sun is the source of light and life, governing everything in the visible world."
+      },
+      {
+        heading: "The Return to the Cave",
+        content: "If the freed prisoner returned to the cave, they would be blinded by the darkness, just as they were initially blinded by the light. The other prisoners would think the journey had ruined their companion's eyesight. If the returned prisoner tried to free them, they would resist — even violently. Socrates suggests this is what happened to him: the philosopher who returns to tell people their 'reality' is mere shadow is ridiculed, dismissed, or worse. Yet the philosopher has a duty to return, because the goal of the ideal city is the well-being of the whole, not just the happiness of the enlightened few."
+      },
+      {
+        heading: "Education as Turning the Soul",
+        content: "Socrates draws the central lesson: education is not a matter of putting knowledge into empty minds, as if putting sight into blind eyes. Rather, every soul has the capacity to see; education is the art of turning the whole soul around — away from the world of becoming and toward the world of being and the Form of the Good. The cave allegory thus connects Plato's metaphysics (the theory of Forms), his epistemology (knowledge vs. opinion), his psychology (the turning of the soul), and his politics (the philosopher's obligation to govern). It remains one of the most powerful images in all of Western thought."
+      }
+    ],
     reflectionQuestions: [
       "What are the 'shadows on the wall' in your own life — beliefs or assumptions you've never questioned?",
       "Is education truly a 'turning of the soul,' or simply the transmission of information?",
