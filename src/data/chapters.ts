@@ -725,7 +725,8 @@ export const chapters: Record<string, ChapterContent> = {
       "Can you think of modern examples of 'the fox and the lion' in politics?",
       "Does Machiavelli's 'effectual truth' apply beyond politics — in business, relationships, everyday life?"
     ],
-    furtherReading: "The Prince is short and highly readable. Harvey Mansfield's translation is the scholarly standard. For context, read alongside Machiavelli's Discourses on Livy, which presents a more republican side of his thought."
+    furtherReading: "The Prince is short and highly readable. Harvey Mansfield's translation is the scholarly standard. For context, read alongside Machiavelli's Discourses on Livy, which presents a more republican side of his thought.",
+    externalUrl: "https://www.gutenberg.org/files/1232/1232-h/1232-h.htm"
   },
 
   "descartes-med-1": {
