@@ -347,7 +347,8 @@ export const chapters: Record<string, ChapterContent> = {
       "What do you think the distinctively human function is?",
       "How much does happiness depend on luck and external circumstances?"
     ],
-    furtherReading: "Continue with Books II-III for Aristotle's account of moral virtue and the doctrine of the mean. Available on MIT Classics and Project Gutenberg."
+    furtherReading: "Continue with Books II-III for Aristotle's account of moral virtue and the doctrine of the mean. Available on MIT Classics and Project Gutenberg.",
+    externalUrl: "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm"
   },
 
   "aristotle-ethics-2": {
