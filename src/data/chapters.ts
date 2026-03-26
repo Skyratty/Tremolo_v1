@@ -389,7 +389,8 @@ export const chapters: Record<string, ChapterContent> = {
       "Do you agree that true virtue changes what we want, not just what we do?",
       "What moral 'extremes' do you tend toward, and how might you correct them?"
     ],
-    furtherReading: "Continue with Book III for Aristotle's analysis of voluntary action and specific virtues. Available on MIT Classics and Project Gutenberg."
+    furtherReading: "Continue with Book III for Aristotle's analysis of voluntary action and specific virtues. Available on MIT Classics and Project Gutenberg.",
+    externalUrl: "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm"
   },
 
   "epicurus-menoeceus": {
