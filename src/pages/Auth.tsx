@@ -19,12 +19,12 @@ const Auth = () => {
 
     if (isLogin) {
       const { error } = await supabase.auth.signInWithPassword({ email, password });
-      if (error) setError(error.message);
-      else navigate("/");
+      if (error) setError(error.message);else
+      navigate("/");
     } else {
       const { error } = await supabase.auth.signUp({ email, password });
-      if (error) setError(error.message);
-      else {
+      if (error) setError(error.message);else
+      {
         setError("Check your email for a confirmation link.");
       }
     }
@@ -35,7 +35,7 @@ const Auth = () => {
     <div className="min-h-screen bg-background flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-display font-bold text-foreground">Snow Globe</h1>
+          <h1 className="text-4xl font-display font-bold text-foreground">Tremolo</h1>
           <p className="text-muted-foreground mt-2">
             {isLogin ? "Welcome back" : "Create your account"}
           </p>
@@ -50,8 +50,8 @@ const Auth = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                placeholder="you@example.com"
-              />
+                placeholder="you@example.com" />
+              
             </div>
             <div>
               <label className="block text-sm font-medium text-foreground mb-1">Password</label>
@@ -61,13 +61,13 @@ const Auth = () => {
                 onChange={(e) => setPassword(e.target.value)}
                 required
                 placeholder="••••••••"
-                minLength={6}
-              />
+                minLength={6} />
+              
             </div>
 
-            {error && (
-              <p className="text-sm text-destructive">{error}</p>
-            )}
+            {error &&
+            <p className="text-sm text-destructive">{error}</p>
+            }
 
             <Button type="submit" className="w-full" disabled={loading}>
               {loading ? "Loading..." : isLogin ? "Sign In" : "Sign Up"}
@@ -76,9 +76,9 @@ const Auth = () => {
 
           <div className="mt-4 text-center">
             <button
-              onClick={() => { setIsLogin(!isLogin); setError(""); }}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
+              onClick={() => {setIsLogin(!isLogin);setError("");}}
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              
               {isLogin ? "Don't have an account? Sign up" : "Already have an account? Sign in"}
             </button>
           </div>
@@ -90,8 +90,8 @@ const Auth = () => {
           </button>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Auth;
