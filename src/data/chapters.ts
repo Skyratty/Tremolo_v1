@@ -1115,7 +1115,28 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 360 BCE)",
     overview: "The Phaedo recounts Socrates' final hours before his execution, during which he offers arguments for the immortality of the soul. Read the full dialogue via the link below.",
     keyConcepts: ["Arguments for the soul's immortality", "The theory of recollection", "The soul's kinship with the Forms", "Socrates' calm acceptance of death"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Apology, Plato addresses questions that remain central to philosophy. The Apology is Plato's account of the trial of Socrates. Charged with corrupting the youth and impiety, Socrates mounts a defense that is less about saving his life and more about defending the philosophical way of life itself. Rather than beg for mercy, Socrates challenges his accusers and the jury, arguing that his mission of questioning and examining has been a service to Athens. The dialogue culminates in one of philosophy's most famous declarations: 'The unexamined life is not worth living.'. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Plato wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The Socratic Method",
+        content: "Plato develops the concept of philosophy as relentless questioning. This idea is central to the argument of Apology and has profoundly influenced subsequent philosophical thought. Closely related is the notion of socrates is declared the wisest, because he knows that he knows nothing. Together, these concepts form a coherent framework for understanding Plato's philosophical vision."
+      },
+      {
+        heading: "The Gadfly",
+        content: "Plato develops the concept of socrates as a pest who stings athens into wakefulness. This idea is central to the argument of Apology and has profoundly influenced subsequent philosophical thought. Closely related is the notion of a life without reflection lacks true value. Together, these concepts form a coherent framework for understanding Plato's philosophical vision."
+      },
+      {
+        heading: "Intellectual Humility",
+        content: "Plato develops the concept of wisdom begins with acknowledging ignorance. This idea is central to the argument of Apology and has profoundly influenced subsequent philosophical thought."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Apology have had an enduring impact on philosophy and beyond. Plato's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Plato's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is the soul immortal?", "Can philosophy help us face death?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/1658/1658-h/1658-h.htm"
@@ -1129,7 +1150,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 385 BCE)",
     overview: "Can virtue be taught? The Meno explores this question through the paradox of inquiry and the theory of recollection. Read the full dialogue via the link below.",
     keyConcepts: ["The paradox of inquiry", "Knowledge as recollection", "Can virtue be taught?", "True opinion vs. knowledge"],
-    sections: [],
+    sections: [
+      {
+        heading: "Meno's Question",
+        content: "The dialogue opens with Meno asking Socrates a direct question: can virtue be taught, or does it come by practice, or is it innate? Socrates responds that he cannot answer how virtue is acquired until he knows what virtue IS — and he confesses he doesn't know. This sets up the pattern: Meno offers definitions of virtue (it's different for men, women, children, etc.), and Socrates demands a single definition that covers all cases. Meno finds this surprisingly difficult. He can give examples of virtue but cannot identify the common thread."
+      },
+      {
+        heading: "Meno's Paradox",
+        content: "Frustrated, Meno raises a devastating objection: how can you search for something when you don't know what it is? If you already know it, you don't need to search; if you don't know it, you won't recognize it even if you find it. This is the famous 'paradox of inquiry.' Socrates takes it seriously — it threatens to make all philosophical investigation impossible. His response transforms the dialogue from a search for virtue into a profound exploration of the nature of knowledge itself."
+      },
+      {
+        heading: "Knowledge as Recollection",
+        content: "Socrates responds to the paradox with the theory of recollection (anamnesis). The soul is immortal and has learned everything in its previous existences. What we call 'learning' is really remembering what the soul already knows. To demonstrate, Socrates takes an uneducated slave boy and, through questioning alone (without teaching), leads him to discover a geometrical truth — how to double the area of a square. The boy initially gives wrong answers, then recognizes his confusion, and finally arrives at the correct solution. Socrates argues this shows that knowledge was already within him, waiting to be drawn out."
+      },
+      {
+        heading: "True Belief vs. Knowledge",
+        content: "In the final section, Socrates and Meno revisit whether virtue can be taught. If virtue is knowledge, it should be teachable — but there seem to be no teachers of virtue (even great statesmen failed to make their sons virtuous). Socrates introduces a crucial distinction: true belief can guide action just as well as knowledge, but it is unstable — like the statues of Daedalus that run away unless tied down. Knowledge is true belief 'tied down' by reasoning through the cause. Virtue, Socrates tentatively concludes, may come not through teaching but through divine dispensation — a conclusion he presents as provisional, inviting further inquiry."
+      }
+    ],
     reflectionQuestions: ["Can virtue be taught, or is it innate?", "What is the difference between knowledge and true opinion?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/1643/1643-h/1643-h.htm"
@@ -1143,7 +1181,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 369 BCE)",
     overview: "What is knowledge? Plato examines three definitions — knowledge as perception, as true judgment, and as true judgment with an account — and finds all three wanting. Read the full dialogue via the link below.",
     keyConcepts: ["Knowledge as perception", "Knowledge as true judgment", "The 'jury' objection", "Knowledge as justified true belief"],
-    sections: [],
+    sections: [
+      {
+        heading: "Knowledge as Perception",
+        content: "Theaetetus, a gifted young mathematician, proposes that knowledge is perception. Socrates connects this to Protagoras's famous claim that 'man is the measure of all things' and to Heraclitus's doctrine that everything is in flux. If reality is constantly changing and each person perceives differently, then each person's perception is true for them. Socrates takes this seriously before demolishing it: if all perceptions are equally true, then Protagoras's own theory undermines itself (the perception that Protagoras is wrong would be as true as any other). Moreover, we clearly distinguish between perceiving and knowing — animals perceive but don't have knowledge."
+      },
+      {
+        heading: "Knowledge as True Judgment",
+        content: "Theaetetus's second proposal is that knowledge is true judgment (or true belief). This seems more promising — but Socrates raises the 'jury objection.' A skilled lawyer can persuade a jury to form a true belief about what happened, but the jury doesn't have knowledge — only the eyewitness does. True belief acquired through persuasion rather than direct understanding is not knowledge. This shows that truth alone is not sufficient for knowledge; something more is needed."
+      },
+      {
+        heading: "The Allegory of the Aviary",
+        content: "To explore how false belief is possible, Socrates introduces the metaphor of the aviary. The mind is like an aviary full of birds (pieces of knowledge). Having knowledge is like having birds in your aviary; using knowledge is like catching a particular bird. False belief occurs when you reach for one bird but grab the wrong one — you 'have' the knowledge but retrieve the wrong piece. This model illustrates the difference between possessing knowledge and actively using it, but Socrates finds it ultimately unsatisfying."
+      },
+      {
+        heading: "Knowledge as True Judgment with an Account",
+        content: "The third definition — knowledge is true judgment with an account (logos) — anticipates the modern conception of knowledge as 'justified true belief.' But what does 'account' mean? Socrates considers three interpretations: expressing thought in words (too trivial), listing elements (knowing parts doesn't guarantee knowing the whole), and identifying the distinguishing mark (this seems circular — you need knowledge to identify what distinguishes something). The dialogue ends in aporia: we still don't know what knowledge is. But we are wiser for having eliminated false answers, and Theaetetus has been made a better thinker."
+      }
+    ],
     reflectionQuestions: ["What is knowledge?", "Is knowledge simply justified true belief?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/1726/1726-h/1726-h.htm"
@@ -1157,7 +1212,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 399 BCE)",
     overview: "Socrates encounters Euthyphro outside the court and asks him to define piety. The resulting dialogue demonstrates the Socratic method in action. Read the full dialogue via the link below.",
     keyConcepts: ["The Euthyphro dilemma", "The Socratic method of cross-examination", "Definition vs. example", "Is piety loved by the gods because it is pious, or pious because it is loved?"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Setting and First Definition",
+        content: "Socrates meets Euthyphro outside the court. Socrates is there to face charges of impiety; Euthyphro is there to prosecute his own father for murder (a slave died due to his father's negligence). Euthyphro claims to know exactly what piety is — which is why he feels justified in this extraordinary act. Socrates, delighted to find an 'expert,' asks for a definition. Euthyphro's first attempt: piety is what I'm doing now — prosecuting wrongdoers. Socrates objects: that's an example, not a definition. What is the common quality that makes all pious acts pious?"
+      },
+      {
+        heading: "The Euthyphro Dilemma",
+        content: "Euthyphro's second definition — piety is what is loved by the gods — leads to one of philosophy's most famous dilemmas. Socrates asks: is something pious because the gods love it, or do the gods love it because it is pious? If the gods' love makes things pious, then piety is arbitrary — the gods could make anything pious by loving it. If the gods love things because they are already pious, then piety is independent of the gods, and we still need to know what it is. This dilemma has echoed through philosophy of religion ever since: does God create morality, or does God follow it?"
+      },
+      {
+        heading: "Further Attempts",
+        content: "Euthyphro tries again: piety is the part of justice concerned with tending to the gods. Socrates asks what kind of 'tending' — does it improve the gods, as horse-training improves horses? Euthyphro retreats: it's more like service to the gods. But what do the gods need from us? What great work are they accomplishing that requires our assistance? Euthyphro suggests that piety is giving the gods what pleases them — but this circles back to 'what is loved by the gods,' which was already rejected."
+      },
+      {
+        heading: "The Failure and Its Lessons",
+        content: "The dialogue ends without a definition. Euthyphro, growing uncomfortable, excuses himself by saying he has to be somewhere. Socrates is left without the expert guidance he hoped for. But the failure is itself instructive. The Socratic method has revealed that someone who confidently claims to know what piety is — and acts on that claim with drastic consequences — cannot actually define it. The dialogue warns against moral certainty without understanding, and it demonstrates philosophy's power to expose the limits of our knowledge."
+      }
+    ],
     reflectionQuestions: ["Is something good because God commands it, or does God command it because it's good?", "Why is definition so difficult?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/1642/1642-h/1642-h.htm"
@@ -1171,7 +1243,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 399 BCE)",
     overview: "Socrates' friend Crito urges him to escape from prison, but Socrates argues that it would be wrong to break the law, even an unjust verdict. Read the full dialogue via the link below.",
     keyConcepts: ["The obligation to obey the law", "The social contract implicit in citizenship", "Civil disobedience vs. legal obedience", "The voice of the Laws"],
-    sections: [],
+    sections: [
+      {
+        heading: "Crito's Appeal",
+        content: "Crito visits Socrates in prison before dawn, having arranged an escape plan. He offers several arguments: Socrates' execution will deprive his friends of an irreplaceable companion; people will think his friends didn't care enough to save him; he has a duty to his children; and the trial was unjust anyway. These are powerful emotional appeals. But Socrates refuses to act on emotion alone — he insists they examine the question rationally. The principle he has lived by — that we should follow reason rather than popular opinion — must hold even now."
+      },
+      {
+        heading: "The Authority of Reason",
+        content: "Socrates establishes a crucial principle: we should never do wrong voluntarily, even in response to being wronged. The many may disagree, but what matters is not the opinion of the majority but the opinion of the one who truly knows — just as an athlete follows their trainer, not the crowd. If escaping prison means breaking the law, and breaking the law is wrong, then Socrates should not escape, even if the law was applied unjustly against him."
+      },
+      {
+        heading: "The Voice of the Laws",
+        content: "In a dramatic rhetorical move, Socrates imagines the Laws of Athens speaking to him directly. The Laws argue that Socrates owes them his existence — they governed the marriage of his parents, his education, and his upbringing. He has lived 70 years in Athens, enjoying its benefits, and never chose to leave. By staying, he implicitly agreed to abide by the laws. If he now breaks them when they produce a result he dislikes, he destroys the entire legal order. A city where court decisions have no force is no city at all."
+      },
+      {
+        heading: "Socrates' Decision",
+        content: "Socrates concludes that escaping would be wrong on multiple grounds: it would violate his implicit agreement with Athens, harm the rule of law, set a bad example, and betray his own philosophical principles. He would rather suffer injustice than commit it. He will accept the verdict and drink the hemlock. The Crito raises questions that remain urgent: when, if ever, is it right to break the law? Do citizens have an absolute duty to obey? Is there a social contract between the individual and the state? And is Socrates right that we should never return wrong for wrong?"
+      }
+    ],
     reflectionQuestions: ["Is it ever right to break the law?", "Do citizens owe obedience to unjust laws?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/1657/1657-h/1657-h.htm"
@@ -1185,7 +1274,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 340 BCE)",
     overview: "Book III examines voluntary action, moral responsibility, and the specific virtues of courage and temperance. Read the full text via the link below.",
     keyConcepts: ["Voluntary vs. involuntary action", "Choice and deliberation", "Courage as the mean between cowardice and recklessness", "Temperance as moderation in bodily pleasures"],
-    sections: [],
+    sections: [
+      {
+        heading: "Voluntary and Involuntary Action",
+        content: "Aristotle opens Book III by asking a fundamental question: when are we morally responsible for our actions? He distinguishes between voluntary actions (done knowingly and without external compulsion), involuntary actions (done under compulsion or through ignorance), and mixed actions (done under duress — like throwing cargo overboard in a storm). Mixed actions are technically voluntary (you chose to do them) but involve circumstances no reasonable person would choose. Aristotle argues that we are responsible for voluntary actions and for negligent ignorance (you should have known better), but not for genuine involuntary acts."
+      },
+      {
+        heading: "Choice and Deliberation",
+        content: "Aristotle carefully distinguishes choice from desire, anger, wish, and opinion. Choice involves deliberation — we reason about means to ends, not about ends themselves. We deliberate about things within our power, not about mathematics or the weather. We don't deliberate about obvious matters either — no one deliberates about how to spell a word. Deliberation concerns actions where the outcome is uncertain and where our decisions make a difference. Choice, then, is 'deliberate desire' — desire informed by reasoning about what is within our power to do."
+      },
+      {
+        heading: "Courage",
+        content: "Courage is the first specific virtue Aristotle examines. It is the mean between cowardice (excessive fear) and recklessness (insufficient fear). True courage involves facing genuinely frightening situations — especially the fear of death in battle — for the sake of what is noble. Aristotle distinguishes genuine courage from five counterfeits: civic courage (acting bravely from fear of disgrace), experience-based confidence, spirited courage (fighting from anger), optimistic courage, and courage from ignorance. Only action motivated by the noble and guided by practical wisdom is genuine courage."
+      },
+      {
+        heading: "Temperance",
+        content: "Temperance concerns bodily pleasures — primarily those of touch and taste (food, drink, and sex). The temperate person enjoys these pleasures moderately and at the right times; the intemperate person pursues them excessively; the 'insensible' person (rare in practice) takes insufficient pleasure. Unlike courage, where the brave person feels genuine fear and overcomes it, the temperate person does not experience excessive desire in the first place. Temperance is about having properly formed appetites, not about white-knuckling through temptation. Aristotle notes that intemperance is more voluntary than cowardice — pleasures invite us, while dangers repel us."
+      }
+    ],
     reflectionQuestions: ["When is an action truly voluntary?", "What is genuine courage?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm"
@@ -1199,7 +1305,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 340 BCE)",
     overview: "Aristotle's comprehensive theory of justice distinguishes between distributive justice (fair shares) and corrective justice (rectifying wrongs). Read the full text via the link below.",
     keyConcepts: ["Distributive justice", "Corrective justice", "Justice as lawfulness and fairness", "Equity as a corrective to rigid law"],
-    sections: [],
+    sections: [
+      {
+        heading: "Justice as the Complete Virtue",
+        content: "Aristotle begins by noting that justice is sometimes used broadly — the 'just person' is simply the person who obeys the law and acts fairly. In this sense, justice is the complete virtue, because the laws of a good state command virtuous behavior of all kinds. The just person, in this broad sense, exercises virtue not just for themselves but in relation to others. This is why justice is often considered the greatest virtue — it is virtue directed outward."
+      },
+      {
+        heading: "Distributive Justice",
+        content: "In its specific sense, justice concerns the distribution of goods and the correction of wrongs. Distributive justice governs how honors, wealth, and other divisible goods are shared among members of a community. Aristotle argues that fair distribution is proportional, not equal: each person should receive in proportion to their merit (though people disagree about what counts as merit — democrats say free citizenship, oligarchs say wealth, aristocrats say virtue). The key principle is that equals should be treated equally and unequals unequally, in proportion to their relevant differences."
+      },
+      {
+        heading: "Corrective Justice",
+        content: "Corrective justice operates between individuals and aims to restore equality after a wrong. When someone steals, defrauds, or injures another, corrective justice does not consider the character of the parties but only the nature of the transaction. The judge acts like a kind of mathematician, finding the midpoint between the parties — taking from the one who has gained and giving to the one who has lost. This arithmetic equality contrasts with the proportional equality of distributive justice. Corrective justice applies in both voluntary transactions (contracts, sales) and involuntary ones (theft, assault)."
+      },
+      {
+        heading: "Equity and Natural Justice",
+        content: "Aristotle concludes with two crucial concepts. Equity (epieikeia) is a correction of law where law falls short. Because law must be general, it sometimes produces unjust results in particular cases. The equitable person adjusts the law's rigidity to fit the circumstances — doing what the legislator would have wanted if they had foreseen this case. Natural justice consists of principles that hold everywhere — they are not mere conventions but reflect something true about human nature and the good. Positive law varies from city to city, but natural justice is universal."
+      }
+    ],
     reflectionQuestions: ["What makes a distribution fair?", "When should equity override strict law?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm"
@@ -1213,7 +1336,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 340 BCE)",
     overview: "Book VI turns from moral to intellectual virtue, exploring wisdom, understanding, and the crucial role of practical intelligence (phronesis). Read the full text via the link below.",
     keyConcepts: ["Phronesis (practical wisdom)", "Sophia (theoretical wisdom)", "The five intellectual virtues", "The relationship between moral and intellectual virtue"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Five Intellectual Virtues",
+        content: "Aristotle identifies five states through which the soul grasps truth: scientific knowledge (episteme), craft or art (techne), practical wisdom (phronesis), intuitive reason (nous), and theoretical wisdom (sophia). Scientific knowledge deals with what is necessary and eternal; craft deals with making things; practical wisdom deals with action in particular circumstances; intuitive reason grasps first principles; and theoretical wisdom combines scientific knowledge with intuitive reason to contemplate the highest objects."
+      },
+      {
+        heading: "Practical Wisdom (Phronesis)",
+        content: "Practical wisdom is the intellectual virtue most central to ethics. The person of practical wisdom (phronimos) can deliberate well about what is good for themselves and for human beings generally. Unlike scientific knowledge, which deals with universal and necessary truths, practical wisdom deals with particulars and contingencies. The practically wise person perceives the morally relevant features of a situation and knows how to act well. This is why practical wisdom cannot be reduced to rules — it requires experience, perception, and judgment. Young people can be mathematical prodigies but not practically wise, because practical wisdom requires a lifetime of experience."
+      },
+      {
+        heading: "The Unity of the Virtues",
+        content: "Aristotle argues that genuine moral virtue requires practical wisdom, and practical wisdom requires moral virtue. You cannot be truly courageous without practical wisdom (otherwise you're just reckless), and you cannot be practically wise without good character (otherwise your cleverness serves bad ends). This means the virtues are unified: you cannot fully have one without having them all. Cleverness — the ability to figure out how to achieve any goal — becomes practical wisdom only when the goals are good. When cleverness serves bad ends, it becomes mere cunning."
+      },
+      {
+        heading: "Wisdom and the Good Life",
+        content: "Theoretical wisdom (sophia) — the contemplation of eternal truths — is, in one sense, the highest intellectual virtue. But Aristotle acknowledges a puzzle: sophia doesn't seem to make us better people or help us act well. Practical wisdom does that. So what is sophia good for? Aristotle compares it to health: we don't say that medicine is superior to health because medicine produces health. Similarly, practical wisdom 'makes room' for theoretical wisdom by ordering our lives well. Contemplation is the highest activity the practically wise person arranges their life to enjoy."
+      }
+    ],
     reflectionQuestions: ["What is the difference between practical and theoretical wisdom?", "Can you be morally good without being practically wise?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm"
@@ -1227,7 +1367,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 340 BCE)",
     overview: "Aristotle devotes two books to friendship — more than to any other topic — arguing that it is essential to the good life. Read the full text via the link below.",
     keyConcepts: ["Three types of friendship: utility, pleasure, and virtue", "Perfect friendship between good people", "Friendship and self-love", "Friendship as necessary for happiness"],
-    sections: [],
+    sections: [
+      {
+        heading: "Three Kinds of Friendship",
+        content: "Aristotle distinguishes three types of friendship based on what the friends love in each other. Friendships of utility are based on mutual benefit — business associates and political allies. Friendships of pleasure are based on enjoyment — drinking companions and witty friends. Both types are fragile: when the benefit or pleasure ceases, the friendship dissolves. Perfect friendship, the third type, exists between people who are good and alike in virtue. They wish good things for each other for the other's own sake, not for any benefit. Such friendships are rare, require time to develop, and endure as long as the friends remain good."
+      },
+      {
+        heading: "Friendship and Self-Love",
+        content: "Aristotle makes a surprising argument: the good person is properly a 'self-lover.' This doesn't mean selfishness — the vulgar self-lover grabs more than their share of money, honor, and pleasure. The noble self-lover 'grabs' more than their share of nobility and virtue. They would sacrifice money, honor, and even life for friends — because doing noble deeds is what they value most. Paradoxically, by giving up external goods for others, the virtuous person gets the better deal: they get the nobility of the act itself."
+      },
+      {
+        heading: "Friendship and Community",
+        content: "For Aristotle, friendship is not just a personal relationship but the bond that holds communities together. Every community — family, city, religious group — involves a form of friendship proportional to its form of justice. Political friendship (concord) exists when citizens agree about what is advantageous and act on their agreements. Without friendship, justice alone cannot sustain a community. Legislators care more about friendship than justice, because where people are friends, they have no need for justice — but where they are merely just, they still need friends."
+      },
+      {
+        heading: "Friendship and Happiness",
+        content: "Aristotle devotes more space to friendship than to any other topic in the Ethics — even more than to justice — because he considers it essential to the good life. No one would choose to live without friends, even if they had every other good. The happy person needs friends not as a source of utility or pleasure but because the good life is an activity, and activity is better when shared. The friend is 'another self' — by seeing our friend's virtuous activity, we become more aware of our own goodness. Friendship completes the picture of human flourishing."
+      }
+    ],
     reflectionQuestions: ["Are most friendships based on utility or pleasure?", "Is true friendship between equals?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm"
@@ -1241,7 +1398,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 340 BCE)",
     overview: "In the final book, Aristotle argues that the contemplative life — the life of philosophical reflection — represents the highest form of happiness. Read the full text via the link below.",
     keyConcepts: ["Contemplation as the highest activity", "The divine element in human nature", "Pleasure and its role in happiness", "The transition from ethics to politics"],
-    sections: [],
+    sections: [
+      {
+        heading: "Pleasure Revisited",
+        content: "Aristotle returns to pleasure in Book X to resolve disputes from earlier discussions. He argues that pleasure is not a process (like building, which takes time and reaches completion) but an activity that is complete at every moment — like seeing, which is perfect at each instant. Pleasure 'completes' good activities the way bloom completes youth. Different activities have their own proper pleasures, and the best pleasures accompany the best activities. This means the pleasures of the virtuous person set the standard for what is truly pleasant."
+      },
+      {
+        heading: "The Contemplative Life",
+        content: "Aristotle argues that the highest happiness consists in contemplation (theoria) — the activity of our highest faculty (reason) directed at the highest objects (eternal truths). Contemplation is the most continuous, most self-sufficient, and most intrinsically pleasant activity. It is loved for its own sake, not for any external result. It requires the most leisure and the least material equipment. And it is the activity closest to the divine — the gods, being perfectly happy, must spend eternity in contemplation."
+      },
+      {
+        heading: "The Divine Element in Humanity",
+        content: "Some might object that contemplation is 'too high' for human beings and that we should focus on practical virtue instead. Aristotle disagrees: we should not limit ourselves to what is merely human. We have a divine element — our intellect (nous) — and we should live according to the best thing in us, not the lowest. The contemplative life is the life of this divine element. Though we cannot sustain contemplation at every moment (we also need food, friends, and practical virtue), we should prioritize it as much as humanly possible."
+      },
+      {
+        heading: "From Ethics to Politics",
+        content: "Aristotle ends the Ethics by acknowledging its limitations. Arguments alone do not make people virtuous — people need good habits formed through good laws. Most people are motivated by fear and pleasure, not by nobility. Therefore, the study of how to make people good leads inevitably to the study of legislation and political science. Ethics is really the beginning of politics, because the goal of the political community is to promote the good life. The Nicomachean Ethics thus transitions directly into Aristotle's Politics."
+      }
+    ],
     reflectionQuestions: ["Is contemplation really the highest form of happiness?", "Can ordinary people achieve contemplative happiness?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm"
@@ -1255,7 +1429,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 335 BCE)",
     overview: "Aristotle argues that the state exists by nature and that human beings are naturally political animals. Read the full text via the link below.",
     keyConcepts: ["Man as a political animal", "The natural origin of the state", "The household as the basic unit", "Slavery and its justification (controversial)"],
-    sections: [],
+    sections: [
+      {
+        heading: "Man is a Political Animal",
+        content: "Aristotle's Politics begins with a famous claim: the city-state (polis) is natural, and human beings are by nature political animals. Just as the hand is only a hand when attached to a living body, individuals can only achieve their full potential as members of a political community. A person who can live entirely outside society is either a beast or a god. The capacity for speech (logos) — which allows us to discuss justice and the good — is what distinguishes us from other social animals and makes political life possible."
+      },
+      {
+        heading: "The Household and Its Parts",
+        content: "Aristotle traces the development of political community from its smallest unit: the household. The household consists of three relationships: master-slave, husband-wife, and parent-child. Each involves a different kind of authority. Households combine into villages, and villages into city-states. The polis is the final and most complete form of community because only it is self-sufficient and aims at the good life, not merely survival. The polis exists by nature because humans naturally tend toward this form of organization."
+      },
+      {
+        heading: "The Controversial Defense of Slavery",
+        content: "Aristotle's defense of 'natural slavery' is the most troubling passage in the Politics. He argues that some people are naturally suited to be ruled — they have strong bodies but lack the deliberative capacity to govern their own lives. For such people, being ruled is both natural and beneficial. Aristotle acknowledges that in practice, many slaves are enslaved by convention (war, conquest) rather than nature, and he condemns this. Modern readers universally reject Aristotle's argument, but it remains important as a case study in how philosophical reasoning can rationalize existing social arrangements."
+      },
+      {
+        heading: "The Art of Acquisition",
+        content: "Aristotle distinguishes between natural and unnatural forms of wealth acquisition. Natural acquisition — farming, herding, fishing — is part of household management and has natural limits. Unnatural acquisition — commerce and especially money-lending — has no natural limit because money is an abstraction that can accumulate without bound. Aristotle considers the pursuit of unlimited wealth corrupting because it makes money an end rather than a means. His critique of usury and unlimited commerce has influenced economic thought from medieval Christianity through Marx."
+      }
+    ],
     reflectionQuestions: ["Are humans naturally political?", "Is the state natural or artificial?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/6762/6762-h/6762-h.htm"
@@ -1269,7 +1460,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 335 BCE)",
     overview: "What makes a constitution just or unjust? Aristotle classifies constitutions by who rules and for whose benefit. Read the full text via the link below.",
     keyConcepts: ["Six types of constitution", "Correct vs. deviant forms", "Citizenship and participation", "The rule of law vs. the rule of men"],
-    sections: [],
+    sections: [
+      {
+        heading: "What is a Citizen?",
+        content: "Aristotle defines a citizen as someone who participates in deliberation and the administration of justice. This definition is intentionally active — a citizen is not merely someone who lives in a place or enjoys legal protection but someone who takes part in ruling. This makes citizenship in Aristotle's sense more demanding than modern usage. He acknowledges that the definition varies with the constitution: in a democracy, more people are citizens; in an oligarchy, fewer. The question of who counts as a citizen is inseparable from the question of who has power."
+      },
+      {
+        heading: "The Classification of Constitutions",
+        content: "Aristotle classifies constitutions along two dimensions: who rules (one, few, or many) and for whose benefit (the common good or the rulers' private interest). This yields six types: monarchy (one ruler, common good), aristocracy (few, common good), and polity (many, common good) are the correct forms. Tyranny (one, self-interest), oligarchy (few, self-interest), and democracy (many, self-interest) are the deviant forms. Each correct form has a characteristic deviation: monarchy degenerates into tyranny, aristocracy into oligarchy, and polity into democracy."
+      },
+      {
+        heading: "The Rule of Law",
+        content: "Should the best person rule, or should law rule? Aristotle argues for the rule of law, because law is 'reason without desire.' Even a good ruler is subject to passions and biases; law provides stability and impartiality. However, Aristotle acknowledges that law cannot cover every situation — it must be supplemented by equitable judgment. The ideal is a constitutional government where law provides the framework and good rulers exercise judgment within it."
+      },
+      {
+        heading: "Justice and the Common Good",
+        content: "Aristotle argues that the fundamental question of politics is distributive: who deserves what share of political power? Democrats say all free citizens deserve equal shares. Oligarchs say the wealthy deserve more (since they contribute more to the city). Aristocrats say the virtuous deserve most. Aristotle's own view leans toward aristocracy tempered by democratic elements: virtue is the most relevant criterion for rule, but excluding the many entirely is dangerous. The best practical constitution is a mixed one that combines elements of all three."
+      }
+    ],
     reflectionQuestions: ["What makes a government legitimate?", "Is democracy the best form of government?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/6762/6762-h/6762-h.htm"
@@ -1283,7 +1491,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 335 BCE)",
     overview: "Aristotle outlines his vision of the best possible political community — one designed to promote the good life for its citizens. Read the full text via the link below.",
     keyConcepts: ["The purpose of the state is the good life", "The ideal population and territory", "Education for citizenship", "The connection between ethics and politics"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Purpose of the State",
+        content: "Aristotle argues that the purpose of the state is not merely survival or economic prosperity but the promotion of the good life — a life of virtue and happiness. A state that focuses only on defense, trade, and law enforcement falls short of its true purpose. The ideal state must be designed so that its institutions, education, and social arrangements actively cultivate virtue in its citizens. This is why politics is inseparable from ethics: the state exists to make people good."
+      },
+      {
+        heading: "The Ideal Population and Territory",
+        content: "Aristotle specifies practical requirements for the ideal state. It should be large enough to be self-sufficient but small enough that citizens can know each other's characters — without personal knowledge, citizens cannot make good judgments about who should hold office. The territory should be defensible, produce sufficient food, and have access to the sea (for trade, though Aristotle is wary of commerce). The population should have a mix of spiritedness and intelligence, which Aristotle associates with different climates."
+      },
+      {
+        heading: "Education for Citizenship",
+        content: "Education is the most important function of the ideal state. Aristotle insists that education must be public (not left to individual families), uniform (since all citizens share the same goal), and designed to develop both body and soul. Citizens should learn music, drawing, reading, and gymnastics — not for professional purposes but for the sake of leisure and the good life. Education should aim at the whole person, developing practical judgment, moral character, and the capacity for contemplation."
+      },
+      {
+        heading: "The Active and Contemplative Lives",
+        content: "Aristotle considers whether the ideal life for a state is the active life of political engagement and military conquest or the contemplative life of philosophy and culture. He rejects the purely activist model — a state that exists for conquest treats other cities as mere means and invites its own destruction. The best state, like the best individual, pursues both practical virtue and contemplation. Activity directed inward — toward the moral and intellectual perfection of citizens — is superior to activity directed outward toward domination."
+      }
+    ],
     reflectionQuestions: ["Can a state promote the good life?", "What is the purpose of government?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/6762/6762-h/6762-h.htm"
@@ -1297,7 +1522,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 340 BCE)",
     overview: "Aristotle introduces his framework for understanding all things through four causes: material, formal, efficient, and final. Read the full text via the link below.",
     keyConcepts: ["Material cause", "Formal cause", "Efficient cause", "Final cause (telos)"],
-    sections: [],
+    sections: [
+      {
+        heading: "All Humans Desire to Know",
+        content: "The Metaphysics opens with one of Aristotle's most famous lines: 'All human beings by nature desire to know.' This desire begins with sensation — we delight in seeing, hearing, and touching even when no practical purpose is served. From sensation arises memory; from memory, experience; and from experience, art and science. The person of experience knows that something works; the person of art or science knows why it works. Wisdom — the highest form of knowledge — concerns first principles and causes."
+      },
+      {
+        heading: "The Four Causes",
+        content: "Aristotle argues that to truly understand anything, we must identify four kinds of cause. The material cause is what something is made of (bronze for a statue). The formal cause is its structure or essence (the shape of the statue). The efficient cause is what brought it into being (the sculptor). The final cause is its purpose or end (to honor a god or beautify a space). Previous philosophers emphasized only some causes — the pre-Socratics focused on material causes, Plato on formal causes. A complete explanation requires all four."
+      },
+      {
+        heading: "The History of Philosophy",
+        content: "Aristotle surveys his predecessors to show how philosophical understanding has developed. Thales and the early physicists sought a single material principle (water, air, fire). Empedocles introduced multiple elements and the forces of Love and Strife. Anaxagoras introduced Mind (nous) as an efficient cause. The Pythagoreans treated numbers as formal causes. Plato's theory of Forms provided formal and final causes but neglected efficient causation. Each philosopher grasped part of the truth, but none grasped the whole picture."
+      },
+      {
+        heading: "Toward First Philosophy",
+        content: "Aristotle concludes that there must be a science that studies the first principles and causes of all things — not the causes of this or that particular domain but the ultimate causes of being itself. This is 'first philosophy,' later called metaphysics. It is the most universal, most difficult, and most divine of all sciences. It is the most universal because it studies being as such; the most difficult because it is farthest from sensation; and the most divine because God, if God exists, is among its objects of study."
+      }
+    ],
     reflectionQuestions: ["Is the four-causes framework still useful today?", "Does everything have a purpose (final cause)?"],
     furtherReading: "Available on MIT Classics.",
     externalUrl: "http://classics.mit.edu/Aristotle/metaphysics.1.i.html"
@@ -1311,7 +1553,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 340 BCE)",
     overview: "Aristotle defines metaphysics as the study of 'being qua being' — existence itself, apart from any particular kind of thing. Read the full text via the link below.",
     keyConcepts: ["Being qua being", "The principle of non-contradiction", "The science of first principles", "Substance as the primary category"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Science of Being qua Being",
+        content: "Aristotle defines metaphysics as the study of 'being qua being' — that is, the study of what it means for things to exist, apart from their particular characteristics. Physics studies beings as natural objects; mathematics studies beings as quantities. Metaphysics studies beings simply as beings. What are the most general features of everything that exists? What principles govern all of reality? This is the most abstract and fundamental of all sciences."
+      },
+      {
+        heading: "The Many Senses of Being",
+        content: "Aristotle recognizes that 'being' is said in many ways. A substance 'is' in the primary sense — it exists independently. Qualities, quantities, and relations 'are' in a derivative sense — they exist only as features of substances. Health, medical instruments, and healthy complexions are all called 'healthy,' but only in relation to health itself. Similarly, all the categories of being relate back to substance as the primary sense. This doctrine of 'focal meaning' allows Aristotle to have a unified science of being without collapsing all distinctions."
+      },
+      {
+        heading: "The Principle of Non-Contradiction",
+        content: "The most certain of all principles, according to Aristotle, is the principle of non-contradiction: the same thing cannot both belong and not belong to the same thing at the same time in the same respect. This principle cannot be demonstrated (any proof would have to presuppose it), but it can be defended indirectly. If someone claims to deny it, Aristotle argues, they must use meaningful words — and the very act of meaning something definite rather than its opposite shows that they implicitly accept non-contradiction. To deny this principle is to destroy the possibility of language, thought, and action."
+      },
+      {
+        heading: "Defending First Principles",
+        content: "Aristotle considers various challenges to the principle of non-contradiction. Heracliteans who say everything is in flux, Protagoreans who say truth is relative, and those who point to perceptual illusions all seem to deny it. Aristotle argues that change presupposes something that persists through change; relativity of perception doesn't entail relativity of truth; and sensory illusions occur precisely because we can distinguish appearance from reality. The principle of non-contradiction is not just a logical law but the foundation of rational thought itself."
+      }
+    ],
     reflectionQuestions: ["What does it mean to study being itself?", "Is the principle of non-contradiction provable?"],
     furtherReading: "Available on MIT Classics.",
     externalUrl: "http://classics.mit.edu/Aristotle/metaphysics.4.iv.html"
@@ -1325,7 +1584,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 335 BCE)",
     overview: "Aristotle analyzes the art of persuasion through three modes: ethos (character), pathos (emotion), and logos (argument). Read the full text via the link below.",
     keyConcepts: ["Ethos, pathos, logos", "Rhetoric as the counterpart of dialectic", "Three genres of rhetoric", "Persuasion through character, emotion, and argument"],
-    sections: [],
+    sections: [
+      {
+        heading: "Rhetoric as the Counterpart of Dialectic",
+        content: "Aristotle opens the Rhetoric by positioning it as the counterpart of dialectic — the art of argument. While dialectic argues about philosophical questions, rhetoric argues in public contexts about practical matters. Everyone uses rhetoric to some degree when they argue a case or defend themselves, but most people do so haphazardly. Rhetoric, properly understood, is not mere manipulation but a genuine art (techne) that discovers the available means of persuasion in any given case."
+      },
+      {
+        heading: "The Three Modes of Persuasion",
+        content: "Aristotle identifies three modes of persuasion, which have become the foundation of Western rhetorical theory. Ethos (character): persuasion through the speaker's credibility and trustworthiness. Pathos (emotion): persuasion through stirring the audience's feelings. Logos (argument): persuasion through logical reasoning and evidence. Of these, Aristotle considers ethos the most effective: people are more easily persuaded by someone they trust. But effective rhetoric typically employs all three in combination."
+      },
+      {
+        heading: "Three Genres of Rhetoric",
+        content: "Aristotle classifies rhetoric into three genres based on the audience and occasion. Deliberative rhetoric addresses a political assembly about future action (should we go to war?). Forensic rhetoric addresses a court about past events (did the defendant commit the crime?). Epideictic rhetoric addresses spectators about present values (praise of a hero, a funeral oration). Each genre has its own goals, time orientation, and typical arguments."
+      },
+      {
+        heading: "Enthymemes and Examples",
+        content: "The two main tools of rhetorical argument are the enthymeme and the example. The enthymeme is a rhetorical syllogism — a deductive argument from probable premises, often with one premise left unstated (the audience fills it in). The example is rhetorical induction — arguing from particular cases to a general point. Aristotle considers the enthymeme the more powerful tool because it engages the audience's reasoning. He catalogs common 'topics' (topoi) — patterns of argument that can be applied across different subjects."
+      }
+    ],
     reflectionQuestions: ["Which mode of persuasion is most powerful?", "Is rhetoric a neutral tool or inherently manipulative?"],
     furtherReading: "Available on MIT Classics.",
     externalUrl: "http://classics.mit.edu/Aristotle/rhetoric.1.i.html"
@@ -1339,7 +1615,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 335 BCE)",
     overview: "Aristotle's analysis of tragedy, mimesis, and the emotional purification (catharsis) that art produces. Read the full text via the link below.",
     keyConcepts: ["Mimesis (imitation)", "Catharsis (emotional purification)", "The structure of tragedy", "Plot as the soul of tragedy"],
-    sections: [],
+    sections: [
+      {
+        heading: "Mimesis: Art as Imitation",
+        content: "Aristotle grounds his theory of art in the concept of mimesis (imitation). All art — poetry, music, painting, dance — is a form of imitation. But artistic imitation is not mere copying. The poet imitates 'men in action' — human beings making choices, facing consequences, undergoing change. Art is more philosophical than history because history tells us what happened, while poetry tells us what could happen according to probability or necessity. Art reveals universal truths through particular stories."
+      },
+      {
+        heading: "The Structure of Tragedy",
+        content: "Aristotle defines tragedy as 'an imitation of an action that is serious, complete, and of a certain magnitude, in language embellished with each kind of artistic ornament.' The most important element of tragedy is plot (mythos) — the arrangement of events. Plot is 'the soul of tragedy.' A good plot has a beginning, middle, and end; proceeds by probability or necessity (not coincidence); and produces surprise that, in retrospect, seems inevitable. The best plots involve reversal (peripeteia), recognition (anagnorisis), or both."
+      },
+      {
+        heading: "The Tragic Hero",
+        content: "The ideal tragic protagonist is neither perfectly virtuous nor thoroughly villainous but someone of intermediate character who falls from prosperity to adversity through some error (hamartia). If a perfectly good person falls, we feel outrage rather than pity. If a villain falls, we feel satisfaction rather than fear. The tragic hero must be 'like us' enough to provoke pity (there but for fortune go I) and fear (this could happen to me). Aristotle cites Oedipus as the paradigmatic tragic hero — great, noble, but brought down by a fatal mistake."
+      },
+      {
+        heading: "Catharsis",
+        content: "Tragedy accomplishes 'through pity and fear the catharsis of such emotions.' Catharsis is one of the most debated terms in aesthetics. It may mean purification (tragedy cleanses us of excessive pity and fear), purgation (tragedy provides a safe emotional release, like a medical purge), or clarification (tragedy helps us understand our emotions better). Whatever the exact meaning, Aristotle's insight is profound: art serves a psychological and moral function. By experiencing suffering vicariously, audiences emerge healthier, wiser, or more emotionally balanced."
+      }
+    ],
     reflectionQuestions: ["Does art purify emotions?", "What makes a great story?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/1974/1974-h/1974-h.htm"
@@ -1353,7 +1646,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 500 BCE)",
     overview: "Heraclitus argued that everything is in constant flux — 'you cannot step into the same river twice.' Fire is the fundamental element, and the universe is governed by logos (rational order). Read the fragments via the link below.",
     keyConcepts: ["Panta rhei — everything flows", "The unity of opposites", "Logos as rational order", "Fire as the fundamental element"],
-    sections: [],
+    sections: [
+      {
+        heading: "Everything Flows",
+        content: "Heraclitus is famous for the doctrine that everything is in constant flux: 'You cannot step into the same river twice, for other waters are continually flowing in.' Nothing in the universe is static — all things are processes, not fixed substances. Fire, which constantly transforms fuel into flame and flame into ash, is the fundamental element because it best represents this universal change. Even seemingly stable things — mountains, bodies, souls — are really dynamic processes maintaining a temporary equilibrium."
+      },
+      {
+        heading: "The Unity of Opposites",
+        content: "Heraclitus teaches that opposites are secretly one: 'The road up and the road down are one and the same.' Day and night, life and death, waking and sleeping — each exists only in relation to its opposite. You cannot understand health without sickness, justice without injustice, or harmony without conflict. This isn't mere relativism. Heraclitus is pointing to a deeper unity beneath apparent opposition. The world's harmony is 'a harmony of tensions, like that of the bow and the lyre' — opposing forces held in creative balance."
+      },
+      {
+        heading: "The Logos",
+        content: "Underlying all change is the logos — a rational principle or order that governs the universe. Though the logos is common to all, most people live as if they had a private understanding, sleepwalking through life without grasping the pattern. The wise person attends to the logos and recognizes the hidden order in apparent chaos. Heraclitus compares the logos to the law of a city: just as citizens must subordinate private wishes to the common law, so individuals must align themselves with the universal rational order."
+      },
+      {
+        heading: "The Obscure Philosopher",
+        content: "Known as 'the Obscure' and 'the Weeping Philosopher,' Heraclitus wrote in deliberately cryptic, oracular fragments: 'Nature loves to hide.' His style mirrors his philosophy — meaning emerges only through active interpretation, just as the logos reveals itself only to those who search. His influence is enormous: the Stoics adopted his physics of fire and logos; Hegel saw him as the first dialectical thinker; Nietzsche considered him the deepest of the pre-Socratics. His fragments reward meditation more than analysis."
+      }
+    ],
     reflectionQuestions: ["Is change the only constant?", "Can opposites be unified?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Fragments_of_Heraclitus"
@@ -1367,7 +1677,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 475 BCE)",
     overview: "Parmenides argues that change and motion are illusions — being is one, unchanging, and eternal. This radical thesis launched Western metaphysics. Read the fragments via the link below.",
     keyConcepts: ["Being is; non-being is not", "The impossibility of change", "The Way of Truth vs. the Way of Opinion", "The birth of metaphysics"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Goddess's Revelation",
+        content: "Parmenides presents his philosophy as a divine revelation. In his poem, a young man journeys beyond the gates of Day and Night to meet a goddess, who reveals two 'ways' of inquiry. The Way of Truth teaches what IS. The Way of Opinion describes the world as mortals (incorrectly) experience it. This framework — distinguishing reality from appearance — becomes foundational for Western philosophy. Plato's distinction between Forms and sensible things, and Kant's distinction between phenomena and noumena, both echo Parmenides."
+      },
+      {
+        heading: "Being Is, Non-Being Is Not",
+        content: "The core argument is startlingly simple. You can think and speak about what IS. You cannot think or speak about what IS NOT — because to think of nothing is to think of no thing. Therefore, non-being is impossible. But if non-being is impossible, then change is impossible (change requires something to come from nothing or pass into nothing), motion is impossible (moving into empty space requires void, which is non-being), and plurality is impossible (separating one thing from another requires a gap of non-being between them). Being must therefore be one, eternal, unchanging, and continuous."
+      },
+      {
+        heading: "Arguments Against Change",
+        content: "Parmenides offers rigorous arguments. Being cannot have come into existence — from what? Not from non-being (which doesn't exist), and not from being (which already exists). It cannot perish — into what? Being cannot move — where would it go? (Every place is already occupied by being.) Being cannot have parts — what would separate them? Being is therefore like a perfect sphere: uniform, complete, and motionless. The entire sensible world — with its motion, change, and diversity — must be an illusion."
+      },
+      {
+        heading: "The Legacy of Parmenides",
+        content: "Parmenides' argument seems absurd — clearly things change! But his logic is rigorous, and subsequent philosophers had to deal with it. Empedocles proposed four eternal elements that mix and separate (avoiding creation from nothing). Democritus proposed atoms and void (accepting non-being as void). Plato distinguished between the world of being (the Forms) and the world of becoming (the sensible world). Aristotle introduced potentiality to explain change without creation from nothing. In a sense, all subsequent Greek philosophy is a response to Parmenides."
+      }
+    ],
     reflectionQuestions: ["Could change really be an illusion?", "What does it mean for something to exist?"],
     furtherReading: "Available on Wikisource and Stanford Encyclopedia of Philosophy.",
     externalUrl: "https://en.wikisource.org/wiki/Fragments_of_Parmenides"
@@ -1381,7 +1708,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 450 BCE)",
     overview: "Zeno's paradoxes — including Achilles and the Tortoise — seem to prove that motion is impossible. They remain fascinating puzzles in philosophy and mathematics. Read about them via the link below.",
     keyConcepts: ["Achilles and the Tortoise", "The Dichotomy paradox", "The Arrow paradox", "Infinity and divisibility"],
-    sections: [],
+    sections: [
+      {
+        heading: "Achilles and the Tortoise",
+        content: "The most famous paradox: Achilles, the fastest runner, races a tortoise with a head start. Before Achilles can catch the tortoise, he must reach the point where the tortoise started — but by then the tortoise has moved ahead. Achilles must then reach that new point — but again the tortoise has moved. This continues to infinity. Achilles must complete an infinite number of tasks, each requiring finite time, to catch the tortoise. Therefore, it seems, Achilles can never catch the tortoise. Yet of course he does. What has gone wrong?"
+      },
+      {
+        heading: "The Dichotomy",
+        content: "Before you can reach any destination, you must first reach the halfway point. Before reaching the halfway point, you must reach the quarter point. Before the quarter point, the eighth point — and so on to infinity. You must complete infinitely many steps before taking even the first step. Therefore, motion cannot even begin. This paradox raises profound questions about the nature of continuity, infinity, and the relationship between mathematics and physical reality. Can physical space really be infinitely divisible?"
+      },
+      {
+        heading: "The Arrow",
+        content: "Consider an arrow in flight. At any single instant, the arrow occupies a space exactly equal to its own length — it is, at that instant, at rest. Time is composed of instants. If the arrow is at rest at every instant, and time is nothing but a succession of instants, when does the arrow move? This paradox challenges our understanding of time. If time is composed of dimensionless instants, motion seems impossible. If time is continuous, we must explain how motion arises from a succession of static moments."
+      },
+      {
+        heading: "The Significance of the Paradoxes",
+        content: "Zeno's paradoxes are not mere puzzles but deep philosophical challenges. They defend Parmenides' thesis that motion and plurality are illusions by showing that our commonsense assumptions lead to contradictions. Modern mathematics resolves some paradoxes through the concept of convergent infinite series (the sum of 1/2 + 1/4 + 1/8 + ... equals 1), but this only shifts the question: does mathematical resolution correspond to physical reality? Philosophers and physicists continue to debate whether space and time are continuous or discrete, whether actual infinities exist, and what the paradoxes reveal about the nature of physical reality."
+      }
+    ],
     reflectionQuestions: ["Can motion really be paradoxical?", "Do Zeno's paradoxes have solutions?"],
     furtherReading: "See Stanford Encyclopedia of Philosophy for analysis.",
     externalUrl: "https://plato.stanford.edu/entries/paradox-zeno/"
@@ -1395,7 +1739,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Ancient Greece (c. 420 BCE)",
     overview: "Democritus proposed that all of reality consists of atoms — indivisible particles moving through void. This ancient atomic theory anticipates modern physics. Read about his philosophy via the link below.",
     keyConcepts: ["Atoms as indivisible particles", "The void as empty space", "Materialism", "Appearance vs. atomic reality"],
-    sections: [],
+    sections: [
+      {
+        heading: "Atoms and Void",
+        content: "Democritus proposes that reality consists of just two things: atoms (atoma, meaning 'uncuttable') and void (empty space). Atoms are infinitely many, indivisible, eternal, and unchanging. They differ only in shape, size, and arrangement. Void is real (contra Parmenides, who denied non-being) and necessary — without empty space, atoms could not move. All observable properties — color, taste, temperature — are conventions produced by the interaction of atoms with our sense organs. 'By convention sweet, by convention bitter; in reality, atoms and void.'"
+      },
+      {
+        heading: "A Mechanical Universe",
+        content: "Everything that happens results from atoms colliding and combining in the void. There is no purpose, design, or divine plan — only the blind mechanical interactions of particles. Worlds form when swirling masses of atoms create vortexes that sort atoms by size. Life arises from the right combinations of atoms. The soul is made of the finest, roundest, most mobile atoms, which disperse at death. This thoroughgoing materialism anticipates modern physics in striking ways, though Democritus arrived at it through philosophical reasoning rather than experiment."
+      },
+      {
+        heading: "Knowledge and Perception",
+        content: "Democritus distinguishes between two forms of knowledge. 'Bastard' knowledge comes through the senses and deals with appearances — colors, sounds, tastes, which are merely the effects of atoms on our organs. 'Genuine' knowledge grasps atoms and void through reason. The senses are necessary starting points but ultimately deceptive. Democritus imagines the senses reproaching the mind: 'Wretched mind, you get your evidence from us and then overthrow us? Our overthrow is your downfall.' This tension between sense and reason remains central to epistemology."
+      },
+      {
+        heading: "Ethics and Cheerfulness",
+        content: "Despite his mechanistic worldview, Democritus was known as 'the laughing philosopher.' He developed an ethics centered on euthymia — cheerfulness or tranquility of soul. The good life consists in moderate pleasures, intellectual cultivation, and freedom from superstitious fears. We should choose our pleasures wisely, avoiding excess. Democritus anticipated Epicurus in arguing that happiness comes not from external goods but from inner contentment. His ethical fragments, though fragmentary, show that ancient materialism was compatible with — even conducive to — a rich ethical life."
+      }
+    ],
     reflectionQuestions: ["How close was Democritus to modern atomic theory?", "Is everything ultimately physical?"],
     furtherReading: "See Stanford Encyclopedia of Philosophy.",
     externalUrl: "https://plato.stanford.edu/entries/democritus/"
@@ -1409,7 +1770,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 300 BCE)",
     overview: "Forty maxims distilling the core of Epicurean philosophy — on pleasure, death, justice, and the good life. Read the full text via the link below.",
     keyConcepts: ["The fourfold remedy", "Justice as a social contract", "Natural limits of pleasure", "The classification of desires"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Fourfold Remedy",
+        content: "The first four doctrines form Epicurus's 'tetrapharmakos' — the fourfold remedy for human suffering. God is not to be feared (the gods are blessed and have no interest in punishing us). Death is not to be worried about (it is the end of sensation). What is good is easy to get (natural pleasures are simple and attainable). What is terrible is easy to endure (acute pain is brief; chronic pain is manageable). These four principles, if truly internalized, free us from the anxieties that poison most human lives."
+      },
+      {
+        heading: "The Classification of Desires",
+        content: "Epicurus distinguishes desires into three categories: natural and necessary (food, shelter, companionship), natural but unnecessary (luxurious food, sexual variety), and vain (fame, power, wealth). Only the first category needs to be satisfied for happiness. Natural and necessary desires have natural limits — you can eat only so much. Vain desires are unlimited and can never be satisfied. The key to happiness is recognizing which desires are natural and limiting ourselves to those."
+      },
+      {
+        heading: "Justice as Social Contract",
+        content: "Epicurus defines justice not as a natural law but as a social agreement: justice is a compact not to harm or be harmed. There is no absolute justice — justice is whatever proves useful for mutual association in any given time and place. Laws that no longer serve the common advantage are no longer just. This contractarian view of justice anticipates Hobbes and modern social contract theory. It also means that the unjust person is not inherently evil but foolish — they undermine the cooperative arrangements on which their own happiness depends."
+      },
+      {
+        heading: "Pleasure and the Limits of Desire",
+        content: "The remaining doctrines elaborate on the nature of pleasure. The pleasure of the stomach has natural limits; the pleasure of the mind does not, but this is because the mind can contemplate past and future pleasures, not because it pursues excess. The wise person needs very little to be happy. Friendship is the greatest external good — 'of the things which wisdom provides for living a blessed life, by far the greatest is friendship.' The doctrines paint a picture of the good life as simple, sociable, contemplative, and free from fear."
+      }
+    ],
     reflectionQuestions: ["Can happiness be reduced to a set of maxims?", "Is pleasure really the highest good?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Principal_Doctrines"
@@ -1423,7 +1801,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 55 BCE)",
     overview: "Lucretius presents Epicurean physics in magnificent Latin verse — atoms, void, and the materialist foundation of reality. Read the full text via the link below.",
     keyConcepts: ["Nothing comes from nothing", "Atoms and void", "The infinity of the universe", "Against divine creation"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Invocation and Mission",
+        content: "Lucretius opens De Rerum Natura with a magnificent invocation to Venus — not as a goddess to be worshipped but as a personification of nature's creative power. He dedicates the poem to Memmius, a Roman noble, promising to free him from the chains of superstition through Epicurean philosophy. Lucretius frames his project as liberation: religion (by which he means superstitious fear of the gods) has crushed humanity under its weight. Epicurus was the first to challenge it, daring to look nature in the face and discover its true laws."
+      },
+      {
+        heading: "Nothing Comes from Nothing",
+        content: "The fundamental principle of Epicurean physics: nothing can come from nothing. If things could arise from nothing, anything could be born from anything — fish from the sky, humans from the sea. But nature follows fixed patterns: wheat comes from wheat seeds, lions from lions. This regularity proves that everything arises from specific material causes (atoms). Similarly, nothing is utterly destroyed — matter is merely redistributed. The total quantity of matter in the universe remains constant. These principles eliminate the need for divine creation."
+      },
+      {
+        heading: "Atoms and Void",
+        content: "Lucretius argues that all matter is composed of invisible, indivisible particles (atoms) moving through empty space (void). Evidence for atoms: things wear away over time (statues rubbed smooth, roads worn by feet), proving that invisible particles are being removed. Evidence for void: things move (impossible if space were completely full), and matter differs in density (gold is heavier than wool, proving it has less void between its atoms). Atoms are eternal, unchanging, and unimaginably small — the building blocks of everything we see."
+      },
+      {
+        heading: "Against Divine Creation",
+        content: "If the universe were designed by gods, Lucretius asks, why is so much of it hostile to human life? Most of the earth is covered by mountains, forests, seas, and deserts. Disease, wild animals, and natural disasters plague us. Children are born helpless and crying, unlike animals born ready for life. A designed world would be far more hospitable. The universe arose not from divine planning but from the random collisions of atoms over infinite time. Given enough time and enough atoms, every possible combination will eventually occur — including the world we inhabit."
+      }
+    ],
     reflectionQuestions: ["Is a purely material universe compatible with meaning?", "Can philosophy be poetry?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/785/785-h/785-h.htm"
@@ -1437,7 +1832,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 55 BCE)",
     overview: "Lucretius argues that the soul is mortal and death is simply the end of sensation — there is nothing to fear. Read the full text via the link below.",
     keyConcepts: ["The mortality of the soul", "Death as the end of sensation", "The symmetry argument", "Freedom from the fear of death"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Soul is Material",
+        content: "Lucretius argues that the soul (anima/animus) is made of matter — extremely fine, smooth, round atoms distributed throughout the body. Evidence: the soul affects the body (fear makes us tremble, joy makes us flush), and the body affects the soul (wine alters consciousness, disease impairs thought). If mind and body interact causally, they must be of the same nature. The soul grows with the body in childhood, weakens in old age, and is affected by disease and injury — all signs that it is material and mortal."
+      },
+      {
+        heading: "The Mortality of the Soul",
+        content: "If the soul is material, it is mortal. Lucretius offers numerous arguments: the soul grows and ages with the body; it can be diseased (madness, amnesia); it is affected by medicine and alcohol; it develops gradually in the womb rather than arriving fully formed. If the soul were immortal and merely housed in the body, why would it be affected by bodily states at all? And if souls are eternal, where do they wait before entering bodies? Why do they have no memories of previous lives? The soul is born with the body and dies with the body."
+      },
+      {
+        heading: "The Symmetry Argument",
+        content: "Lucretius's most elegant argument against the fear of death: consider the infinite time before you were born. Were you troubled by it? Did you suffer during the Punic Wars or the fall of Troy? Of course not — you didn't exist. Death will be exactly the same as that pre-natal non-existence. 'Look back at the eternity of time before we were born and see how it is nothing to us. Nature holds this up as a mirror of the time to come after our death.' The symmetry is perfect: future non-existence is no worse than past non-existence."
+      },
+      {
+        heading: "Against the Fear of Death",
+        content: "Lucretius addresses common fears about death one by one. You won't miss your loved ones — you won't exist to miss anything. You won't lie cold in the grave — you won't be there. You won't be deprived of life's pleasures — deprivation requires a subject to be deprived. Even the torments of the underworld are really metaphors for psychological torments we suffer in life: Tantalus represents the fear of divine punishment, Sisyphus represents futile political ambition, the Danaids represent insatiable desire. Free yourself from these torments now, and death holds no terror."
+      }
+    ],
     reflectionQuestions: ["Is the fear of death irrational?", "Does the symmetry argument work?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/785/785-h/785-h.htm"
@@ -1451,7 +1863,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 125 CE)",
     overview: "Epictetus teaches how to evaluate and respond to life's events through Stoic principles. Read the full text via the link below.",
     keyConcepts: ["Testing impressions", "Detachment from externals", "Maintaining equanimity", "The discipline of assent"],
-    sections: [],
+    sections: [
+      {
+        heading: "Loss and Attachment",
+        content: "Epictetus teaches that we should prepare for loss by reflecting on the nature of what we have. When you kiss your child goodnight, remind yourself: 'Tomorrow you may die.' This sounds harsh, but the point is not to diminish love — it's to prevent attachment from becoming a source of suffering. Everything we have is 'on loan' from nature. If you understand that your cup, your reputation, even your loved ones are temporary, you can enjoy them fully without being destroyed when they're taken away."
+      },
+      {
+        heading: "Other People's Business",
+        content: "Most of our suffering comes from minding other people's business. When you're upset because someone has insulted you, praised someone else, or failed to meet your expectations, you're suffering over things that are 'not up to you.' Epictetus advises radical detachment from others' opinions and actions. This doesn't mean coldness — it means recognizing that you can control only your own responses. If someone speaks ill of you and you're not disturbed, then the insult has no power. 'It is not things that disturb us, but our judgments about things.'"
+      },
+      {
+        heading: "The Role of Impressions",
+        content: "Every experience begins with an impression (phantasia) — an initial appearance of how things are. A neighbor's wealth impresses us as enviable; a rude comment impresses us as offensive; a loss impresses us as devastating. Epictetus teaches that we should examine these impressions before assenting to them. Ask: does this impression concern something within my control or outside it? If outside, then 'it is nothing to me.' This practice of 'testing impressions' is the daily discipline of Stoic philosophy. It doesn't change the world, but it changes how the world affects you."
+      },
+      {
+        heading: "Playing Your Part",
+        content: "Epictetus compares life to a play: you don't choose your role — you might be a king, a beggar, a disabled person, a parent — but you can choose how to play it. Your task is not to wish for a different part but to perform your assigned role excellently. A good actor is good regardless of the role. Similarly, a good person exercises virtue regardless of circumstances. If you're given a short part, play it well. If a long one, play that well too. The casting is not up to you; the performance is."
+      }
+    ],
     reflectionQuestions: ["Can you control your reactions to events?", "Is detachment healthy or cold?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/45109/45109-h/45109-h.htm"
@@ -1465,7 +1894,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 125 CE)",
     overview: "Practical Stoic wisdom for daily life — how to live according to nature and maintain inner freedom. Read the full text via the link below.",
     keyConcepts: ["Living according to nature", "Social roles and duties", "The philosopher's practice", "Freedom through acceptance"],
-    sections: [],
+    sections: [
+      {
+        heading: "Social Relations and Duties",
+        content: "Epictetus recognizes that we exist in a web of social roles — parent, child, sibling, citizen, neighbor, friend. Each role carries duties. As a brother, you owe patience and goodwill, regardless of how your brother treats you. As a citizen, you owe service to the community. The key insight is that your duty is defined by your role, not by the other person's behavior. If your brother is unjust, that makes him a bad brother — but if you respond with injustice, that makes you a bad brother too. Maintain your character regardless of others' failings."
+      },
+      {
+        heading: "Desire, Aversion, and Training",
+        content: "Epictetus outlines a program of philosophical training. First, eliminate desire for externals entirely — don't wish for wealth, health, or fame. Direct desire only toward what is truly in your power: your own virtue. Second, moderate your aversion — don't fear poverty, sickness, or death (these are 'indifferent' things). Fear only what is truly bad: your own vice. Third, refine your impulses to act — fulfill your duties appropriately without being swept away by emotion. This graduated program mirrors athletic training: start with basics, increase difficulty gradually."
+      },
+      {
+        heading: "The Philosopher in Daily Life",
+        content: "Epictetus offers practical advice for navigating social situations. At a banquet, don't complain about the food — eat what's served with contentment. In conversation, don't prattle about your own affairs or gossip about others — listen and learn. When someone boasts, don't compete — remember that true goods are internal. Don't laugh loudly, swear needlessly, or seek entertainment in vulgar spectacles. These aren't arbitrary rules but expressions of a deeper principle: the philosopher maintains inner dignity by aligning outer behavior with inner values."
+      },
+      {
+        heading: "The Summary of Stoic Practice",
+        content: "The final chapters of the Enchiridion distill Stoic practice to its essence. Remember that you are an actor in a play directed by another. Bear and forbear. When something happens to another, apply the same standard you would if it happened to you. Don't say 'I have lost it' but 'I have returned it.' And above all: 'It is not things that disturb us, but our judgments about things.' If you truly internalize this single principle, Epictetus promises, you will be free — not free from external constraints, but free from the internal tyranny of desire, fear, and false judgment."
+      }
+    ],
     reflectionQuestions: ["What does it mean to live according to nature?", "Is Stoic acceptance passive or empowering?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/45109/45109-h/45109-h.htm"
@@ -1479,7 +1925,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 170 CE)",
     overview: "Marcus Aurelius reflects on the transience of all things — fame, power, and life itself — finding peace through acceptance. Read the full text via the link below.",
     keyConcepts: ["The transience of all things", "The river of time", "The insignificance of fame", "Finding peace in impermanence"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Transience of All Things",
+        content: "Marcus meditates on the impermanence of everything. Alexander the Great and his mule driver were both reduced to the same ashes. The emperor's robes are just dyed sheep's wool. Fame is smoke. The Roman Empire itself — seemingly eternal — will pass away as surely as the empires before it. Marcus lists the great men and women he has known personally, now dead: Hadrian, his tutors, his beloved teachers. 'All these things have long since turned to dust.' This isn't nihilism — it's a practice of perspective that helps Marcus focus on what truly matters."
+      },
+      {
+        heading: "The River of Time",
+        content: "Marcus develops the image of time as a river: 'Time is a river of things that become, and a violent stream. For as soon as a thing has appeared, it is swept away, and another comes into its place, and that too will be swept away.' The present moment is infinitely thin — the past is gone, the future hasn't arrived. We live only in the present instant. This should not paralyze us but motivate us: since we have only this moment, we should use it well. Do what is right now, not because it will be remembered, but because it is right."
+      },
+      {
+        heading: "The Insignificance of Fame",
+        content: "Marcus relentlessly deflates the pursuit of fame. Consider how few people know your name, and how quickly they will forget it after death. Even the most famous people are forgotten within a few generations. The people whose praise you seek are themselves petty, quarrelsome, and soon to die. If you achieve immortal fame, you won't be around to enjoy it. Marcus doesn't pursue this line to induce despair but to redirect ambition: instead of seeking reputation, seek virtue. Virtue is its own reward and requires no audience."
+      },
+      {
+        heading: "Finding Peace in Impermanence",
+        content: "Rather than resisting impermanence, Marcus finds peace in accepting it. Change is not a defect of the universe but its fundamental nature. An ear of corn must die for new corn to grow. A log must burn for there to be warmth. Your death makes room for new life. The person who understands this participates willingly in nature's process rather than futilely resisting it. 'Loss is nothing else but change, and change is Nature's delight.' This acceptance is not passive resignation but active alignment with the logos — the rational order of the cosmos."
+      }
+    ],
     reflectionQuestions: ["Does impermanence make life meaningless or more precious?", "How do you respond to the thought that everything passes?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/2680/2680-h/2680-h.htm"
@@ -1493,7 +1956,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 170 CE)",
     overview: "Marcus practices seeing life from a cosmic perspective — shrinking human affairs to their true proportions. Read the full text via the link below.",
     keyConcepts: ["The view from above", "Cosmic perspective", "Duty and acceptance", "The interconnection of all things"],
-    sections: [],
+    sections: [
+      {
+        heading: "The View from Above",
+        content: "Marcus practices a distinctive Stoic meditation: imagining his life as seen from a great height — from a mountaintop, from the sky, from the perspective of the cosmos itself. From above, human affairs shrink to their true proportions. Armies are swarms of ants. Cities are dots. Political disputes are meaningless. This 'view from above' is not escapism but a corrective to the distortions of ego and proximity. When you're consumed by a petty quarrel, zoom out: in the vastness of space and time, how significant is this?"
+      },
+      {
+        heading: "The Interconnection of All Things",
+        content: "Marcus reflects on the Stoic doctrine that all things are interconnected. The universe is a single living organism, and every event is part of the web of fate (heimarmene). Nothing happens in isolation. Your birth, your struggles, your death — all are woven into the cosmic fabric. This doctrine transforms how Marcus views setbacks: what seems like bad luck may be necessary for the health of the whole, just as amputation may be necessary for the health of the body. Accepting your role in the larger order is both a duty and a source of peace."
+      },
+      {
+        heading: "Duty Without Complaint",
+        content: "Marcus repeatedly confronts his own reluctance to face the day's duties. He imagines himself not wanting to get out of bed, not wanting to deal with difficult people, not wanting to bear the burdens of empire. His response: 'This is what I was made for.' A vine doesn't complain about producing grapes; a bee doesn't complain about making honey. You were made for work — specifically, for working with and for other human beings. To refuse your function is to refuse your nature. Do your duty not with grim determination but with the recognition that this is what you are for."
+      },
+      {
+        heading: "Other People and Tolerance",
+        content: "Marcus struggles with his frustration toward others — their dishonesty, ingratitude, and pettiness. His advice to himself: remember that these people act from ignorance, not malice. They don't know what is truly good and bad. You yourself have made similar errors. Moreover, the wrongdoer harms themselves more than anyone — they corrupt their own soul. Finally, you will both be dead soon. Given all this, anger is irrational. Treat difficult people with patience and firmness, correcting them if possible and bearing them if not."
+      }
+    ],
     reflectionQuestions: ["Does a cosmic perspective help with daily problems?", "Is there comfort in our smallness?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/2680/2680-h/2680-h.htm"
@@ -1507,7 +1987,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 170 CE)",
     overview: "Marcus Aurelius on turning obstacles into opportunities for virtue — the impediment to action advances action. Read the full text via the link below.",
     keyConcepts: ["The obstacle is the way", "Turning adversity into opportunity", "The discipline of action", "Virtue under pressure"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Obstacle Is the Way",
+        content: "Marcus articulates the most distinctive Stoic insight: 'The impediment to action advances action. What stands in the way becomes the way.' Every obstacle is an opportunity to practice virtue. Insulted? Practice patience. Sick? Practice endurance. Betrayed? Practice forgiveness. The obstacle doesn't prevent you from exercising virtue — it provides the very material you need. Fire consumes whatever is thrown into it, growing stronger with each addition. Similarly, the trained Stoic mind converts every difficulty into fuel for moral growth."
+      },
+      {
+        heading: "The Discipline of Action",
+        content: "Marcus outlines three Stoic disciplines. The discipline of desire (accepting what fate brings). The discipline of assent (testing impressions before believing them). And the discipline of action (doing what is right in each situation). The discipline of action requires doing what benefits the community, acting with justice and benevolence, and completing each task as if it were your last. Act purposefully, not randomly. Act for the common good, not just your own. And accept that the results of your actions are not in your control — only the quality of the action itself."
+      },
+      {
+        heading: "Simplicity and Focus",
+        content: "Marcus advises radical simplicity: do fewer things, but do them well. Most of what we say and do is unnecessary. Eliminate it, and you gain both time and tranquility. When faced with complexity, return to basic principles: What is the right thing to do? What does justice require? What serves the common good? Don't overcomplicate matters with speculation about others' motives, anxiety about outcomes, or nostalgia for the past. The present task, done well, is everything."
+      },
+      {
+        heading: "Virtue Under Pressure",
+        content: "Marcus wrote the Meditations during some of the most difficult years of his reign — plague, war on the frontier, political treachery, personal loss. The later books reflect this pressure. He reminds himself again and again: pain is bearable, death is natural, other people's vices are their own problem. The true test of philosophy is not whether it sounds good in a lecture hall but whether it sustains you during a military campaign in freezing weather. Marcus's honesty about his own struggles — his anger, fatigue, and disgust — makes the Meditations more moving than any polished treatise."
+      }
+    ],
     reflectionQuestions: ["Can obstacles really become opportunities?", "How do you respond to adversity?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/2680/2680-h/2680-h.htm"
@@ -1521,7 +2018,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 170 CE)",
     overview: "The final books of the Meditations: Marcus reflects on death, legacy, and the unity of all things. Read the full text via the link below.",
     keyConcepts: ["Death as natural", "The unity of the cosmos", "Legacy and memory", "Final reflections on duty"],
-    sections: [],
+    sections: [
+      {
+        heading: "Death as Natural",
+        content: "In the final books, Marcus confronts death with increasing directness. Death is not an evil but a natural process — the dissolution of elements that will be reassembled into new forms. 'You embarked, you sailed, you arrived — now disembark.' Like an olive falling from a tree at full ripeness, or an actor leaving the stage when the play is done, departure at the right time is not tragedy but completion. Marcus does not romanticize death but strips it of its terror by treating it as simply another natural event."
+      },
+      {
+        heading: "The Unity of the Cosmos",
+        content: "Marcus returns to the Stoic vision of a unified cosmos governed by reason (logos). Everything is connected: 'All things are woven together, and the bond is sacred.' Even events that seem random or malicious are part of the rational order. This doesn't mean everything that happens is good for you individually — but it is necessary for the whole. Your suffering may be like the pruning of a vine: painful for the branch, beneficial for the plant. Accepting this requires faith in the rational order of things — a faith Marcus sometimes struggles to maintain."
+      },
+      {
+        heading: "Legacy and Memory",
+        content: "Marcus repeatedly deflates the desire for posthumous fame. Soon you will be forgotten, as will those who remember you, and those who remember them. Entire civilizations have vanished without trace. What good is a reputation you can't enjoy? The only thing that matters is the quality of your character right now. 'Do not act as if you were going to live ten thousand years. Death hangs over you. While you live, while you can, become good.' This urgency pervades the final books."
+      },
+      {
+        heading: "Final Reflections on Duty",
+        content: "The Meditations ends not with a grand conclusion but simply stops — as if Marcus was called away to attend to some duty. This is appropriate: the Meditations was never meant to be a finished work but a tool for daily use. The final entries reiterate the core themes: accept what comes, do your duty, treat others with justice, maintain the inner citadel, and remember that this too shall pass. The simplicity of these instructions belies their difficulty. Marcus's honesty about that difficulty is what makes the Meditations one of the most beloved works in philosophy."
+      }
+    ],
     reflectionQuestions: ["How should we think about our own mortality?", "What legacy matters?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/2680/2680-h/2680-h.htm"
@@ -1535,7 +2049,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 41 CE)",
     overview: "Seneca examines the psychology of anger and offers Stoic remedies for controlling it. Read the full text via the link below.",
     keyConcepts: ["Anger as temporary madness", "The cognitive theory of emotion", "Prevention vs. cure", "Patience as a virtue"],
-    sections: [],
+    sections: [
+      {
+        heading: "Anger as Temporary Madness",
+        content: "Seneca describes anger as a brief insanity — it distorts the face, trembles the hands, and darkens the mind. Unlike other emotions, anger actively seeks to harm. It is not merely an inconvenience but a vice: no other emotion causes more damage to cities, families, and individuals. Seneca recounts historical atrocities committed in anger — tyrants who executed servants over trivial offenses — to show that anger, left unchecked, leads to monstrous acts."
+      },
+      {
+        heading: "The Cognitive Theory of Emotion",
+        content: "Seneca argues that anger is not a natural reflex but a judgment. We are not angered by events but by our interpretation of events. The first movement — a flush of heat, a clenched fist — is involuntary and not yet anger. Anger proper occurs only when the mind assents to the impression that we have been wronged and that retaliation is appropriate. This means anger can be prevented: by refusing to assent to the impression, by questioning whether the offense was real, and by considering whether retaliation is wise."
+      },
+      {
+        heading: "Remedies and Prevention",
+        content: "Seneca offers practical remedies. Prevention: avoid situations that trigger anger; choose calm companions; get enough rest; don't be too busy. When anger arises: delay — tell yourself 'I'll deal with this tomorrow.' Examine the situation: is the offense really that serious? Consider the offender: perhaps they acted from ignorance, youth, or habit. Consider yourself: have you never committed similar faults? Finally, practice daily self-examination: review the day's events each evening, noting where anger arose and whether it was justified."
+      },
+      {
+        heading: "The Case Against Righteous Anger",
+        content: "Seneca rejects the common view that anger is sometimes useful or necessary — for example, in battle or in punishing wrongdoers. Courage doesn't need anger; in fact, anger makes soldiers reckless and impairs judgment. Punishment should be administered calmly and rationally, not in the heat of passion. A judge who sentences from anger is no better than a lynch mob. Reason can do everything anger promises — correct wrongs, protect the innocent, punish the guilty — and do it better, without the collateral damage anger inevitably produces."
+      }
+    ],
     reflectionQuestions: ["Is anger ever justified?", "Can reason overcome anger?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Of_Anger"
@@ -1549,7 +2080,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 65 CE)",
     overview: "Seneca's intimate letters to his friend Lucilius on how to live well — practical Stoic wisdom for daily life. Read the full text via the link below.",
     keyConcepts: ["The value of time", "Self-examination", "The crowd and solitude", "Progress in virtue"],
-    sections: [],
+    sections: [
+      {
+        heading: "On the Value of Time",
+        content: "The first letter sets the tone for the entire collection. Seneca urges Lucilius to guard his time jealously — it is our most precious and most squandered resource. 'While we are postponing, life speeds by.' People willingly give away their money but squander their hours without thought. Seneca advises accounting for every day: at the end of each day, ask yourself what you have accomplished, what you have learned, what bad habit you have overcome. Make each day a complete life."
+      },
+      {
+        heading: "On Crowds and Solitude",
+        content: "Seneca warns against spending too much time in crowds, which corrupt our character through social pressure. After attending the games at the arena, he observes how the crowd's bloodlust infected even his own judgment. The philosopher needs regular periods of withdrawal and reflection. But solitude without purpose is mere idleness. The goal is a balance: engage with the world enough to be useful, withdraw enough to maintain your philosophical practice and inner peace."
+      },
+      {
+        heading: "On Self-Examination",
+        content: "Seneca describes his nightly practice of reviewing the day. He acts as his own judge: 'What bad habit did I correct today? What fault did I resist? In what ways am I better?' This is not self-flagellation but honest assessment. He examines arguments he handled poorly, emotions that got the better of him, and duties he neglected. The goal is progress, not perfection — the Stoic sage is an ideal to approach, not a standard already achieved."
+      },
+      {
+        heading: "On Philosophy as Medicine",
+        content: "Philosophy, Seneca argues, is medicine for the soul. Just as the sick person needs a physician more than a healthy one, the person struggling with anger, grief, or fear needs philosophy most urgently. But unlike bodily medicine, the cure must be self-administered. No one else can think for you or choose for you. Seneca's letters model this self-treatment: each letter diagnoses a specific malady (anxiety, anger, grief, ambition) and prescribes a specific philosophical remedy."
+      }
+    ],
     reflectionQuestions: ["What would you write in a letter about how to live?", "Is Seneca's advice still relevant?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
@@ -1563,7 +2111,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 60 CE)",
     overview: "Seneca offers practical advice for finding inner peace amid life's turbulence. Read the full text via the link below.",
     keyConcepts: ["Tranquility as the goal", "Avoiding restlessness", "The right attitude toward fortune", "Active engagement vs. withdrawal"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Problem of Restlessness",
+        content: "Serenus writes to Seneca describing a spiritual malady: he is dissatisfied but cannot say why. He admires simplicity but is tempted by luxury. He wants to serve the public good but is frustrated by politics. He aspires to philosophical calm but is agitated by ambition. This restlessness — knowing what you should want but being unable to want it consistently — is the universal human condition Seneca addresses."
+      },
+      {
+        heading: "Finding the Right Activity",
+        content: "Seneca advises choosing activities suited to your temperament and abilities. Don't withdraw from public life entirely (that leads to boredom and depression), but don't overcommit either. Find work that engages your talents without overwhelming you. If public office is closed to you, serve through writing, teaching, or friendship. The key is purposeful engagement — doing something meaningful — rather than the frantic busyness that masquerades as productivity."
+      },
+      {
+        heading: "The Right Attitude Toward Fortune",
+        content: "Seneca counsels a middle path between anxiously hoarding possessions and ostentatiously rejecting them. Enjoy what fortune gives you without clinging to it. Use wealth wisely but be prepared to lose it. The free person is not the one who has everything but the one who can lose everything without being destroyed. Practice 'voluntary poverty' periodically — eat simple meals, wear rough clothes — to prove to yourself that you can endure loss."
+      },
+      {
+        heading: "The Tranquil Mind",
+        content: "True tranquility is not the absence of activity but the presence of inner stability amid activity. The tranquil mind does not waver with every change of fortune or mood. It is not indifferent but steady. Seneca compares it to the deep ocean, which remains calm even when storms disturb the surface. This calm comes not from avoiding life but from understanding what is and isn't within our control, and from aligning our desires with reality rather than fantasy."
+      }
+    ],
     reflectionQuestions: ["What disturbs your inner peace?", "Is tranquility the same as happiness?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Of_Peace_of_Mind"
@@ -1577,7 +2142,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 58 CE)",
     overview: "What constitutes true happiness? Seneca defends the Stoic view against Epicurean and popular alternatives. Read the full text via the link below.",
     keyConcepts: ["Happiness as virtue", "The Stoic vs. Epicurean debate", "Wealth and virtue", "The consistency of the sage"],
-    sections: [],
+    sections: [
+      {
+        heading: "The False Paths to Happiness",
+        content: "Seneca opens by noting that everyone seeks happiness but almost no one finds it, because they follow the crowd rather than reason. Most people identify happiness with pleasure, wealth, or fame — and spend their lives chasing these things without ever achieving lasting satisfaction. The problem is not insufficient effort but misdirected effort. We need to stop and ask: what IS happiness? Only then can we pursue it intelligently."
+      },
+      {
+        heading: "Happiness as Virtue",
+        content: "The Stoic answer: happiness consists in virtue — living in accordance with reason and nature. The happy person is the one whose mind is well-ordered, whose desires are rational, and whose actions are just. External circumstances — wealth, health, status — are 'preferred indifferents': nice to have but not necessary for happiness and not constitutive of it. The sage would be happy even on the rack (a claim Seneca's critics found absurd)."
+      },
+      {
+        heading: "Seneca's Wealth",
+        content: "Seneca addresses the obvious objection: he is fabulously wealthy — how can he preach Stoic indifference to material goods? His defense: the Stoic doesn't reject wealth but refuses to be enslaved by it. Seneca claims to hold his wealth lightly — he would give it up without distress. What matters is not whether you have money but whether money has you. The wise person can be rich without being corrupted, just as a skilled sailor can navigate both calm and stormy seas."
+      },
+      {
+        heading: "Pleasure vs. Virtue",
+        content: "Seneca engages with Epicurean rivals who identify happiness with pleasure. He argues that pleasure is a by-product of virtue, not its goal. The virtuous life is indeed pleasant — but its pleasantness is a consequence, not the aim. Pursuing pleasure directly leads to diminishing returns, dependency, and ultimately misery. The person who pursues virtue gets both virtue and genuine pleasure; the person who pursues pleasure gets neither lasting pleasure nor virtue."
+      }
+    ],
     reflectionQuestions: ["Is virtue sufficient for happiness?", "Can a wealthy person be truly Stoic?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Of_a_Happy_Life"
@@ -1591,7 +2173,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 65 CE)",
     overview: "Seneca's counsel on mourning, loss, and acceptance — how to grieve without being consumed. Read the full text via the link below.",
     keyConcepts: ["The proper measure of grief", "Memory and gratitude", "Acceptance of mortality", "Consolation through philosophy"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Proper Measure of Grief",
+        content: "In Letter 63, Seneca consoles Lucilius on the death of a friend. He doesn't deny the reality of grief — tears are natural and appropriate. But grief should have limits. Excessive mourning dishonors the dead (would your friend want you to suffer indefinitely?) and harms the living. Seneca distinguishes between the natural expression of sorrow and the theatrical display of grief that becomes an end in itself. Weep, he says — but then dry your eyes and return to life."
+      },
+      {
+        heading: "Memory and Gratitude",
+        content: "The proper response to loss is gratitude for what we had, not bitterness over what we've lost. 'What need is there to summon grief when it flows naturally? Let us rather recall our friends with cheerful remembrance.' Memory should be a source of sweetness, not torment. The person who remembers their friend's life with joy honors them more than the person who drowns in perpetual mourning."
+      },
+      {
+        heading: "Preparing for Loss",
+        content: "In Letter 99, Seneca takes a harder line: we should prepare for loss before it occurs. Since every human being is mortal, every attachment carries the certainty of eventual separation. To be devastated by death is to have been willfully blind to reality. This doesn't mean suppressing love — it means loving with clear eyes, knowing that what we love is temporary. The Stoic practice of premeditatio malorum (rehearsing future difficulties) includes rehearsing the deaths of loved ones."
+      },
+      {
+        heading: "Consolation Through Philosophy",
+        content: "Philosophy offers what no other form of consolation can: perspective. Time heals grief eventually — but philosophy heals it now, by showing us that death is natural, that the dead are beyond suffering, and that our own death is approaching too. We waste the little time we have by mourning time already spent. The best tribute to the dead is to live well — to embody the virtues our loved ones admired and to make the most of the life we still have."
+      }
+    ],
     reflectionQuestions: ["Is there a proper way to grieve?", "Can philosophy help with loss?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
@@ -1605,7 +2204,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 65 CE)",
     overview: "Seneca on the liberal arts, true education, and the ultimate purpose of philosophy. Read the full text via the link below.",
     keyConcepts: ["Liberal arts and their limits", "Philosophy as the only true education", "The purpose of learning", "Wisdom vs. cleverness"],
-    sections: [],
+    sections: [
+      {
+        heading: "Against the Liberal Arts",
+        content: "In Letter 88, Seneca delivers a provocative critique of liberal education. Grammar, music, geometry, astronomy — these are valuable skills but not wisdom. Knowing the size of the sun doesn't make you a better person. Studying literature doesn't cure your anger. Liberal arts are 'liberal' because they are fit for a free person, but they don't make a person free. Only philosophy — the study of how to live — deserves that title."
+      },
+      {
+        heading: "The Purpose of Learning",
+        content: "Seneca distinguishes between cleverness and wisdom. Cleverness is knowing many things; wisdom is knowing the few things that matter. Most scholarship is intellectual busyness — cataloging facts, splitting hairs, debating trivia. Seneca mocks scholars who spend years determining whether the Iliad or the Odyssey was written first, while neglecting the question of how to live. 'We have time for everything except the only thing that matters.'"
+      },
+      {
+        heading: "Philosophy as the Only True Education",
+        content: "Philosophy is the only discipline that teaches the supreme good, how to conquer fear, how to face death, how to deal with anger and grief. Other arts are preliminary — they sharpen the mind but don't direct it. Mathematics teaches precision; rhetoric teaches persuasion; history teaches by example. But only philosophy integrates these into a coherent art of living. Philosophy is not one subject among many but the subject that gives all others their purpose."
+      },
+      {
+        heading: "Wisdom vs. Cleverness",
+        content: "Letter 90 contrasts the early philosophical sages — who taught humanity practical arts like agriculture, architecture, and weaving — with later philosophers who became lost in abstraction. Seneca argues that philosophy's original mission was practical: teaching people how to live well in community. The elaborate theoretical systems of later philosophy, while intellectually impressive, often distract from this essential purpose. True wisdom is simple, direct, and focused on what matters."
+      }
+    ],
     reflectionQuestions: ["What is the purpose of education?", "Is philosophy practical or useless?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
@@ -1619,7 +2235,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (c. 200 CE)",
     overview: "Can we know anything for certain? The Pyrrhonist suspends judgment on all matters and finds tranquility in uncertainty. Read the full text via the link below.",
     keyConcepts: ["Suspension of judgment (epoché)", "The ten modes of skepticism", "Equipollence — equal force of opposing arguments", "Ataraxia through skepticism"],
-    sections: [],
+    sections: [
+      {
+        heading: "Three Philosophical Dispositions",
+        content: "Sextus distinguishes three types of philosophers. Dogmatists (like the Stoics and Epicureans) claim to have found the truth. Academic skeptics claim that the truth cannot be found. Pyrrhonists continue searching, suspending judgment on all matters. The Pyrrhonist doesn't assert that knowledge is impossible — that would itself be a dogmatic claim. Instead, they keep investigating, finding that for every argument there is an equally strong counter-argument."
+      },
+      {
+        heading: "The Ten Modes of Skepticism",
+        content: "Sextus catalogs ten 'modes' or arguments for suspending judgment. Different species perceive differently (a dog and a human experience the same object differently). Different humans perceive differently (some find honey sweet, others bitter). Different senses give conflicting information (a painting looks three-dimensional but feels flat). Circumstances affect perception (illness, drunkenness, dreaming). Cultural customs vary wildly. Things appear differently depending on quantity, relation, frequency, and mixture. Given such pervasive disagreement, how can we trust any particular perception as revealing reality?"
+      },
+      {
+        heading: "Equipollence and Suspension",
+        content: "The skeptic's key tool is equipollence — showing that opposing arguments have equal force. For every philosophical position, the skeptic produces an equally compelling counter-position. Does God exist? Arguments on both sides seem equally strong. Is the world eternal? Again, both sides have their reasons. When we recognize that opposing arguments are equally balanced, we cannot rationally choose either side. The natural response is epoché — suspension of judgment. We simply stop asserting that things are one way rather than another."
+      },
+      {
+        heading: "Ataraxia Through Skepticism",
+        content: "The surprising result of suspension is tranquility (ataraxia). It was the desire for truth that caused disturbance — the anxiety of not knowing, the fear of being wrong. Once we stop trying to determine the truth about matters beyond experience, anxiety dissolves. We continue to live according to appearances, customs, and natural inclinations — we eat when hungry, follow local laws, practice our professions — but we do so without the philosophical anxiety of wondering whether our beliefs are 'really' true. Skepticism thus achieves the same goal as Stoicism and Epicureanism (tranquility) by the opposite method (suspending belief rather than adopting a system)."
+      }
+    ],
     reflectionQuestions: ["Is certainty possible?", "Could suspending judgment bring peace?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Outlines_of_Pyrrhonism"
@@ -1633,7 +2266,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (44 BCE)",
     overview: "Cicero's comprehensive guide to moral duty — the Roman ideal of honor, obligation, and the good. Read the full text via the link below.",
     keyConcepts: ["The four cardinal virtues", "Duty and honor", "The conflict between honor and expediency", "The obligations of public life"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Four Cardinal Virtues",
+        content: "Cicero organizes his account of duty around the four cardinal virtues: wisdom (the discovery of truth), justice (giving each person their due and keeping faith), courage (greatness of spirit and endurance), and temperance (order and measure in all things). Each virtue generates specific duties. Wisdom requires honest inquiry and intellectual humility. Justice requires honesty, generosity, and keeping promises. Courage requires acting for the common good despite personal risk. Temperance requires decorum and self-control."
+      },
+      {
+        heading: "Justice and Society",
+        content: "Justice, Cicero argues, is the virtue most essential to social life. Its two components are: do no harm (unless provoked), and use common goods for the common good and private goods for yourself. The greatest injustice comes not from individuals but from communities that wrong other communities through war and imperialism. Cicero also emphasizes fides — good faith, keeping your word — as the foundation of all human cooperation. Without trust, society collapses."
+      },
+      {
+        heading: "The Obligations of Public Life",
+        content: "Cicero addresses duties specific to public life. Those in office must serve the whole community, not a faction. They must protect private property. They must avoid war when possible and, when war is necessary, conduct it justly. They must not impose oppressive taxes. Public officials should be accessible, fair, and self-restrained. Cicero writes from personal experience as a consul and senator, grounding abstract principles in the practical challenges of Roman politics."
+      },
+      {
+        heading: "Honor and Expediency",
+        content: "The most important section addresses conflicts between what is honorable and what is expedient. Cicero argues that there can never be a genuine conflict — what seems expedient but is dishonorable is always, in the long run, disadvantageous. Cheating in business brings short-term gain but destroys trust. Tyranny brings power but guarantees a violent end. True expediency aligns with honor because human welfare depends on cooperation, and cooperation depends on trust and justice."
+      }
+    ],
     reflectionQuestions: ["What duties do we owe to society?", "When duty and self-interest conflict, which wins?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/47001/47001-h/47001-h.htm"
@@ -1647,7 +2297,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (44 BCE)",
     overview: "Cicero's meditation on the nature and value of true friendship — one of the most influential treatments of the topic. Read the full text via the link below.",
     keyConcepts: ["Friendship as the greatest gift", "Virtue as the foundation of friendship", "The limits of friendship", "Friendship and political life"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Greatest Gift of the Gods",
+        content: "Cicero, speaking through the character of Laelius after the death of his friend Scipio, calls friendship the greatest gift the gods have given to humanity after wisdom itself. Life without friendship is not truly life. Friendship is natural — human beings are drawn to each other not by need alone but by a genuine impulse of affection. Even the most self-sufficient person craves companionship. The hermit's life, no matter how comfortable, is impoverished without someone to share it with."
+      },
+      {
+        heading: "Virtue as the Foundation",
+        content: "True friendship can exist only between good people. This doesn't mean saints — it means people of decent character who share fundamental values. Friendships based on utility (business partnerships) or pleasure (drinking companions) dissolve when the benefit or pleasure ends. Only friendships based on mutual virtue endure, because virtue is stable and lasting. Such friends wish each other well for the other's sake, not for any personal advantage."
+      },
+      {
+        heading: "The Limits of Friendship",
+        content: "Cicero addresses difficult questions. Should you do anything a friend asks? No — friendship cannot require you to act against the state or against morality. 'In friendship, let this law be established: neither ask dishonorable things, nor do them if asked.' Should you always be frank with friends? Yes — flattery is the enemy of friendship. True friends tell each other uncomfortable truths because they care more about the friend's good than about being liked."
+      },
+      {
+        heading: "Friendship and Political Life",
+        content: "Cicero connects friendship to Roman political life, where personal bonds (amicitia) were the glue of political alliances. But he warns against reducing friendship to political utility. When friendships are formed solely for advantage, they collapse under pressure. The noblest political friendships — like that between Laelius and Scipio — are those where shared commitment to the republic is grounded in genuine mutual affection and respect."
+      }
+    ],
     reflectionQuestions: ["What makes a friendship genuine?", "Can friendship survive disagreement?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/2808/2808-h/2808-h.htm"
@@ -1661,7 +2328,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (44 BCE)",
     overview: "Cicero argues that old age, rightly lived, is no burden but a crown — a time for wisdom, memory, and inner richness. Read the full text via the link below.",
     keyConcepts: ["The advantages of old age", "Activity and engagement in later life", "Memory and experience", "Facing death with equanimity"],
-    sections: [],
+    sections: [
+      {
+        heading: "Four Objections to Old Age",
+        content: "Cicero, through the character of Cato the Elder (age 84), addresses four common complaints about old age: it withdraws us from active life, it weakens the body, it deprives us of pleasures, and it brings us near death. Cato will refute each objection in turn, arguing that old age, properly lived, is not a decline but a culmination."
+      },
+      {
+        heading: "Activity and Engagement",
+        content: "Old age does not necessarily withdraw us from active life. While we can no longer do the physical work of youth, we can do the intellectual and advisory work that is more valuable. The great achievements of states are guided by the counsel of elders, not by the strength of the young. 'Great deeds are not done by strength, speed, or swiftness of body, but by deliberation, authority, and judgment — qualities that old age does not diminish but actually increases.'"
+      },
+      {
+        heading: "The Pleasures of Age",
+        content: "The diminishing of bodily pleasures is not a loss but a liberation. The passions of youth — lust, ambition, rivalry — are sources of disturbance, not happiness. Old age frees us from these tyrannies. In their place come the pleasures of conversation, memory, intellectual activity, and above all agriculture — Cato's favorite metaphor for the productive cultivation that continues into late life. The old person who has lived well has a treasury of memories that no one can take away."
+      },
+      {
+        heading: "Facing Death",
+        content: "Death is near — but this is not a valid objection. Young people die too, and they face the additional uncertainty of not knowing when. The old person who has lived a full life can face death as a traveler faces the end of a journey — with satisfaction, not dread. If the soul is immortal (as Cato believes), death is a transition to a better life. If the soul is mortal, death is simply the end of sensation — and what cannot be felt cannot be feared."
+      }
+    ],
     reflectionQuestions: ["Is old age something to fear?", "What makes aging meaningful?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/2808/2808-h/2808-h.htm"
@@ -1675,7 +2359,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (51 BCE)",
     overview: "A vision of the cosmos and the soul's destiny — Scipio dreams of the heavens and learns that virtue alone brings immortality. Read the full text via the link below.",
     keyConcepts: ["The music of the spheres", "The soul's cosmic journey", "Virtue and immortality", "The smallness of earthly fame"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Vision of the Cosmos",
+        content: "In a dream, the younger Scipio is transported to the heavens by his grandfather Scipio Africanus. From above, he sees the earth as a tiny speck in the vastness of the cosmos. The nine celestial spheres — the fixed stars, the seven planets, and the earth — produce the 'music of the spheres' as they rotate, a harmony so constant that human ears have grown deaf to it. This cosmic perspective transforms Scipio's understanding of earthly affairs."
+      },
+      {
+        heading: "The Smallness of Earthly Fame",
+        content: "Scipio Africanus shows his grandson how small the inhabited portion of the earth is — divided into zones, separated by oceans, much of it desert or frozen. Even the Roman Empire occupies a tiny fraction of this tiny globe. Fame cannot cross these barriers. 'How long will the memory of any one of us last?' Even the most famous names are eventually forgotten. Earthquakes, floods, and the simple passage of time erase all human achievements."
+      },
+      {
+        heading: "The Soul's Cosmic Journey",
+        content: "Africanus reveals that the soul is divine in origin and destined to return to the heavens after death. The soul that has devoted itself to virtue and service to the commonwealth ascends most quickly to its celestial home. The soul that has been enslaved by bodily pleasures must wander near the earth for ages before being purified. This vision combines Platonic philosophy with Roman civic virtue: the highest life is one of philosophical understanding expressed through public service."
+      },
+      {
+        heading: "Virtue and Immortality",
+        content: "The dream's message: don't chase earthly fame — pursue virtue. The truly great soul serves the commonwealth not for glory but because service is right. The reward is not reputation (which fades) but the soul's return to its divine source. Cicero uses this vision to motivate Roman political engagement: serve the republic because it is your cosmic duty, and trust that virtue carries its own eternal reward. The Dream of Scipio influenced Augustine, Boethius, and medieval cosmology profoundly."
+      }
+    ],
     reflectionQuestions: ["Does cosmic perspective change how we value earthly life?", "Is fame worth pursuing?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/The_Dream_of_Scipio"
@@ -1689,7 +2390,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Hellenistic (45 BCE)",
     overview: "A dialogue presenting Epicurean, Stoic, and skeptical views of religion and the divine. Read the full text via the link below.",
     keyConcepts: ["Three philosophical views of the gods", "Natural theology", "The argument from design", "Skepticism about divine providence"],
-    sections: [],
+    sections: [
+      {
+        heading: "The Epicurean View",
+        content: "Velleius presents the Epicurean position: the gods exist (the universal consensus of humanity proves it), but they are perfectly blessed beings who have no interest in human affairs. They did not create the world (why would perfect beings bother?), they do not govern it (the world's imperfections prove the absence of providence), and they do not reward or punish us. The gods serve as models of the blessed life — we should emulate their tranquility, not fear their wrath."
+      },
+      {
+        heading: "The Stoic View",
+        content: "Balbus presents the Stoic position: the gods exist and actively govern the universe through providence. The argument from design — the order, beauty, and apparent purposefulness of nature — proves divine intelligence. The movements of the stars, the adaptation of organisms to their environments, the human capacity for reason — all point to a rational creator. The universe itself is God (or a manifestation of God), and divine providence ensures that everything ultimately serves the good of the whole."
+      },
+      {
+        heading: "The Skeptical Critique",
+        content: "Cotta, an Academic skeptic, critiques both positions. Against the Epicureans: if the gods are completely uninvolved in human affairs, what's the point of worshiping them? Against the Stoics: if the gods are provident, why is there so much suffering, injustice, and natural disaster? The argument from design proves at most an intelligent maker, not a benevolent one. And the Stoic identification of God with nature seems to make God responsible for everything, including evil."
+      },
+      {
+        heading: "The Dialogue's Significance",
+        content: "Cicero presents the debate without declaring a winner, though he hints that the Stoic view is most persuasive. The dialogue's significance lies in its method: instead of dogmatic assertion, it stages a genuine philosophical conversation where each position is given its strongest formulation and then subjected to critique. This dialogical approach — which Cicero inherited from Plato and the Academic skeptics — remains a model for philosophical inquiry into questions about God, design, and providence."
+      }
+    ],
     reflectionQuestions: ["Do arguments for God's existence succeed?", "Is religious belief rational?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/14988/14988-h/14988-h.htm"
@@ -1703,7 +2421,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 6th-4th century BCE)",
     overview: "Action through non-action — the Taoist paradox of achieving by not striving. Read the full text via the link below.",
     keyConcepts: ["Wu wei as effortless action", "The Tao as source of all things", "Simplicity and naturalness", "The soft overcomes the hard"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Tao Te Ching, Chapters 21-40, Lao Tzu addresses questions that remain central to philosophy. Action through non-action — the Taoist paradox of achieving by not striving. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Lao Tzu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Wu wei as effortless action",
+        content: "Lao Tzu develops the concept of wu wei as effortless action. This idea is central to the argument of Tao Te Ching, Chapters 21-40 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the tao as source of all things. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+      },
+      {
+        heading: "Simplicity and naturalness",
+        content: "Lao Tzu develops the concept of simplicity and naturalness. This idea is central to the argument of Tao Te Ching, Chapters 21-40 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the soft overcomes the hard. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Tao Te Ching, Chapters 21-40 have had an enduring impact on philosophy and beyond. Lao Tzu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Lao Tzu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["What would effortless action look like in your life?", "Is striving counterproductive?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/216/216-h/216-h.htm"
@@ -1717,7 +2452,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 6th-4th century BCE)",
     overview: "Leadership through humility and yielding — the Taoist vision of the ideal ruler. Read the full text via the link below.",
     keyConcepts: ["Leadership through humility", "Governing without force", "The virtue of yielding", "Simplicity in government"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Tao Te Ching, Chapters 41-60, Lao Tzu addresses questions that remain central to philosophy. Leadership through humility and yielding — the Taoist vision of the ideal ruler. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Lao Tzu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Leadership through humility",
+        content: "Lao Tzu develops the concept of leadership through humility. This idea is central to the argument of Tao Te Ching, Chapters 41-60 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of governing without force. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+      },
+      {
+        heading: "The virtue of yielding",
+        content: "Lao Tzu develops the concept of the virtue of yielding. This idea is central to the argument of Tao Te Ching, Chapters 41-60 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of simplicity in government. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Tao Te Ching, Chapters 41-60 have had an enduring impact on philosophy and beyond. Lao Tzu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Lao Tzu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can a leader truly lead by yielding?", "Is humility a strength?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/216/216-h/216-h.htm"
@@ -1731,7 +2483,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 6th-4th century BCE)",
     overview: "The strength of softness, the power of water — Lao Tzu's final teachings on the Tao. Read the full text via the link below.",
     keyConcepts: ["Water as the model of the Tao", "Softness overcomes hardness", "Contentment and simplicity", "Returning to the source"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Tao Te Ching, Chapters 61-81, Lao Tzu addresses questions that remain central to philosophy. The strength of softness, the power of water — Lao Tzu's final teachings on the Tao. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Lao Tzu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Water as the model of the Tao",
+        content: "Lao Tzu develops the concept of water as the model of the tao. This idea is central to the argument of Tao Te Ching, Chapters 61-81 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of softness overcomes hardness. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+      },
+      {
+        heading: "Contentment and simplicity",
+        content: "Lao Tzu develops the concept of contentment and simplicity. This idea is central to the argument of Tao Te Ching, Chapters 61-81 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of returning to the source. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Tao Te Ching, Chapters 61-81 have had an enduring impact on philosophy and beyond. Lao Tzu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Lao Tzu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["In what ways is water powerful?", "Is contentment the highest achievement?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/216/216-h/216-h.htm"
@@ -1745,7 +2514,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "Ren (benevolence) and Li (ritual propriety) as the twin pillars of Confucian ethics. Read the full text via the link below.",
     keyConcepts: ["Ren as the highest virtue", "Li as the form of virtue", "The unity of inner feeling and outer form", "The gentleman vs. the petty person"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Analects, Books III-IV, Confucius addresses questions that remain central to philosophy. Ren (benevolence) and Li (ritual propriety) as the twin pillars of Confucian ethics. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Ren as the highest virtue",
+        content: "Confucius develops the concept of ren as the highest virtue. This idea is central to the argument of The Analects, Books III-IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of li as the form of virtue. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "The unity of inner feeling and outer form",
+        content: "Confucius develops the concept of the unity of inner feeling and outer form. This idea is central to the argument of The Analects, Books III-IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the gentleman vs. the petty person. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Analects, Books III-IV have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can ritual be genuinely meaningful?", "Is benevolence natural or cultivated?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3330/3330-h/3330-h.htm"
@@ -1759,7 +2545,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "The ideal of the junzi — the morally cultivated person who embodies virtue. Read the full text via the link below.",
     keyConcepts: ["Junzi as moral ideal", "Self-cultivation", "Learning from others", "Moral courage"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Analects, Books V-VIII, Confucius addresses questions that remain central to philosophy. The ideal of the junzi — the morally cultivated person who embodies virtue. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Junzi as moral ideal",
+        content: "Confucius develops the concept of junzi as moral ideal. This idea is central to the argument of The Analects, Books V-VIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of self-cultivation. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Learning from others",
+        content: "Confucius develops the concept of learning from others. This idea is central to the argument of The Analects, Books V-VIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of moral courage. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Analects, Books V-VIII have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["What does it mean to be a 'gentleman' in Confucius' sense?", "Is moral cultivation a lifelong process?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3330/3330-h/3330-h.htm"
@@ -1773,7 +2576,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "How rulers should govern through moral example rather than force. Read the full text via the link below.",
     keyConcepts: ["Government by moral example", "The ruler's virtue influences the people", "Rectification of names", "Justice and benevolence in governance"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Analects, Books XII-XIII, Confucius addresses questions that remain central to philosophy. How rulers should govern through moral example rather than force. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Government by moral example",
+        content: "Confucius develops the concept of government by moral example. This idea is central to the argument of The Analects, Books XII-XIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the ruler's virtue influences the people. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Rectification of names",
+        content: "Confucius develops the concept of rectification of names. This idea is central to the argument of The Analects, Books XII-XIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of justice and benevolence in governance. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Analects, Books XII-XIII have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can moral example really govern?", "What makes a leader legitimate?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3330/3330-h/3330-h.htm"
@@ -1787,7 +2607,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "When words lose their meaning, society falls apart — naming things correctly is a political and moral act. Read the full text via the link below.",
     keyConcepts: ["The rectification of names", "Language and social order", "When a prince is not princely", "Truth in language as moral obligation"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Analects, Book XIII, Confucius addresses questions that remain central to philosophy. When words lose their meaning, society falls apart — naming things correctly is a political and moral act. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The rectification of names",
+        content: "Confucius develops the concept of the rectification of names. This idea is central to the argument of The Analects, Book XIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of language and social order. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "When a prince is not princely",
+        content: "Confucius develops the concept of when a prince is not princely. This idea is central to the argument of The Analects, Book XIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of truth in language as moral obligation. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Analects, Book XIII have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Does political language corrupt thought?", "Why does naming matter morally?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3330/3330-h/3330-h.htm"
@@ -1801,7 +2638,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "The family as the root of all virtue — xiao (filial piety) as the foundation of ethics. Read the full text via the link below.",
     keyConcepts: ["Filial piety as foundational virtue", "The family as moral training ground", "Respect for elders", "The connection between family and state"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Analects, Books I-II & IV, Confucius addresses questions that remain central to philosophy. The family as the root of all virtue — xiao (filial piety) as the foundation of ethics. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Filial piety as foundational virtue",
+        content: "Confucius develops the concept of filial piety as foundational virtue. This idea is central to the argument of The Analects, Books I-II & IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the family as moral training ground. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Respect for elders",
+        content: "Confucius develops the concept of respect for elders. This idea is central to the argument of The Analects, Books I-II & IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the connection between family and state. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Analects, Books I-II & IV have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is the family the foundation of all morality?", "What obligations do children owe parents?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3330/3330-h/3330-h.htm"
@@ -1815,7 +2669,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "The lifelong process of moral self-improvement and the stages of Confucius' own development. Read the full text via the link below.",
     keyConcepts: ["Self-cultivation as lifelong practice", "The stages of moral development", "Learning and reflection", "Persistence in virtue"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Analects, Books XIV-XV, Confucius addresses questions that remain central to philosophy. The lifelong process of moral self-improvement and the stages of Confucius' own development. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Self-cultivation as lifelong practice",
+        content: "Confucius develops the concept of self-cultivation as lifelong practice. This idea is central to the argument of The Analects, Books XIV-XV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the stages of moral development. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Learning and reflection",
+        content: "Confucius develops the concept of learning and reflection. This idea is central to the argument of The Analects, Books XIV-XV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of persistence in virtue. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Analects, Books XIV-XV have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is moral growth ever complete?", "What stage of development are you in?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3330/3330-h/3330-h.htm"
@@ -1829,7 +2700,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "How the arts shape character — Confucius on the moral power of music and poetry. Read the full text via the link below.",
     keyConcepts: ["Music as moral education", "Poetry and emotional cultivation", "The arts and character formation", "Harmony in music and in life"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Analects, Books III & XVII, Confucius addresses questions that remain central to philosophy. How the arts shape character — Confucius on the moral power of music and poetry. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Music as moral education",
+        content: "Confucius develops the concept of music as moral education. This idea is central to the argument of The Analects, Books III & XVII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of poetry and emotional cultivation. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "The arts and character formation",
+        content: "Confucius develops the concept of the arts and character formation. This idea is central to the argument of The Analects, Books III & XVII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of harmony in music and in life. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Analects, Books III & XVII have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can music shape character?", "Should art serve moral purposes?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3330/3330-h/3330-h.htm"
@@ -1843,7 +2731,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "Do not impose on others what you do not wish for yourself — shu as the thread running through Confucian ethics. Read the full text via the link below.",
     keyConcepts: ["Shu — the principle of reciprocity", "The negative golden rule", "Empathy as moral foundation", "The 'one thread' of Confucian ethics"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Analects, Books IV & XV, Confucius addresses questions that remain central to philosophy. Do not impose on others what you do not wish for yourself — shu as the thread running through Confucian ethics. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Shu",
+        content: "Confucius develops the concept of the principle of reciprocity. This idea is central to the argument of The Analects, Books IV & XV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the negative golden rule. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Empathy as moral foundation",
+        content: "Confucius develops the concept of empathy as moral foundation. This idea is central to the argument of The Analects, Books IV & XV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the 'one thread' of confucian ethics. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Analects, Books IV & XV have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is the negative golden rule better than the positive version?", "Is empathy the foundation of morality?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3330/3330-h/3330-h.htm"
@@ -1857,7 +2762,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "Harmony, balance, and the path of moderation in Confucian thought. Read the full text via the link below.",
     keyConcepts: ["The Mean as cosmic harmony", "Sincerity (cheng)", "Balance in emotions and action", "The unity of heaven and human nature"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Doctrine of the Mean, Confucius (attr.) addresses questions that remain central to philosophy. Harmony, balance, and the path of moderation in Confucian thought. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius (attr.) wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The Mean as cosmic harmony",
+        content: "Confucius (attr.) develops the concept of the mean as cosmic harmony. This idea is central to the argument of The Doctrine of the Mean and has profoundly influenced subsequent philosophical thought. Closely related is the notion of sincerity (cheng). Together, these concepts form a coherent framework for understanding Confucius (attr.)'s philosophical vision."
+      },
+      {
+        heading: "Balance in emotions and action",
+        content: "Confucius (attr.) develops the concept of balance in emotions and action. This idea is central to the argument of The Doctrine of the Mean and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the unity of heaven and human nature. Together, these concepts form a coherent framework for understanding Confucius (attr.)'s philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Doctrine of the Mean have had an enduring impact on philosophy and beyond. Confucius (attr.)'s arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius (attr.)'s conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is moderation always the right path?", "What is the relationship between sincerity and virtue?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3330/3330-h/3330-h.htm"
@@ -1871,7 +2793,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "From cultivating the self to ordering the state — the Confucian program for social harmony. Read the full text via the link below.",
     keyConcepts: ["The eight steps from self-cultivation to world peace", "Investigation of things", "Sincerity of thought", "The connection between personal and political virtue"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Great Learning, Confucius (attr.) addresses questions that remain central to philosophy. From cultivating the self to ordering the state — the Confucian program for social harmony. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius (attr.) wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The eight steps from self-cultivation to world peace",
+        content: "Confucius (attr.) develops the concept of the eight steps from self-cultivation to world peace. This idea is central to the argument of The Great Learning and has profoundly influenced subsequent philosophical thought. Closely related is the notion of investigation of things. Together, these concepts form a coherent framework for understanding Confucius (attr.)'s philosophical vision."
+      },
+      {
+        heading: "Sincerity of thought",
+        content: "Confucius (attr.) develops the concept of sincerity of thought. This idea is central to the argument of The Great Learning and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the connection between personal and political virtue. Together, these concepts form a coherent framework for understanding Confucius (attr.)'s philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Great Learning have had an enduring impact on philosophy and beyond. Confucius (attr.)'s arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius (attr.)'s conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can personal virtue really lead to social harmony?", "What does 'investigation of things' mean?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3330/3330-h/3330-h.htm"
@@ -1885,7 +2824,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 3rd century BCE)",
     overview: "Freedom, perspective, and the limits of knowledge — Zhuangzi challenges all fixed viewpoints. Read the full text via the link below.",
     keyConcepts: ["The giant fish and bird (Kun and Peng)", "Relativity of perspectives", "The uselessness of usefulness", "Freedom from convention"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Inner Chapters, Chapters 1-3, Zhuangzi addresses questions that remain central to philosophy. Freedom, perspective, and the limits of knowledge — Zhuangzi challenges all fixed viewpoints. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Zhuangzi wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The giant fish and bird (Kun and Peng)",
+        content: "Zhuangzi develops the concept of the giant fish and bird (kun and peng). This idea is central to the argument of The Inner Chapters, Chapters 1-3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of relativity of perspectives. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+      },
+      {
+        heading: "The uselessness of usefulness",
+        content: "Zhuangzi develops the concept of the uselessness of usefulness. This idea is central to the argument of The Inner Chapters, Chapters 1-3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of freedom from convention. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Inner Chapters, Chapters 1-3 have had an enduring impact on philosophy and beyond. Zhuangzi's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Zhuangzi's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is usefulness the right measure of value?", "Can we ever escape our limited perspective?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/The_Writings_of_Chuang_Tz%C5%AB"
@@ -1899,7 +2855,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 3rd century BCE)",
     overview: "Am I a man dreaming of being a butterfly, or a butterfly dreaming of being a man? Read the full text via the link below.",
     keyConcepts: ["The relativity of identity", "Dream and reality", "The transformation of things", "Skepticism about knowledge"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Inner Chapters, Chapter 2, Zhuangzi addresses questions that remain central to philosophy. Am I a man dreaming of being a butterfly, or a butterfly dreaming of being a man? Read the full text via the link below.. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Zhuangzi wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The relativity of identity",
+        content: "Zhuangzi develops the concept of the relativity of identity. This idea is central to the argument of The Inner Chapters, Chapter 2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of dream and reality. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+      },
+      {
+        heading: "The transformation of things",
+        content: "Zhuangzi develops the concept of the transformation of things. This idea is central to the argument of The Inner Chapters, Chapter 2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of skepticism about knowledge. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Inner Chapters, Chapter 2 have had an enduring impact on philosophy and beyond. Zhuangzi's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Zhuangzi's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["How do you know you're not dreaming?", "Is identity fixed or fluid?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/The_Writings_of_Chuang_Tz%C5%AB"
@@ -1913,7 +2886,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 3rd century BCE)",
     overview: "Cook Ding's perfect skill — wu wei in action and the art of living effortlessly. Read the full text via the link below.",
     keyConcepts: ["Skill beyond technique", "Wu wei in practice", "Following the natural grain", "The art of effortless mastery"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Inner Chapters, Chapter 3, Zhuangzi addresses questions that remain central to philosophy. Cook Ding's perfect skill — wu wei in action and the art of living effortlessly. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Zhuangzi wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Skill beyond technique",
+        content: "Zhuangzi develops the concept of skill beyond technique. This idea is central to the argument of The Inner Chapters, Chapter 3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of wu wei in practice. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+      },
+      {
+        heading: "Following the natural grain",
+        content: "Zhuangzi develops the concept of following the natural grain. This idea is central to the argument of The Inner Chapters, Chapter 3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the art of effortless mastery. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Inner Chapters, Chapter 3 have had an enduring impact on philosophy and beyond. Zhuangzi's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Zhuangzi's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Have you ever experienced effortless mastery?", "Can skill transcend conscious effort?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/The_Writings_of_Chuang_Tz%C5%AB"
@@ -1927,7 +2917,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Enlightenment (1748)",
     overview: "The separation of powers and the principles behind different forms of government. Read the full text via the link below.",
     keyConcepts: ["Separation of powers", "Three types of government", "The principle of each government", "Liberty and the structure of law"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Spirit of the Laws, Books I-VIII, Montesquieu addresses questions that remain central to philosophy. The separation of powers and the principles behind different forms of government. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Montesquieu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Separation of powers",
+        content: "Montesquieu develops the concept of separation of powers. This idea is central to the argument of The Spirit of the Laws, Books I-VIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of three types of government. Together, these concepts form a coherent framework for understanding Montesquieu's philosophical vision."
+      },
+      {
+        heading: "The principle of each government",
+        content: "Montesquieu develops the concept of the principle of each government. This idea is central to the argument of The Spirit of the Laws, Books I-VIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of liberty and the structure of law. Together, these concepts form a coherent framework for understanding Montesquieu's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Spirit of the Laws, Books I-VIII have had an enduring impact on philosophy and beyond. Montesquieu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Montesquieu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Why is separation of powers important?", "Does the form of government shape the character of the people?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/27573/27573-h/27573-h.htm"
@@ -1941,7 +2948,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "Strategy, deception, and the philosophy of conflict — winning without fighting is the highest art. Read the full text via the link below.",
     keyConcepts: ["All warfare is based on deception", "Know your enemy and know yourself", "The five factors of war", "Winning without fighting"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Art of War, Chapters 1-6, Sun Tzu addresses questions that remain central to philosophy. Strategy, deception, and the philosophy of conflict — winning without fighting is the highest art. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Sun Tzu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "All warfare is based on deception",
+        content: "Sun Tzu develops the concept of all warfare is based on deception. This idea is central to the argument of The Art of War, Chapters 1-6 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of know your enemy and know yourself. Together, these concepts form a coherent framework for understanding Sun Tzu's philosophical vision."
+      },
+      {
+        heading: "The five factors of war",
+        content: "Sun Tzu develops the concept of the five factors of war. This idea is central to the argument of The Art of War, Chapters 1-6 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of winning without fighting. Together, these concepts form a coherent framework for understanding Sun Tzu's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Art of War, Chapters 1-6 have had an enduring impact on philosophy and beyond. Sun Tzu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Sun Tzu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is deception ever justified?", "Can Sun Tzu's principles apply beyond warfare?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/132/132-h/132-h.htm"
@@ -1955,7 +2979,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "Flexibility, intelligence, and knowing when not to fight. Read the full text via the link below.",
     keyConcepts: ["Adaptability to terrain", "The use of spies", "Fire attacks", "Knowing when not to fight"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Art of War, Chapters 7-13, Sun Tzu addresses questions that remain central to philosophy. Flexibility, intelligence, and knowing when not to fight. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Sun Tzu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Adaptability to terrain",
+        content: "Sun Tzu develops the concept of adaptability to terrain. This idea is central to the argument of The Art of War, Chapters 7-13 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the use of spies. Together, these concepts form a coherent framework for understanding Sun Tzu's philosophical vision."
+      },
+      {
+        heading: "Fire attacks",
+        content: "Sun Tzu develops the concept of fire attacks. This idea is central to the argument of The Art of War, Chapters 7-13 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of knowing when not to fight. Together, these concepts form a coherent framework for understanding Sun Tzu's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Art of War, Chapters 7-13 have had an enduring impact on philosophy and beyond. Sun Tzu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Sun Tzu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["When is retreat the wisest strategy?", "How important is adaptability?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/132/132-h/132-h.htm"
@@ -1969,7 +3010,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Enlightenment (1751)",
     overview: "The manifesto of the Enlightenment — a systematic map of all human knowledge. Read the full text via the link below.",
     keyConcepts: ["The tree of knowledge", "Reason as the guide to truth", "The unity of human knowledge", "The Enlightenment project"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Encyclopédie, Denis Diderot & Jean le Rond d'Alembert addresses questions that remain central to philosophy. The manifesto of the Enlightenment — a systematic map of all human knowledge. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Denis Diderot & Jean le Rond d'Alembert wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The tree of knowledge",
+        content: "Denis Diderot & Jean le Rond d'Alembert develops the concept of the tree of knowledge. This idea is central to the argument of Encyclopédie and has profoundly influenced subsequent philosophical thought. Closely related is the notion of reason as the guide to truth. Together, these concepts form a coherent framework for understanding Denis Diderot & Jean le Rond d'Alembert's philosophical vision."
+      },
+      {
+        heading: "The unity of human knowledge",
+        content: "Denis Diderot & Jean le Rond d'Alembert develops the concept of the unity of human knowledge. This idea is central to the argument of Encyclopédie and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the enlightenment project. Together, these concepts form a coherent framework for understanding Denis Diderot & Jean le Rond d'Alembert's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Encyclopédie have had an enduring impact on philosophy and beyond. Denis Diderot & Jean le Rond d'Alembert's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Denis Diderot & Jean le Rond d'Alembert's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can all knowledge be systematized?", "Is the Enlightenment project still relevant?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Encyclop%C3%A9die/Preliminary_Discourse"
@@ -1983,7 +3041,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Enlightenment (1795)",
     overview: "Humanity's future perfection through reason, science, and universal education. Read the full text via the link below.",
     keyConcepts: ["The perfectibility of humanity", "Progress through reason", "Universal education", "The march of civilization"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Sketch for a Historical Picture of the Progress of the Human Mind, Marquis de Condorcet addresses questions that remain central to philosophy. Humanity's future perfection through reason, science, and universal education. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Marquis de Condorcet wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The perfectibility of humanity",
+        content: "Marquis de Condorcet develops the concept of the perfectibility of humanity. This idea is central to the argument of Sketch for a Historical Picture of the Progress of the Human Mind and has profoundly influenced subsequent philosophical thought. Closely related is the notion of progress through reason. Together, these concepts form a coherent framework for understanding Marquis de Condorcet's philosophical vision."
+      },
+      {
+        heading: "Universal education",
+        content: "Marquis de Condorcet develops the concept of universal education. This idea is central to the argument of Sketch for a Historical Picture of the Progress of the Human Mind and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the march of civilization. Together, these concepts form a coherent framework for understanding Marquis de Condorcet's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Sketch for a Historical Picture of the Progress of the Human Mind have had an enduring impact on philosophy and beyond. Marquis de Condorcet's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Marquis de Condorcet's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is human progress inevitable?", "Has reason delivered on the Enlightenment's promises?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Outlines_of_an_historical_view_of_the_progress_of_the_human_mind"
@@ -1997,7 +3072,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Eastern (c. 5th century BCE)",
     overview: "Mozi challenges Confucianism with the doctrine of universal love — we should love all equally, not according to social roles. Read the full text via the link below.",
     keyConcepts: ["Universal love vs. graded love", "Consequentialism", "Against offensive warfare", "The will of Heaven"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Mozi, Mozi addresses questions that remain central to philosophy. Mozi challenges Confucianism with the doctrine of universal love — we should love all equally, not according to social roles. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Mozi wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Universal love vs. graded love",
+        content: "Mozi develops the concept of universal love vs. graded love. This idea is central to the argument of Mozi and has profoundly influenced subsequent philosophical thought. Closely related is the notion of consequentialism. Together, these concepts form a coherent framework for understanding Mozi's philosophical vision."
+      },
+      {
+        heading: "Against offensive warfare",
+        content: "Mozi develops the concept of against offensive warfare. This idea is central to the argument of Mozi and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the will of heaven. Together, these concepts form a coherent framework for understanding Mozi's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Mozi have had an enduring impact on philosophy and beyond. Mozi's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Mozi's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Should we love everyone equally?", "Is universal love practical?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Mozi_(Mei)"
@@ -2011,7 +3103,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Enlightenment (1759)",
     overview: "Sympathy as the foundation of morality — Adam Smith's ethical masterpiece, written before The Wealth of Nations. Read the full text via the link below.",
     keyConcepts: ["Sympathy as moral foundation", "The impartial spectator", "Propriety of action", "The social basis of morality"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Theory of Moral Sentiments, Part I, Adam Smith addresses questions that remain central to philosophy. Sympathy as the foundation of morality — Adam Smith's ethical masterpiece, written before The Wealth of Nations. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Adam Smith wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Sympathy as moral foundation",
+        content: "Adam Smith develops the concept of sympathy as moral foundation. This idea is central to the argument of The Theory of Moral Sentiments, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the impartial spectator. Together, these concepts form a coherent framework for understanding Adam Smith's philosophical vision."
+      },
+      {
+        heading: "Propriety of action",
+        content: "Adam Smith develops the concept of propriety of action. This idea is central to the argument of The Theory of Moral Sentiments, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the social basis of morality. Together, these concepts form a coherent framework for understanding Adam Smith's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Theory of Moral Sentiments, Part I have had an enduring impact on philosophy and beyond. Adam Smith's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Adam Smith's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is sympathy the basis of morality?", "Who is the 'impartial spectator' in your life?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/58559/58559-h/58559-h.htm"
@@ -2025,7 +3134,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Late Antiquity (c. 397 CE)",
     overview: "Why do we sin? Augustine's famous meditation on a trivial theft reveals the mystery of evil. Read the full text via the link below.",
     keyConcepts: ["Evil as privation of good", "Sin without motive", "The social dimension of wrongdoing", "The corrupted will"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Confessions, Book II, Augustine addresses questions that remain central to philosophy. Why do we sin? Augustine's famous meditation on a trivial theft reveals the mystery of evil. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Augustine wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Evil as privation of good",
+        content: "Augustine develops the concept of evil as privation of good. This idea is central to the argument of Confessions, Book II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of sin without motive. Together, these concepts form a coherent framework for understanding Augustine's philosophical vision."
+      },
+      {
+        heading: "The social dimension of wrongdoing",
+        content: "Augustine develops the concept of the social dimension of wrongdoing. This idea is central to the argument of Confessions, Book II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the corrupted will. Together, these concepts form a coherent framework for understanding Augustine's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Confessions, Book II have had an enduring impact on philosophy and beyond. Augustine's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Augustine's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Why do people do wrong for no apparent reason?", "Is evil a positive force or an absence?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3296/3296-h/3296-h.htm"
@@ -2039,7 +3165,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Late Antiquity (c. 397 CE)",
     overview: "What is time? Augustine's profound exploration of memory, temporality, and the human condition. Read the full text via the link below.",
     keyConcepts: ["The paradox of time", "Memory as a vast palace", "The present as the only reality", "Time as distension of the mind"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Confessions, Books X-XI, Augustine addresses questions that remain central to philosophy. What is time? Augustine's profound exploration of memory, temporality, and the human condition. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Augustine wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The paradox of time",
+        content: "Augustine develops the concept of the paradox of time. This idea is central to the argument of Confessions, Books X-XI and has profoundly influenced subsequent philosophical thought. Closely related is the notion of memory as a vast palace. Together, these concepts form a coherent framework for understanding Augustine's philosophical vision."
+      },
+      {
+        heading: "The present as the only reality",
+        content: "Augustine develops the concept of the present as the only reality. This idea is central to the argument of Confessions, Books X-XI and has profoundly influenced subsequent philosophical thought. Closely related is the notion of time as distension of the mind. Together, these concepts form a coherent framework for understanding Augustine's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Confessions, Books X-XI have had an enduring impact on philosophy and beyond. Augustine's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Augustine's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["What is time?", "Is the past real?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3296/3296-h/3296-h.htm"
@@ -2053,7 +3196,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Late Antiquity (c. 426 CE)",
     overview: "Two cities — earthly and divine — and the meaning of history. Read the full text via the link below.",
     keyConcepts: ["The City of God vs. the City of Man", "Providence and history", "The fall of Rome", "The two loves"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In City of God, Books I-V, Augustine addresses questions that remain central to philosophy. Two cities — earthly and divine — and the meaning of history. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Augustine wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The City of God vs. the City of Man",
+        content: "Augustine develops the concept of the city of god vs. the city of man. This idea is central to the argument of City of God, Books I-V and has profoundly influenced subsequent philosophical thought. Closely related is the notion of providence and history. Together, these concepts form a coherent framework for understanding Augustine's philosophical vision."
+      },
+      {
+        heading: "The fall of Rome",
+        content: "Augustine develops the concept of the fall of rome. This idea is central to the argument of City of God, Books I-V and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the two loves. Together, these concepts form a coherent framework for understanding Augustine's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in City of God, Books I-V have had an enduring impact on philosophy and beyond. Augustine's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Augustine's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Do two 'cities' exist in every society?", "Does history have meaning?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
@@ -2067,7 +3227,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Late Antiquity (c. 524 CE)",
     overview: "Written in prison awaiting execution: can philosophy console us in suffering? Read the full text via the link below.",
     keyConcepts: ["Philosophy as consolation", "The nature of true happiness", "Fortune's wheel", "The highest good"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Consolation of Philosophy, Books I-III, Boethius addresses questions that remain central to philosophy. Written in prison awaiting execution: can philosophy console us in suffering? Read the full text via the link below.. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Boethius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Philosophy as consolation",
+        content: "Boethius develops the concept of philosophy as consolation. This idea is central to the argument of Consolation of Philosophy, Books I-III and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the nature of true happiness. Together, these concepts form a coherent framework for understanding Boethius's philosophical vision."
+      },
+      {
+        heading: "Fortune's wheel",
+        content: "Boethius develops the concept of fortune's wheel. This idea is central to the argument of Consolation of Philosophy, Books I-III and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the highest good. Together, these concepts form a coherent framework for understanding Boethius's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Consolation of Philosophy, Books I-III have had an enduring impact on philosophy and beyond. Boethius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Boethius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can philosophy really console?", "Is happiness independent of fortune?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/14328/14328-h/14328-h.htm"
@@ -2081,7 +3258,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Late Antiquity (c. 524 CE)",
     overview: "Fate, free will, and the turning wheel of fortune. Read the full text via the link below.",
     keyConcepts: ["Fortune's wheel", "Providence vs. fate", "Free will and divine foreknowledge", "The problem of evil"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Consolation of Philosophy, Books IV-V, Boethius addresses questions that remain central to philosophy. Fate, free will, and the turning wheel of fortune. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Boethius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Fortune's wheel",
+        content: "Boethius develops the concept of fortune's wheel. This idea is central to the argument of Consolation of Philosophy, Books IV-V and has profoundly influenced subsequent philosophical thought. Closely related is the notion of providence vs. fate. Together, these concepts form a coherent framework for understanding Boethius's philosophical vision."
+      },
+      {
+        heading: "Free will and divine foreknowledge",
+        content: "Boethius develops the concept of free will and divine foreknowledge. This idea is central to the argument of Consolation of Philosophy, Books IV-V and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the problem of evil. Together, these concepts form a coherent framework for understanding Boethius's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Consolation of Philosophy, Books IV-V have had an enduring impact on philosophy and beyond. Boethius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Boethius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is fortune truly random?", "Can free will coexist with divine foreknowledge?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/14328/14328-h/14328-h.htm"
@@ -2095,7 +3289,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Medieval (c. 1265)",
     overview: "Five arguments for the existence of God — from motion, causation, contingency, degrees of perfection, and design. Read the full text via the link below.",
     keyConcepts: ["The argument from motion", "The argument from efficient causation", "The argument from contingency", "The argument from design"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Summa Theologica, Part I, Q.2, Thomas Aquinas addresses questions that remain central to philosophy. Five arguments for the existence of God — from motion, causation, contingency, degrees of perfection, and design. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Thomas Aquinas wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The argument from motion",
+        content: "Thomas Aquinas develops the concept of the argument from motion. This idea is central to the argument of Summa Theologica, Part I, Q.2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the argument from efficient causation. Together, these concepts form a coherent framework for understanding Thomas Aquinas's philosophical vision."
+      },
+      {
+        heading: "The argument from contingency",
+        content: "Thomas Aquinas develops the concept of the argument from contingency. This idea is central to the argument of Summa Theologica, Part I, Q.2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the argument from design. Together, these concepts form a coherent framework for understanding Thomas Aquinas's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Summa Theologica, Part I, Q.2 have had an enduring impact on philosophy and beyond. Thomas Aquinas's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Thomas Aquinas's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Do the Five Ways prove God's existence?", "Which argument is strongest?"],
     furtherReading: "Available on New Advent.",
     externalUrl: "https://www.newadvent.org/summa/1002.htm"
@@ -2109,7 +3320,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Medieval (c. 1270)",
     overview: "Aquinas on natural law — the moral law written into human nature and discoverable by reason. Read the full text via the link below.",
     keyConcepts: ["Natural law as rational participation in eternal law", "Self-evident moral principles", "The first precept: do good, avoid evil", "The universality of natural law"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Summa Theologica, Part I-II, Q.94, Thomas Aquinas addresses questions that remain central to philosophy. Aquinas on natural law — the moral law written into human nature and discoverable by reason. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Thomas Aquinas wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Natural law as rational participation in eternal law",
+        content: "Thomas Aquinas develops the concept of natural law as rational participation in eternal law. This idea is central to the argument of Summa Theologica, Part I-II, Q.94 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of self-evident moral principles. Together, these concepts form a coherent framework for understanding Thomas Aquinas's philosophical vision."
+      },
+      {
+        heading: "The first precept: do good, avoid evil",
+        content: "Thomas Aquinas develops the concept of the first precept: do good, avoid evil. This idea is central to the argument of Summa Theologica, Part I-II, Q.94 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the universality of natural law. Together, these concepts form a coherent framework for understanding Thomas Aquinas's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Summa Theologica, Part I-II, Q.94 have had an enduring impact on philosophy and beyond. Thomas Aquinas's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Thomas Aquinas's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is there a moral law written into human nature?", "Can reason alone discover moral truth?"],
     furtherReading: "Available on New Advent.",
     externalUrl: "https://www.newadvent.org/summa/2094.htm"
@@ -2123,7 +3351,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Medieval (1078)",
     overview: "Can we prove God exists just by thinking about the concept? Anselm's famous argument from the idea of a greatest conceivable being. Read the full text via the link below.",
     keyConcepts: ["That than which nothing greater can be conceived", "Existence as a perfection", "The ontological argument", "Gaunilo's objection"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Proslogion, Chapters 2-4, Anselm addresses questions that remain central to philosophy. Can we prove God exists just by thinking about the concept? Anselm's famous argument from the idea of a greatest conceivable being. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Anselm wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "That than which nothing greater can be conceived",
+        content: "Anselm develops the concept of that than which nothing greater can be conceived. This idea is central to the argument of Proslogion, Chapters 2-4 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of existence as a perfection. Together, these concepts form a coherent framework for understanding Anselm's philosophical vision."
+      },
+      {
+        heading: "The ontological argument",
+        content: "Anselm develops the concept of the ontological argument. This idea is central to the argument of Proslogion, Chapters 2-4 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of gaunilo's objection. Together, these concepts form a coherent framework for understanding Anselm's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Proslogion, Chapters 2-4 have had an enduring impact on philosophy and beyond. Anselm's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Anselm's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can existence be proved by pure thought?", "Does the ontological argument work?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Proslogion"
@@ -2137,7 +3382,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Medieval (c. 1323)",
     overview: "Do not multiply entities beyond necessity — the principle of parsimony and its radical implications. Read about it via the link below.",
     keyConcepts: ["The principle of parsimony", "Nominalism vs. realism", "Against unnecessary entities", "Simplicity in explanation"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Summa Logicae, Part I, William of Ockham addresses questions that remain central to philosophy. Do not multiply entities beyond necessity — the principle of parsimony and its radical implications. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. William of Ockham wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The principle of parsimony",
+        content: "William of Ockham develops the concept of the principle of parsimony. This idea is central to the argument of Summa Logicae, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of nominalism vs. realism. Together, these concepts form a coherent framework for understanding William of Ockham's philosophical vision."
+      },
+      {
+        heading: "Against unnecessary entities",
+        content: "William of Ockham develops the concept of against unnecessary entities. This idea is central to the argument of Summa Logicae, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of simplicity in explanation. Together, these concepts form a coherent framework for understanding William of Ockham's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Summa Logicae, Part I have had an enduring impact on philosophy and beyond. William of Ockham's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with William of Ockham's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is the simplest explanation always the best?", "What entities are truly necessary?"],
     furtherReading: "See Stanford Encyclopedia of Philosophy.",
     externalUrl: "https://plato.stanford.edu/entries/ockham/"
@@ -2151,7 +3413,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Renaissance (1532)",
     overview: "How much of our fate do we control? Machiavelli on fortune, virtù, and the call to liberate Italy. Read the full text via the link below.",
     keyConcepts: ["Fortune as a river", "Virtù as decisive action", "The role of luck in politics", "The call to Italian liberation"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Prince, Chapters 24-26, Niccolò Machiavelli addresses questions that remain central to philosophy. How much of our fate do we control? Machiavelli on fortune, virtù, and the call to liberate Italy. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Niccolò Machiavelli wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Fortune as a river",
+        content: "Niccolò Machiavelli develops the concept of fortune as a river. This idea is central to the argument of The Prince, Chapters 24-26 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of virtù as decisive action. Together, these concepts form a coherent framework for understanding Niccolò Machiavelli's philosophical vision."
+      },
+      {
+        heading: "The role of luck in politics",
+        content: "Niccolò Machiavelli develops the concept of the role of luck in politics. This idea is central to the argument of The Prince, Chapters 24-26 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the call to italian liberation. Together, these concepts form a coherent framework for understanding Niccolò Machiavelli's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Prince, Chapters 24-26 have had an enduring impact on philosophy and beyond. Niccolò Machiavelli's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Niccolò Machiavelli's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["How much of our fate do we control?", "Is fortune gendered, as Machiavelli claims?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/1232/1232-h/1232-h.htm"
@@ -2165,7 +3444,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Renaissance (1580)",
     overview: "Who is truly 'barbaric'? Montaigne challenges European superiority by examining indigenous peoples. Read the full text via the link below.",
     keyConcepts: ["Cultural relativism", "The critique of ethnocentrism", "Nature vs. civilization", "The barbarity of the 'civilized'"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Essays, Book I, Chapter 31, Michel de Montaigne addresses questions that remain central to philosophy. Who is truly 'barbaric'? Montaigne challenges European superiority by examining indigenous peoples. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Michel de Montaigne wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Cultural relativism",
+        content: "Michel de Montaigne develops the concept of cultural relativism. This idea is central to the argument of Essays, Book I, Chapter 31 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the critique of ethnocentrism. Together, these concepts form a coherent framework for understanding Michel de Montaigne's philosophical vision."
+      },
+      {
+        heading: "Nature vs. civilization",
+        content: "Michel de Montaigne develops the concept of nature vs. civilization. This idea is central to the argument of Essays, Book I, Chapter 31 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the barbarity of the 'civilized'. Together, these concepts form a coherent framework for understanding Michel de Montaigne's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Essays, Book I, Chapter 31 have had an enduring impact on philosophy and beyond. Michel de Montaigne's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Michel de Montaigne's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Who is truly 'barbaric'?", "Is moral judgment culturally relative?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3600/3600-h/3600-h.htm"
@@ -2179,7 +3475,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Renaissance (1588)",
     overview: "Montaigne's final essay: the art of living through experience rather than abstract rules. Read the full text via the link below.",
     keyConcepts: ["Experience over theory", "Self-knowledge through observation", "The body and the mind", "The art of living"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Essays, Book III, Chapter 13, Michel de Montaigne addresses questions that remain central to philosophy. Montaigne's final essay: the art of living through experience rather than abstract rules. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Michel de Montaigne wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Experience over theory",
+        content: "Michel de Montaigne develops the concept of experience over theory. This idea is central to the argument of Essays, Book III, Chapter 13 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of self-knowledge through observation. Together, these concepts form a coherent framework for understanding Michel de Montaigne's philosophical vision."
+      },
+      {
+        heading: "The body and the mind",
+        content: "Michel de Montaigne develops the concept of the body and the mind. This idea is central to the argument of Essays, Book III, Chapter 13 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the art of living. Together, these concepts form a coherent framework for understanding Michel de Montaigne's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Essays, Book III, Chapter 13 have had an enduring impact on philosophy and beyond. Michel de Montaigne's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Michel de Montaigne's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is experience a better teacher than books?", "What has experience taught you that theory couldn't?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3600/3600-h/3600-h.htm"
@@ -2193,7 +3506,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Renaissance (1580)",
     overview: "The value of withdrawing from the world to cultivate inner life. Read the full text via the link below.",
     keyConcepts: ["The value of solitude", "Inner freedom", "Detachment from public opinion", "The 'back room' of the mind"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Essays, Book I, Chapter 39, Michel de Montaigne addresses questions that remain central to philosophy. The value of withdrawing from the world to cultivate inner life. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Michel de Montaigne wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The value of solitude",
+        content: "Michel de Montaigne develops the concept of the value of solitude. This idea is central to the argument of Essays, Book I, Chapter 39 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of inner freedom. Together, these concepts form a coherent framework for understanding Michel de Montaigne's philosophical vision."
+      },
+      {
+        heading: "Detachment from public opinion",
+        content: "Michel de Montaigne develops the concept of detachment from public opinion. This idea is central to the argument of Essays, Book I, Chapter 39 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the 'back room' of the mind. Together, these concepts form a coherent framework for understanding Michel de Montaigne's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Essays, Book I, Chapter 39 have had an enduring impact on philosophy and beyond. Michel de Montaigne's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Michel de Montaigne's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Do you need solitude?", "Can you be alone without being lonely?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3600/3600-h/3600-h.htm"
@@ -2207,7 +3537,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Renaissance (1516)",
     overview: "An imaginary island with a perfect society — or is it? More's ambiguous masterpiece of political imagination. Read the full text via the link below.",
     keyConcepts: ["The ideal society", "Common property", "Religious tolerance", "The ambiguity of utopia"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Utopia, Book II, Thomas More addresses questions that remain central to philosophy. An imaginary island with a perfect society — or is it? More's ambiguous masterpiece of political imagination. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Thomas More wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The ideal society",
+        content: "Thomas More develops the concept of the ideal society. This idea is central to the argument of Utopia, Book II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of common property. Together, these concepts form a coherent framework for understanding Thomas More's philosophical vision."
+      },
+      {
+        heading: "Religious tolerance",
+        content: "Thomas More develops the concept of religious tolerance. This idea is central to the argument of Utopia, Book II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the ambiguity of utopia. Together, these concepts form a coherent framework for understanding Thomas More's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Utopia, Book II have had an enduring impact on philosophy and beyond. Thomas More's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Thomas More's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is utopia achievable or inherently impossible?", "Is More serious or satirical?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/2130/2130-h/2130-h.htm"
@@ -2221,7 +3568,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Renaissance (1620)",
     overview: "The idols of the mind and the new scientific method — Bacon's revolution in how we acquire knowledge. Read the full text via the link below.",
     keyConcepts: ["The four idols", "Induction vs. deduction", "The new scientific method", "Knowledge as power"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Novum Organum, Book I, Aphorisms 1-68, Francis Bacon addresses questions that remain central to philosophy. The idols of the mind and the new scientific method — Bacon's revolution in how we acquire knowledge. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Francis Bacon wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The four idols",
+        content: "Francis Bacon develops the concept of the four idols. This idea is central to the argument of Novum Organum, Book I, Aphorisms 1-68 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of induction vs. deduction. Together, these concepts form a coherent framework for understanding Francis Bacon's philosophical vision."
+      },
+      {
+        heading: "The new scientific method",
+        content: "Francis Bacon develops the concept of the new scientific method. This idea is central to the argument of Novum Organum, Book I, Aphorisms 1-68 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of knowledge as power. Together, these concepts form a coherent framework for understanding Francis Bacon's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Novum Organum, Book I, Aphorisms 1-68 have had an enduring impact on philosophy and beyond. Francis Bacon's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Francis Bacon's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["What 'idols' distort your thinking?", "Is Bacon's scientific method still valid?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/45988/45988-h/45988-h.htm"
@@ -2235,7 +3599,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Renaissance (1620)",
     overview: "Four types of cognitive bias that distort our understanding — Bacon's prescient analysis of human error. Read the full text via the link below.",
     keyConcepts: ["Idols of the Tribe", "Idols of the Cave", "Idols of the Marketplace", "Idols of the Theater"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Novum Organum, Book I, Aphorisms 38-68, Francis Bacon addresses questions that remain central to philosophy. Four types of cognitive bias that distort our understanding — Bacon's prescient analysis of human error. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Francis Bacon wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Idols of the Tribe",
+        content: "Francis Bacon develops the concept of idols of the tribe. This idea is central to the argument of Novum Organum, Book I, Aphorisms 38-68 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of idols of the cave. Together, these concepts form a coherent framework for understanding Francis Bacon's philosophical vision."
+      },
+      {
+        heading: "Idols of the Marketplace",
+        content: "Francis Bacon develops the concept of idols of the marketplace. This idea is central to the argument of Novum Organum, Book I, Aphorisms 38-68 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of idols of the theater. Together, these concepts form a coherent framework for understanding Francis Bacon's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Novum Organum, Book I, Aphorisms 38-68 have had an enduring impact on philosophy and beyond. Francis Bacon's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Francis Bacon's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Which idol affects you most?", "Are Bacon's 'idols' the same as modern cognitive biases?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/45988/45988-h/45988-h.htm"
@@ -2249,7 +3630,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Renaissance (1486)",
     overview: "The Renaissance manifesto: humanity can make itself into anything — we are not fixed by nature but free to shape ourselves. Read the full text via the link below.",
     keyConcepts: ["Human dignity and freedom", "Self-creation", "The great chain of being", "The Renaissance ideal"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Oration on the Dignity of Man, Pico della Mirandola addresses questions that remain central to philosophy. The Renaissance manifesto: humanity can make itself into anything — we are not fixed by nature but free to shape ourselves. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Pico della Mirandola wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Human dignity and freedom",
+        content: "Pico della Mirandola develops the concept of human dignity and freedom. This idea is central to the argument of Oration on the Dignity of Man and has profoundly influenced subsequent philosophical thought. Closely related is the notion of self-creation. Together, these concepts form a coherent framework for understanding Pico della Mirandola's philosophical vision."
+      },
+      {
+        heading: "The great chain of being",
+        content: "Pico della Mirandola develops the concept of the great chain of being. This idea is central to the argument of Oration on the Dignity of Man and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the renaissance ideal. Together, these concepts form a coherent framework for understanding Pico della Mirandola's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Oration on the Dignity of Man have had an enduring impact on philosophy and beyond. Pico della Mirandola's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Pico della Mirandola's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is it true that we can make ourselves into anything?", "What does human dignity mean?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Oration_on_the_Dignity_of_Man"
@@ -2263,7 +3661,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Renaissance (1511)",
     overview: "A satirical defense of foolishness that critiques every level of society — including the Church. Read the full text via the link below.",
     keyConcepts: ["Folly as universal", "Satire of social institutions", "The folly of scholars", "The wisdom of simplicity"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Praise of Folly, Erasmus addresses questions that remain central to philosophy. A satirical defense of foolishness that critiques every level of society — including the Church. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Erasmus wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Folly as universal",
+        content: "Erasmus develops the concept of folly as universal. This idea is central to the argument of The Praise of Folly and has profoundly influenced subsequent philosophical thought. Closely related is the notion of satire of social institutions. Together, these concepts form a coherent framework for understanding Erasmus's philosophical vision."
+      },
+      {
+        heading: "The folly of scholars",
+        content: "Erasmus develops the concept of the folly of scholars. This idea is central to the argument of The Praise of Folly and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the wisdom of simplicity. Together, these concepts form a coherent framework for understanding Erasmus's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Praise of Folly have had an enduring impact on philosophy and beyond. Erasmus's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Erasmus's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is there wisdom in folly?", "Does satire change anything?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/9371/9371-h/9371-h.htm"
@@ -2277,7 +3692,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1641)",
     overview: "From the cogito to proving God's existence — Descartes uses the idea of perfection to argue for a perfect being. Read the full text via the link below.",
     keyConcepts: ["The trademark argument", "Degrees of reality", "God as the cause of our idea of perfection", "Error and the will"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Meditations on First Philosophy, Meditations III-IV, René Descartes addresses questions that remain central to philosophy. From the cogito to proving God's existence — Descartes uses the idea of perfection to argue for a perfect being. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. René Descartes wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The trademark argument",
+        content: "René Descartes develops the concept of the trademark argument. This idea is central to the argument of Meditations on First Philosophy, Meditations III-IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of degrees of reality. Together, these concepts form a coherent framework for understanding René Descartes's philosophical vision."
+      },
+      {
+        heading: "God as the cause of our idea of perfection",
+        content: "René Descartes develops the concept of god as the cause of our idea of perfection. This idea is central to the argument of Meditations on First Philosophy, Meditations III-IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of error and the will. Together, these concepts form a coherent framework for understanding René Descartes's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Meditations on First Philosophy, Meditations III-IV have had an enduring impact on philosophy and beyond. René Descartes's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with René Descartes's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can the idea of perfection prove God exists?", "Why do we make errors?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/59/59-h/59-h.htm"
@@ -2291,7 +3723,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1641)",
     overview: "The mind-body problem: how do thought and matter interact? Descartes establishes the 'real distinction.' Read the full text via the link below.",
     keyConcepts: ["The real distinction between mind and body", "The mind-body problem", "The ontological argument", "The reliability of the senses"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Meditations on First Philosophy, Meditations V-VI, René Descartes addresses questions that remain central to philosophy. The mind-body problem: how do thought and matter interact? Descartes establishes the 'real distinction.' Read the full text via the link below.. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. René Descartes wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The real distinction between mind and body",
+        content: "René Descartes develops the concept of the real distinction between mind and body. This idea is central to the argument of Meditations on First Philosophy, Meditations V-VI and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the mind-body problem. Together, these concepts form a coherent framework for understanding René Descartes's philosophical vision."
+      },
+      {
+        heading: "The ontological argument",
+        content: "René Descartes develops the concept of the ontological argument. This idea is central to the argument of Meditations on First Philosophy, Meditations V-VI and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the reliability of the senses. Together, these concepts form a coherent framework for understanding René Descartes's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Meditations on First Philosophy, Meditations V-VI have had an enduring impact on philosophy and beyond. René Descartes's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with René Descartes's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["How do mind and body interact?", "Are you your body or your mind?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/59/59-h/59-h.htm"
@@ -2305,7 +3754,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1651)",
     overview: "Why we surrender freedom for security — the creation of the commonwealth. Read the full text via the link below.",
     keyConcepts: ["The social contract", "Authorization and sovereignty", "The creation of the commonwealth", "Absolute sovereignty"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Leviathan, Chapters 17-18, Thomas Hobbes addresses questions that remain central to philosophy. Why we surrender freedom for security — the creation of the commonwealth. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Thomas Hobbes wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The social contract",
+        content: "Thomas Hobbes develops the concept of the social contract. This idea is central to the argument of Leviathan, Chapters 17-18 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of authorization and sovereignty. Together, these concepts form a coherent framework for understanding Thomas Hobbes's philosophical vision."
+      },
+      {
+        heading: "The creation of the commonwealth",
+        content: "Thomas Hobbes develops the concept of the creation of the commonwealth. This idea is central to the argument of Leviathan, Chapters 17-18 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of absolute sovereignty. Together, these concepts form a coherent framework for understanding Thomas Hobbes's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Leviathan, Chapters 17-18 have had an enduring impact on philosophy and beyond. Thomas Hobbes's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Thomas Hobbes's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Would you give up freedom for security?", "Is absolute sovereignty necessary?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3207/3207-h/3207-h.htm"
@@ -2319,7 +3785,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1651)",
     overview: "Sovereignty, liberty, and the structure of the state. Read the full text via the link below.",
     keyConcepts: ["Three forms of commonwealth", "The liberty of subjects", "The rights of sovereigns", "When sovereignty fails"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Leviathan, Chapters 19-21, Thomas Hobbes addresses questions that remain central to philosophy. Sovereignty, liberty, and the structure of the state. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Thomas Hobbes wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Three forms of commonwealth",
+        content: "Thomas Hobbes develops the concept of three forms of commonwealth. This idea is central to the argument of Leviathan, Chapters 19-21 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the liberty of subjects. Together, these concepts form a coherent framework for understanding Thomas Hobbes's philosophical vision."
+      },
+      {
+        heading: "The rights of sovereigns",
+        content: "Thomas Hobbes develops the concept of the rights of sovereigns. This idea is central to the argument of Leviathan, Chapters 19-21 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of when sovereignty fails. Together, these concepts form a coherent framework for understanding Thomas Hobbes's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Leviathan, Chapters 19-21 have had an enduring impact on philosophy and beyond. Thomas Hobbes's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Thomas Hobbes's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["What are the limits of state power?", "Is there a right to rebel?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3207/3207-h/3207-h.htm"
@@ -2333,7 +3816,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1690)",
     overview: "The mind begins as a blank slate — Locke's devastating attack on innate ideas. Read the full text via the link below.",
     keyConcepts: ["Tabula rasa", "Against innate ideas", "Experience as the source of all knowledge", "The empiricist foundation"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In An Essay Concerning Human Understanding, Book I, John Locke addresses questions that remain central to philosophy. The mind begins as a blank slate — Locke's devastating attack on innate ideas. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. John Locke wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Tabula rasa",
+        content: "John Locke develops the concept of tabula rasa. This idea is central to the argument of An Essay Concerning Human Understanding, Book I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of against innate ideas. Together, these concepts form a coherent framework for understanding John Locke's philosophical vision."
+      },
+      {
+        heading: "Experience as the source of all knowledge",
+        content: "John Locke develops the concept of experience as the source of all knowledge. This idea is central to the argument of An Essay Concerning Human Understanding, Book I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the empiricist foundation. Together, these concepts form a coherent framework for understanding John Locke's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in An Essay Concerning Human Understanding, Book I have had an enduring impact on philosophy and beyond. John Locke's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with John Locke's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is the mind really a blank slate?", "Are there any ideas we're born with?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm"
@@ -2347,7 +3847,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1690)",
     overview: "How experience builds all our ideas from sensation and reflection. Read the full text via the link below.",
     keyConcepts: ["Sensation and reflection", "Simple and complex ideas", "Primary and secondary qualities", "The building blocks of thought"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In An Essay Concerning Human Understanding, Book II, John Locke addresses questions that remain central to philosophy. How experience builds all our ideas from sensation and reflection. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. John Locke wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Sensation and reflection",
+        content: "John Locke develops the concept of sensation and reflection. This idea is central to the argument of An Essay Concerning Human Understanding, Book II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of simple and complex ideas. Together, these concepts form a coherent framework for understanding John Locke's philosophical vision."
+      },
+      {
+        heading: "Primary and secondary qualities",
+        content: "John Locke develops the concept of primary and secondary qualities. This idea is central to the argument of An Essay Concerning Human Understanding, Book II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the building blocks of thought. Together, these concepts form a coherent framework for understanding John Locke's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in An Essay Concerning Human Understanding, Book II have had an enduring impact on philosophy and beyond. John Locke's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with John Locke's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Are all ideas built from experience?", "What is the difference between primary and secondary qualities?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm"
@@ -2361,7 +3878,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1689)",
     overview: "You own what you mix your labor with — Locke's influential theory of property. Read the full text via the link below.",
     keyConcepts: ["The labor theory of property", "The mixing metaphor", "The Lockean proviso", "Property in the state of nature"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Second Treatise of Government, Chapter 5, John Locke addresses questions that remain central to philosophy. You own what you mix your labor with — Locke's influential theory of property. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. John Locke wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The labor theory of property",
+        content: "John Locke develops the concept of the labor theory of property. This idea is central to the argument of Second Treatise of Government, Chapter 5 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the mixing metaphor. Together, these concepts form a coherent framework for understanding John Locke's philosophical vision."
+      },
+      {
+        heading: "The Lockean proviso",
+        content: "John Locke develops the concept of the lockean proviso. This idea is central to the argument of Second Treatise of Government, Chapter 5 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of property in the state of nature. Together, these concepts form a coherent framework for understanding John Locke's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Second Treatise of Government, Chapter 5 have had an enduring impact on philosophy and beyond. John Locke's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with John Locke's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Does mixing labor with something make it yours?", "Are there limits to property rights?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
@@ -2375,7 +3909,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1689)",
     overview: "When government fails the people, revolution is justified. Read the full text via the link below.",
     keyConcepts: ["The dissolution of government", "The right to revolution", "Trust between government and people", "Legitimate resistance"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Second Treatise of Government, Chapter 19, John Locke addresses questions that remain central to philosophy. When government fails the people, revolution is justified. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. John Locke wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The dissolution of government",
+        content: "John Locke develops the concept of the dissolution of government. This idea is central to the argument of Second Treatise of Government, Chapter 19 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the right to revolution. Together, these concepts form a coherent framework for understanding John Locke's philosophical vision."
+      },
+      {
+        heading: "Trust between government and people",
+        content: "John Locke develops the concept of trust between government and people. This idea is central to the argument of Second Treatise of Government, Chapter 19 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of legitimate resistance. Together, these concepts form a coherent framework for understanding John Locke's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Second Treatise of Government, Chapter 19 have had an enduring impact on philosophy and beyond. John Locke's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with John Locke's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["When is revolution justified?", "Is there a social contract between citizens and government?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
@@ -2389,7 +3940,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1677)",
     overview: "God and Nature are one — Spinoza's radical monism. There is only one substance, and everything is a mode of it. Read the full text via the link below.",
     keyConcepts: ["Substance monism", "God or Nature (Deus sive Natura)", "Attributes and modes", "The necessity of all things"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Ethics, Part I, Baruch Spinoza addresses questions that remain central to philosophy. God and Nature are one — Spinoza's radical monism. There is only one substance, and everything is a mode of it. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Baruch Spinoza wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Substance monism",
+        content: "Baruch Spinoza develops the concept of substance monism. This idea is central to the argument of Ethics, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of god or nature (deus sive natura). Together, these concepts form a coherent framework for understanding Baruch Spinoza's philosophical vision."
+      },
+      {
+        heading: "Attributes and modes",
+        content: "Baruch Spinoza develops the concept of attributes and modes. This idea is central to the argument of Ethics, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the necessity of all things. Together, these concepts form a coherent framework for understanding Baruch Spinoza's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Ethics, Part I have had an enduring impact on philosophy and beyond. Baruch Spinoza's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Baruch Spinoza's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is God the same as Nature?", "Is everything determined?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm"
@@ -2403,7 +3971,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1677)",
     overview: "Spinoza's systematic account of the affects — desire, joy, and sorrow as the building blocks of emotional life. Read the full text via the link below.",
     keyConcepts: ["Conatus — the striving to persist in being", "Joy, sorrow, and desire as basic affects", "The mind-body parallelism", "Active vs. passive emotions"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Ethics, Part III, Baruch Spinoza addresses questions that remain central to philosophy. Spinoza's systematic account of the affects — desire, joy, and sorrow as the building blocks of emotional life. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Baruch Spinoza wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Conatus",
+        content: "Baruch Spinoza develops the concept of the striving to persist in being. This idea is central to the argument of Ethics, Part III and has profoundly influenced subsequent philosophical thought. Closely related is the notion of joy, sorrow, and desire as basic affects. Together, these concepts form a coherent framework for understanding Baruch Spinoza's philosophical vision."
+      },
+      {
+        heading: "The mind-body parallelism",
+        content: "Baruch Spinoza develops the concept of the mind-body parallelism. This idea is central to the argument of Ethics, Part III and has profoundly influenced subsequent philosophical thought. Closely related is the notion of active vs. passive emotions. Together, these concepts form a coherent framework for understanding Baruch Spinoza's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Ethics, Part III have had an enduring impact on philosophy and beyond. Baruch Spinoza's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Baruch Spinoza's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Do all emotions reduce to joy, sorrow, and desire?", "Is emotional life mechanical?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm"
@@ -2417,7 +4002,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1677)",
     overview: "How emotions enslave us, and how reason can free us. Read the full text via the link below.",
     keyConcepts: ["Human bondage to the passions", "The power of affects over reason", "The free person", "Reason as liberation"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Ethics, Part IV, Baruch Spinoza addresses questions that remain central to philosophy. How emotions enslave us, and how reason can free us. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Baruch Spinoza wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Human bondage to the passions",
+        content: "Baruch Spinoza develops the concept of human bondage to the passions. This idea is central to the argument of Ethics, Part IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the power of affects over reason. Together, these concepts form a coherent framework for understanding Baruch Spinoza's philosophical vision."
+      },
+      {
+        heading: "The free person",
+        content: "Baruch Spinoza develops the concept of the free person. This idea is central to the argument of Ethics, Part IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of reason as liberation. Together, these concepts form a coherent framework for understanding Baruch Spinoza's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Ethics, Part IV have had an enduring impact on philosophy and beyond. Baruch Spinoza's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Baruch Spinoza's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Are you in bondage to your emotions?", "Can reason truly overcome passion?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm"
@@ -2431,7 +4033,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1677)",
     overview: "Blessedness through understanding our place in nature — the mind's intellectual love of God. Read the full text via the link below.",
     keyConcepts: ["The intellectual love of God", "Blessedness as understanding", "The eternity of the mind", "Freedom through knowledge"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Ethics, Part V, Baruch Spinoza addresses questions that remain central to philosophy. Blessedness through understanding our place in nature — the mind's intellectual love of God. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Baruch Spinoza wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The intellectual love of God",
+        content: "Baruch Spinoza develops the concept of the intellectual love of god. This idea is central to the argument of Ethics, Part V and has profoundly influenced subsequent philosophical thought. Closely related is the notion of blessedness as understanding. Together, these concepts form a coherent framework for understanding Baruch Spinoza's philosophical vision."
+      },
+      {
+        heading: "The eternity of the mind",
+        content: "Baruch Spinoza develops the concept of the eternity of the mind. This idea is central to the argument of Ethics, Part V and has profoundly influenced subsequent philosophical thought. Closely related is the notion of freedom through knowledge. Together, these concepts form a coherent framework for understanding Baruch Spinoza's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Ethics, Part V have had an enduring impact on philosophy and beyond. Baruch Spinoza's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Baruch Spinoza's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can understanding bring blessedness?", "Is there a form of immortality in understanding?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm"
@@ -2445,7 +4064,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1710)",
     overview: "Why does evil exist if God is good? Leibniz's controversial answer: this is the best of all possible worlds. Read the full text via the link below.",
     keyConcepts: ["The problem of evil", "The best of all possible worlds", "Metaphysical, moral, and physical evil", "Pre-established harmony"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Theodicy, Gottfried Leibniz addresses questions that remain central to philosophy. Why does evil exist if God is good? Leibniz's controversial answer: this is the best of all possible worlds. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Gottfried Leibniz wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The problem of evil",
+        content: "Gottfried Leibniz develops the concept of the problem of evil. This idea is central to the argument of Theodicy and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the best of all possible worlds. Together, these concepts form a coherent framework for understanding Gottfried Leibniz's philosophical vision."
+      },
+      {
+        heading: "Metaphysical, moral, and physical evil",
+        content: "Gottfried Leibniz develops the concept of metaphysical, moral, and physical evil. This idea is central to the argument of Theodicy and has profoundly influenced subsequent philosophical thought. Closely related is the notion of pre-established harmony. Together, these concepts form a coherent framework for understanding Gottfried Leibniz's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Theodicy have had an enduring impact on philosophy and beyond. Gottfried Leibniz's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Gottfried Leibniz's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is this really the best possible world?", "Does the problem of evil disprove God?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/17147/17147-h/17147-h.htm"
@@ -2459,7 +4095,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1714)",
     overview: "Reality is made of mind-like substances called monads — each one a mirror of the universe. Read the full text via the link below.",
     keyConcepts: ["Monads as simple substances", "No windows — monads don't interact", "Pre-established harmony", "Each monad mirrors the universe"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Monadology, Gottfried Leibniz addresses questions that remain central to philosophy. Reality is made of mind-like substances called monads — each one a mirror of the universe. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Gottfried Leibniz wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Monads as simple substances",
+        content: "Gottfried Leibniz develops the concept of monads as simple substances. This idea is central to the argument of Monadology and has profoundly influenced subsequent philosophical thought. Closely related is the notion of monads don't interact. Together, these concepts form a coherent framework for understanding Gottfried Leibniz's philosophical vision."
+      },
+      {
+        heading: "Pre-established harmony",
+        content: "Gottfried Leibniz develops the concept of pre-established harmony. This idea is central to the argument of Monadology and has profoundly influenced subsequent philosophical thought. Closely related is the notion of each monad mirrors the universe. Together, these concepts form a coherent framework for understanding Gottfried Leibniz's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Monadology have had an enduring impact on philosophy and beyond. Gottfried Leibniz's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Gottfried Leibniz's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is reality mental at its foundation?", "What does it mean for substances to have 'no windows'?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Monadology"
@@ -2473,7 +4126,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1710)",
     overview: "Berkeley's idealism: material objects exist only as perceptions — esse est percipi. Read the full text via the link below.",
     keyConcepts: ["Esse est percipi (to be is to be perceived)", "Idealism", "Against material substance", "God as the perceiver of all things"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In A Treatise Concerning the Principles of Human Knowledge, George Berkeley addresses questions that remain central to philosophy. Berkeley's idealism: material objects exist only as perceptions — esse est percipi. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. George Berkeley wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Esse est percipi (to be is to be perceived)",
+        content: "George Berkeley develops the concept of esse est percipi (to be is to be perceived). This idea is central to the argument of A Treatise Concerning the Principles of Human Knowledge and has profoundly influenced subsequent philosophical thought. Closely related is the notion of idealism. Together, these concepts form a coherent framework for understanding George Berkeley's philosophical vision."
+      },
+      {
+        heading: "Against material substance",
+        content: "George Berkeley develops the concept of against material substance. This idea is central to the argument of A Treatise Concerning the Principles of Human Knowledge and has profoundly influenced subsequent philosophical thought. Closely related is the notion of god as the perceiver of all things. Together, these concepts form a coherent framework for understanding George Berkeley's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in A Treatise Concerning the Principles of Human Knowledge have had an enduring impact on philosophy and beyond. George Berkeley's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with George Berkeley's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Do objects exist when no one is looking?", "Is Berkeley's idealism crazy or profound?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/4723/4723-h/4723-h.htm"
@@ -2487,7 +4157,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1748)",
     overview: "Hume's devastating argument against believing in miracles on the basis of testimony. Read the full text via the link below.",
     keyConcepts: ["A miracle as a violation of natural law", "The balance of evidence", "The unreliability of testimony", "Why miracle reports should be rejected"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In An Enquiry Concerning Human Understanding, Section 10, David Hume addresses questions that remain central to philosophy. Hume's devastating argument against believing in miracles on the basis of testimony. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. David Hume wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "A miracle as a violation of natural law",
+        content: "David Hume develops the concept of a miracle as a violation of natural law. This idea is central to the argument of An Enquiry Concerning Human Understanding, Section 10 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the balance of evidence. Together, these concepts form a coherent framework for understanding David Hume's philosophical vision."
+      },
+      {
+        heading: "The unreliability of testimony",
+        content: "David Hume develops the concept of the unreliability of testimony. This idea is central to the argument of An Enquiry Concerning Human Understanding, Section 10 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of why miracle reports should be rejected. Together, these concepts form a coherent framework for understanding David Hume's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in An Enquiry Concerning Human Understanding, Section 10 have had an enduring impact on philosophy and beyond. David Hume's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with David Hume's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is belief in miracles ever rational?", "How should we evaluate extraordinary claims?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/9662/9662-h/9662-h.htm"
@@ -2501,7 +4188,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1748)",
     overview: "Why can't we justify our belief that the future will resemble the past? Read the full text via the link below.",
     keyConcepts: ["The uniformity of nature", "Induction vs. deduction", "The circularity of justifying induction", "Custom as the basis of expectation"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In An Enquiry Concerning Human Understanding, Section 4, David Hume addresses questions that remain central to philosophy. Why can't we justify our belief that the future will resemble the past? Read the full text via the link below.. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. David Hume wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The uniformity of nature",
+        content: "David Hume develops the concept of the uniformity of nature. This idea is central to the argument of An Enquiry Concerning Human Understanding, Section 4 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of induction vs. deduction. Together, these concepts form a coherent framework for understanding David Hume's philosophical vision."
+      },
+      {
+        heading: "The circularity of justifying induction",
+        content: "David Hume develops the concept of the circularity of justifying induction. This idea is central to the argument of An Enquiry Concerning Human Understanding, Section 4 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of custom as the basis of expectation. Together, these concepts form a coherent framework for understanding David Hume's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in An Enquiry Concerning Human Understanding, Section 4 have had an enduring impact on philosophy and beyond. David Hume's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with David Hume's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can induction be justified?", "Why do we assume the future will resemble the past?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/9662/9662-h/9662-h.htm"
@@ -2515,7 +4219,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Early Modern (1740)",
     overview: "There is no self — just a bundle of perceptions. Hume's radical challenge to personal identity. Read the full text via the link below.",
     keyConcepts: ["The bundle theory of the self", "No impression of the self", "Identity as a fiction", "The theater of the mind"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In A Treatise of Human Nature, Book I, Part IV, Section 6, David Hume addresses questions that remain central to philosophy. There is no self — just a bundle of perceptions. Hume's radical challenge to personal identity. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. David Hume wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The bundle theory of the self",
+        content: "David Hume develops the concept of the bundle theory of the self. This idea is central to the argument of A Treatise of Human Nature, Book I, Part IV, Section 6 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of no impression of the self. Together, these concepts form a coherent framework for understanding David Hume's philosophical vision."
+      },
+      {
+        heading: "Identity as a fiction",
+        content: "David Hume develops the concept of identity as a fiction. This idea is central to the argument of A Treatise of Human Nature, Book I, Part IV, Section 6 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the theater of the mind. Together, these concepts form a coherent framework for understanding David Hume's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in A Treatise of Human Nature, Book I, Part IV, Section 6 have had an enduring impact on philosophy and beyond. David Hume's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with David Hume's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is there a self beyond your experiences?", "What makes you the same person over time?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/4705/4705-h/4705-h.htm"
@@ -2529,7 +4250,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Enlightenment (1755)",
     overview: "How civilization corrupted our natural goodness — Rousseau traces the origins of inequality. Read the full text via the link below.",
     keyConcepts: ["Natural man vs. civilized man", "The state of nature", "Amour de soi vs. amour propre", "The corruption of civilization"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Discourse on Inequality, Part I, Jean-Jacques Rousseau addresses questions that remain central to philosophy. How civilization corrupted our natural goodness — Rousseau traces the origins of inequality. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Jean-Jacques Rousseau wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Natural man vs. civilized man",
+        content: "Jean-Jacques Rousseau develops the concept of natural man vs. civilized man. This idea is central to the argument of Discourse on Inequality, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the state of nature. Together, these concepts form a coherent framework for understanding Jean-Jacques Rousseau's philosophical vision."
+      },
+      {
+        heading: "Amour de soi vs. amour propre",
+        content: "Jean-Jacques Rousseau develops the concept of amour de soi vs. amour propre. This idea is central to the argument of Discourse on Inequality, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the corruption of civilization. Together, these concepts form a coherent framework for understanding Jean-Jacques Rousseau's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Discourse on Inequality, Part I have had an enduring impact on philosophy and beyond. Jean-Jacques Rousseau's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Jean-Jacques Rousseau's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Were humans better off in the state of nature?", "Does civilization corrupt us?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/11136/11136-h/11136-h.htm"
@@ -2543,7 +4281,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Enlightenment (1755)",
     overview: "Property, comparison, and the origins of injustice — the second part of Rousseau's account. Read the full text via the link below.",
     keyConcepts: ["The origin of property", "Comparison and envy", "The social contract as fraud", "The corruption of natural freedom"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Discourse on Inequality, Part II, Jean-Jacques Rousseau addresses questions that remain central to philosophy. Property, comparison, and the origins of injustice — the second part of Rousseau's account. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Jean-Jacques Rousseau wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The origin of property",
+        content: "Jean-Jacques Rousseau develops the concept of the origin of property. This idea is central to the argument of Discourse on Inequality, Part II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of comparison and envy. Together, these concepts form a coherent framework for understanding Jean-Jacques Rousseau's philosophical vision."
+      },
+      {
+        heading: "The social contract as fraud",
+        content: "Jean-Jacques Rousseau develops the concept of the social contract as fraud. This idea is central to the argument of Discourse on Inequality, Part II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the corruption of natural freedom. Together, these concepts form a coherent framework for understanding Jean-Jacques Rousseau's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Discourse on Inequality, Part II have had an enduring impact on philosophy and beyond. Jean-Jacques Rousseau's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Jean-Jacques Rousseau's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is private property the origin of inequality?", "Can we return to a simpler life?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/11136/11136-h/11136-h.htm"
@@ -2557,7 +4312,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Enlightenment (1762)",
     overview: "Rousseau's radical vision of natural education — let children learn from experience, not books. Read the full text via the link below.",
     keyConcepts: ["Natural education", "Learning from experience", "Against premature instruction", "The development of the child"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Emile, or On Education, Book I, Jean-Jacques Rousseau addresses questions that remain central to philosophy. Rousseau's radical vision of natural education — let children learn from experience, not books. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Jean-Jacques Rousseau wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Natural education",
+        content: "Jean-Jacques Rousseau develops the concept of natural education. This idea is central to the argument of Emile, or On Education, Book I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of learning from experience. Together, these concepts form a coherent framework for understanding Jean-Jacques Rousseau's philosophical vision."
+      },
+      {
+        heading: "Against premature instruction",
+        content: "Jean-Jacques Rousseau develops the concept of against premature instruction. This idea is central to the argument of Emile, or On Education, Book I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the development of the child. Together, these concepts form a coherent framework for understanding Jean-Jacques Rousseau's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Emile, or On Education, Book I have had an enduring impact on philosophy and beyond. Jean-Jacques Rousseau's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Jean-Jacques Rousseau's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Should education follow nature?", "Is modern schooling too artificial?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/30433/30433-h/30433-h.htm"
@@ -2571,7 +4343,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Enlightenment (1759)",
     overview: "A satirical attack on philosophical optimism — Candide's misadventures in the 'best of all possible worlds.' Read the full text via the link below.",
     keyConcepts: ["Satire of Leibnizian optimism", "The problem of evil made vivid", "The Lisbon earthquake", "Pangloss and his philosophy"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Candide, Chapters 1-10, Voltaire addresses questions that remain central to philosophy. A satirical attack on philosophical optimism — Candide's misadventures in the 'best of all possible worlds.' Read the full text via the link below.. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Voltaire wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Satire of Leibnizian optimism",
+        content: "Voltaire develops the concept of satire of leibnizian optimism. This idea is central to the argument of Candide, Chapters 1-10 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the problem of evil made vivid. Together, these concepts form a coherent framework for understanding Voltaire's philosophical vision."
+      },
+      {
+        heading: "The Lisbon earthquake",
+        content: "Voltaire develops the concept of the lisbon earthquake. This idea is central to the argument of Candide, Chapters 1-10 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of pangloss and his philosophy. Together, these concepts form a coherent framework for understanding Voltaire's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Candide, Chapters 1-10 have had an enduring impact on philosophy and beyond. Voltaire's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Voltaire's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is optimism a dangerous philosophy?", "How should we respond to suffering?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/19942/19942-h/19942-h.htm"
@@ -2585,7 +4374,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Enlightenment (1759)",
     overview: "Voltaire's final answer to the problem of evil: stop philosophizing and do useful work. Read the full text via the link below.",
     keyConcepts: ["Il faut cultiver notre jardin", "Practical wisdom over theory", "Work as the antidote to vice", "The rejection of grand systems"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Candide, Chapter 30, Voltaire addresses questions that remain central to philosophy. Voltaire's final answer to the problem of evil: stop philosophizing and do useful work. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Voltaire wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Il faut cultiver notre jardin",
+        content: "Voltaire develops the concept of il faut cultiver notre jardin. This idea is central to the argument of Candide, Chapter 30 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of practical wisdom over theory. Together, these concepts form a coherent framework for understanding Voltaire's philosophical vision."
+      },
+      {
+        heading: "Work as the antidote to vice",
+        content: "Voltaire develops the concept of work as the antidote to vice. This idea is central to the argument of Candide, Chapter 30 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the rejection of grand systems. Together, these concepts form a coherent framework for understanding Voltaire's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Candide, Chapter 30 have had an enduring impact on philosophy and beyond. Voltaire's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Voltaire's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is 'cultivating your garden' the best response to life's suffering?", "Is Voltaire too pessimistic or just realistic?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/19942/19942-h/19942-h.htm"
@@ -2599,7 +4405,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1781)",
     overview: "Space and time are not things in the world — they're how we experience it. Read the full text via the link below.",
     keyConcepts: ["Space and time as forms of intuition", "A priori conditions of experience", "The ideality of space and time", "Phenomena vs. things in themselves"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Critique of Pure Reason, Transcendental Aesthetic, Immanuel Kant addresses questions that remain central to philosophy. Space and time are not things in the world — they're how we experience it. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Immanuel Kant wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Space and time as forms of intuition",
+        content: "Immanuel Kant develops the concept of space and time as forms of intuition. This idea is central to the argument of Critique of Pure Reason, Transcendental Aesthetic and has profoundly influenced subsequent philosophical thought. Closely related is the notion of a priori conditions of experience. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "The ideality of space and time",
+        content: "Immanuel Kant develops the concept of the ideality of space and time. This idea is central to the argument of Critique of Pure Reason, Transcendental Aesthetic and has profoundly influenced subsequent philosophical thought. Closely related is the notion of phenomena vs. things in themselves. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Critique of Pure Reason, Transcendental Aesthetic have had an enduring impact on philosophy and beyond. Immanuel Kant's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Immanuel Kant's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Are space and time real or mental?", "Could experience be structured differently?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm"
@@ -2613,7 +4436,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1781)",
     overview: "The twelve categories the mind uses to organize experience — Kant's revolutionary epistemology. Read the full text via the link below.",
     keyConcepts: ["The twelve categories", "The transcendental deduction", "Synthesis and unity of apperception", "How the mind structures experience"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Critique of Pure Reason, Transcendental Analytic, Immanuel Kant addresses questions that remain central to philosophy. The twelve categories the mind uses to organize experience — Kant's revolutionary epistemology. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Immanuel Kant wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The twelve categories",
+        content: "Immanuel Kant develops the concept of the twelve categories. This idea is central to the argument of Critique of Pure Reason, Transcendental Analytic and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the transcendental deduction. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Synthesis and unity of apperception",
+        content: "Immanuel Kant develops the concept of synthesis and unity of apperception. This idea is central to the argument of Critique of Pure Reason, Transcendental Analytic and has profoundly influenced subsequent philosophical thought. Closely related is the notion of how the mind structures experience. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Critique of Pure Reason, Transcendental Analytic have had an enduring impact on philosophy and beyond. Immanuel Kant's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Immanuel Kant's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Does the mind impose categories on experience?", "Could we think without categories?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm"
@@ -2627,7 +4467,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1781)",
     overview: "Why reason fails when it tries to know God, freedom, and the soul. Read the full text via the link below.",
     keyConcepts: ["The antinomies of pure reason", "The impossibility of metaphysical knowledge", "The paralogisms of the soul", "The ideal of pure reason"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Critique of Pure Reason, Transcendental Dialectic, Immanuel Kant addresses questions that remain central to philosophy. Why reason fails when it tries to know God, freedom, and the soul. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Immanuel Kant wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The antinomies of pure reason",
+        content: "Immanuel Kant develops the concept of the antinomies of pure reason. This idea is central to the argument of Critique of Pure Reason, Transcendental Dialectic and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the impossibility of metaphysical knowledge. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "The paralogisms of the soul",
+        content: "Immanuel Kant develops the concept of the paralogisms of the soul. This idea is central to the argument of Critique of Pure Reason, Transcendental Dialectic and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the ideal of pure reason. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Critique of Pure Reason, Transcendental Dialectic have had an enduring impact on philosophy and beyond. Immanuel Kant's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Immanuel Kant's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Are there questions reason cannot answer?", "Is metaphysics impossible?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm"
@@ -2641,7 +4498,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1785)",
     overview: "Act only according to rules you could will to be universal laws. Read the full text via the link below.",
     keyConcepts: ["The categorical imperative", "Universalizability", "Treating persons as ends", "The kingdom of ends"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Groundwork of the Metaphysics of Morals, Section II, Immanuel Kant addresses questions that remain central to philosophy. Act only according to rules you could will to be universal laws. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Immanuel Kant wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The categorical imperative",
+        content: "Immanuel Kant develops the concept of the categorical imperative. This idea is central to the argument of Groundwork of the Metaphysics of Morals, Section II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of universalizability. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Treating persons as ends",
+        content: "Immanuel Kant develops the concept of treating persons as ends. This idea is central to the argument of Groundwork of the Metaphysics of Morals, Section II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the kingdom of ends. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Groundwork of the Metaphysics of Morals, Section II have had an enduring impact on philosophy and beyond. Immanuel Kant's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Immanuel Kant's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can you universalize the rules you live by?", "Is the categorical imperative too rigid?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/5682/5682-h/5682-h.htm"
@@ -2655,7 +4529,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1785)",
     overview: "Treat humanity never merely as a means, but always as an end. Read the full text via the link below.",
     keyConcepts: ["Autonomy of the will", "Human dignity", "The formula of humanity", "Freedom and morality"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Groundwork of the Metaphysics of Morals, Section III, Immanuel Kant addresses questions that remain central to philosophy. Treat humanity never merely as a means, but always as an end. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Immanuel Kant wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Autonomy of the will",
+        content: "Immanuel Kant develops the concept of autonomy of the will. This idea is central to the argument of Groundwork of the Metaphysics of Morals, Section III and has profoundly influenced subsequent philosophical thought. Closely related is the notion of human dignity. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "The formula of humanity",
+        content: "Immanuel Kant develops the concept of the formula of humanity. This idea is central to the argument of Groundwork of the Metaphysics of Morals, Section III and has profoundly influenced subsequent philosophical thought. Closely related is the notion of freedom and morality. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Groundwork of the Metaphysics of Morals, Section III have had an enduring impact on philosophy and beyond. Immanuel Kant's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Immanuel Kant's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["What does it mean to treat someone as an end?", "Is human dignity unconditional?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/5682/5682-h/5682-h.htm"
@@ -2669,7 +4560,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1784)",
     overview: "Dare to know! Kant's famous essay on the courage to use your own reason. Read the full text via the link below.",
     keyConcepts: ["Sapere aude — dare to know", "Self-imposed immaturity", "Public vs. private use of reason", "The freedom to think"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In An Answer to the Question: What Is Enlightenment?, Immanuel Kant addresses questions that remain central to philosophy. Dare to know! Kant's famous essay on the courage to use your own reason. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Immanuel Kant wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Sapere aude",
+        content: "Immanuel Kant develops the concept of dare to know. This idea is central to the argument of An Answer to the Question: What Is Enlightenment? and has profoundly influenced subsequent philosophical thought. Closely related is the notion of self-imposed immaturity. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Public vs. private use of reason",
+        content: "Immanuel Kant develops the concept of public vs. private use of reason. This idea is central to the argument of An Answer to the Question: What Is Enlightenment? and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the freedom to think. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in An Answer to the Question: What Is Enlightenment? have had an enduring impact on philosophy and beyond. Immanuel Kant's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Immanuel Kant's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Are you thinking for yourself?", "What prevents people from using their own reason?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/What_is_Enlightenment%3F"
@@ -2683,7 +4591,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1795)",
     overview: "Kant's vision for international peace through republican government, federation, and cosmopolitan right. Read the full text via the link below.",
     keyConcepts: ["Republican constitutions promote peace", "A federation of free states", "Cosmopolitan right", "The conditions for perpetual peace"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Perpetual Peace, Immanuel Kant addresses questions that remain central to philosophy. Kant's vision for international peace through republican government, federation, and cosmopolitan right. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Immanuel Kant wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Republican constitutions promote peace",
+        content: "Immanuel Kant develops the concept of republican constitutions promote peace. This idea is central to the argument of Perpetual Peace and has profoundly influenced subsequent philosophical thought. Closely related is the notion of a federation of free states. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Cosmopolitan right",
+        content: "Immanuel Kant develops the concept of cosmopolitan right. This idea is central to the argument of Perpetual Peace and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the conditions for perpetual peace. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Perpetual Peace have had an enduring impact on philosophy and beyond. Immanuel Kant's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Immanuel Kant's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is perpetual peace achievable?", "Do democracies really fight fewer wars?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/50922/50922-h/50922-h.htm"
@@ -2697,7 +4622,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1790)",
     overview: "When beauty overwhelms us — the mathematical and dynamical sublime. Read the full text via the link below.",
     keyConcepts: ["The mathematical sublime", "The dynamical sublime", "The feeling of inadequacy and triumph", "Nature's overwhelming power"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Critique of Judgment, Analytic of the Sublime, Immanuel Kant addresses questions that remain central to philosophy. When beauty overwhelms us — the mathematical and dynamical sublime. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Immanuel Kant wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The mathematical sublime",
+        content: "Immanuel Kant develops the concept of the mathematical sublime. This idea is central to the argument of Critique of Judgment, Analytic of the Sublime and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the dynamical sublime. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "The feeling of inadequacy and triumph",
+        content: "Immanuel Kant develops the concept of the feeling of inadequacy and triumph. This idea is central to the argument of Critique of Judgment, Analytic of the Sublime and has profoundly influenced subsequent philosophical thought. Closely related is the notion of nature's overwhelming power. Together, these concepts form a coherent framework for understanding Immanuel Kant's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Critique of Judgment, Analytic of the Sublime have had an enduring impact on philosophy and beyond. Immanuel Kant's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Immanuel Kant's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Have you experienced the sublime?", "What makes something sublime rather than beautiful?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/48433/48433-h/48433-h.htm"
@@ -2711,7 +4653,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1807)",
     overview: "The famous dialectic of lordship and bondage — how self-consciousness emerges through struggle. Read the full text via the link below.",
     keyConcepts: ["The struggle for recognition", "Lordship and bondage", "The reversal — the slave becomes free through labor", "Self-consciousness requires an other"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Phenomenology of Spirit, G.W.F. Hegel addresses questions that remain central to philosophy. The famous dialectic of lordship and bondage — how self-consciousness emerges through struggle. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. G.W.F. Hegel wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The struggle for recognition",
+        content: "G.W.F. Hegel develops the concept of the struggle for recognition. This idea is central to the argument of Phenomenology of Spirit and has profoundly influenced subsequent philosophical thought. Closely related is the notion of lordship and bondage. Together, these concepts form a coherent framework for understanding G.W.F. Hegel's philosophical vision."
+      },
+      {
+        heading: "The reversal",
+        content: "G.W.F. Hegel develops the concept of the slave becomes free through labor. This idea is central to the argument of Phenomenology of Spirit and has profoundly influenced subsequent philosophical thought. Closely related is the notion of self-consciousness requires an other. Together, these concepts form a coherent framework for understanding G.W.F. Hegel's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Phenomenology of Spirit have had an enduring impact on philosophy and beyond. G.W.F. Hegel's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with G.W.F. Hegel's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Does freedom require recognition by others?", "Can work be liberating?"],
     furtherReading: "Available on Marxists.org.",
     externalUrl: "https://www.marxists.org/reference/archive/hegel/works/ph/phc.htm"
@@ -2725,7 +4684,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1807)",
     overview: "Thesis, antithesis, synthesis — the engine of history and thought. Read the full text via the link below.",
     keyConcepts: ["Dialectical movement", "Aufhebung (sublation)", "The development of Spirit", "History as rational progress"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Phenomenology of Spirit, Introduction, G.W.F. Hegel addresses questions that remain central to philosophy. Thesis, antithesis, synthesis — the engine of history and thought. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. G.W.F. Hegel wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Dialectical movement",
+        content: "G.W.F. Hegel develops the concept of dialectical movement. This idea is central to the argument of Phenomenology of Spirit, Introduction and has profoundly influenced subsequent philosophical thought. Closely related is the notion of aufhebung (sublation). Together, these concepts form a coherent framework for understanding G.W.F. Hegel's philosophical vision."
+      },
+      {
+        heading: "The development of Spirit",
+        content: "G.W.F. Hegel develops the concept of the development of spirit. This idea is central to the argument of Phenomenology of Spirit, Introduction and has profoundly influenced subsequent philosophical thought. Closely related is the notion of history as rational progress. Together, these concepts form a coherent framework for understanding G.W.F. Hegel's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Phenomenology of Spirit, Introduction have had an enduring impact on philosophy and beyond. G.W.F. Hegel's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with G.W.F. Hegel's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Does thought really develop dialectically?", "Is history rational?"],
     furtherReading: "Available on Marxists.org.",
     externalUrl: "https://www.marxists.org/reference/archive/hegel/works/ph/phintro.htm"
@@ -2739,7 +4715,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1820)",
     overview: "Philosophy always arrives too late — the owl of Minerva flies at dusk. Read the full text via the link below.",
     keyConcepts: ["The owl of Minerva", "Philosophy as retrospective", "The rational is the actual", "History and understanding"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Philosophy of Right, Preface, G.W.F. Hegel addresses questions that remain central to philosophy. Philosophy always arrives too late — the owl of Minerva flies at dusk. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. G.W.F. Hegel wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The owl of Minerva",
+        content: "G.W.F. Hegel develops the concept of the owl of minerva. This idea is central to the argument of Philosophy of Right, Preface and has profoundly influenced subsequent philosophical thought. Closely related is the notion of philosophy as retrospective. Together, these concepts form a coherent framework for understanding G.W.F. Hegel's philosophical vision."
+      },
+      {
+        heading: "The rational is the actual",
+        content: "G.W.F. Hegel develops the concept of the rational is the actual. This idea is central to the argument of Philosophy of Right, Preface and has profoundly influenced subsequent philosophical thought. Closely related is the notion of history and understanding. Together, these concepts form a coherent framework for understanding G.W.F. Hegel's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Philosophy of Right, Preface have had an enduring impact on philosophy and beyond. G.W.F. Hegel's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with G.W.F. Hegel's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Does philosophy always come too late?", "Is the rational really the actual?"],
     furtherReading: "Available on Marxists.org.",
     externalUrl: "https://www.marxists.org/reference/archive/hegel/works/pr/preface.htm"
@@ -2753,7 +4746,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1818)",
     overview: "Behind appearances lies a blind, striving will — the thing-in-itself is will. Read the full text via the link below.",
     keyConcepts: ["The world as representation", "The world as will", "The veil of Maya", "The blind striving of existence"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The World as Will and Representation, Book I, Arthur Schopenhauer addresses questions that remain central to philosophy. Behind appearances lies a blind, striving will — the thing-in-itself is will. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Arthur Schopenhauer wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The world as representation",
+        content: "Arthur Schopenhauer develops the concept of the world as representation. This idea is central to the argument of The World as Will and Representation, Book I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the world as will. Together, these concepts form a coherent framework for understanding Arthur Schopenhauer's philosophical vision."
+      },
+      {
+        heading: "The veil of Maya",
+        content: "Arthur Schopenhauer develops the concept of the veil of maya. This idea is central to the argument of The World as Will and Representation, Book I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the blind striving of existence. Together, these concepts form a coherent framework for understanding Arthur Schopenhauer's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The World as Will and Representation, Book I have had an enduring impact on philosophy and beyond. Arthur Schopenhauer's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Arthur Schopenhauer's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is the universe fundamentally purposeless striving?", "Is life suffering?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/38427/38427-h/38427-h.htm"
@@ -2767,7 +4777,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1818)",
     overview: "Art as temporary escape from the tyranny of desire — the will is silenced in aesthetic contemplation. Read the full text via the link below.",
     keyConcepts: ["Art as escape from will", "The Platonic Ideas in art", "The genius", "Music as the direct expression of will"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The World as Will and Representation, Book III, Arthur Schopenhauer addresses questions that remain central to philosophy. Art as temporary escape from the tyranny of desire — the will is silenced in aesthetic contemplation. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Arthur Schopenhauer wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Art as escape from will",
+        content: "Arthur Schopenhauer develops the concept of art as escape from will. This idea is central to the argument of The World as Will and Representation, Book III and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the platonic ideas in art. Together, these concepts form a coherent framework for understanding Arthur Schopenhauer's philosophical vision."
+      },
+      {
+        heading: "The genius",
+        content: "Arthur Schopenhauer develops the concept of the genius. This idea is central to the argument of The World as Will and Representation, Book III and has profoundly influenced subsequent philosophical thought. Closely related is the notion of music as the direct expression of will. Together, these concepts form a coherent framework for understanding Arthur Schopenhauer's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The World as Will and Representation, Book III have had an enduring impact on philosophy and beyond. Arthur Schopenhauer's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Arthur Schopenhauer's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Does art free us from desire?", "Is music the highest art?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/38427/38427-h/38427-h.htm"
@@ -2781,7 +4808,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1818)",
     overview: "Liberation through the renunciation of desire — Schopenhauer's ethics of compassion and asceticism. Read the full text via the link below.",
     keyConcepts: ["The denial of the will-to-live", "Compassion as the basis of ethics", "Asceticism and renunciation", "Liberation from suffering"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The World as Will and Representation, Book IV, Arthur Schopenhauer addresses questions that remain central to philosophy. Liberation through the renunciation of desire — Schopenhauer's ethics of compassion and asceticism. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Arthur Schopenhauer wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The denial of the will-to-live",
+        content: "Arthur Schopenhauer develops the concept of the denial of the will-to-live. This idea is central to the argument of The World as Will and Representation, Book IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of compassion as the basis of ethics. Together, these concepts form a coherent framework for understanding Arthur Schopenhauer's philosophical vision."
+      },
+      {
+        heading: "Asceticism and renunciation",
+        content: "Arthur Schopenhauer develops the concept of asceticism and renunciation. This idea is central to the argument of The World as Will and Representation, Book IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of liberation from suffering. Together, these concepts form a coherent framework for understanding Arthur Schopenhauer's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The World as Will and Representation, Book IV have had an enduring impact on philosophy and beyond. Arthur Schopenhauer's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Arthur Schopenhauer's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is renunciation the path to freedom?", "Is compassion the foundation of morality?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/38427/38427-h/38427-h.htm"
@@ -2795,7 +4839,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1843)",
     overview: "The aesthetic life: living for the moment, pursuing pleasure, and avoiding commitment. Read the full text via the link below.",
     keyConcepts: ["The aesthetic stage of existence", "Living for the moment", "Irony and detachment", "The seducer's diary"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Either/Or, Part I, Søren Kierkegaard addresses questions that remain central to philosophy. The aesthetic life: living for the moment, pursuing pleasure, and avoiding commitment. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Søren Kierkegaard wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The aesthetic stage of existence",
+        content: "Søren Kierkegaard develops the concept of the aesthetic stage of existence. This idea is central to the argument of Either/Or, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of living for the moment. Together, these concepts form a coherent framework for understanding Søren Kierkegaard's philosophical vision."
+      },
+      {
+        heading: "Irony and detachment",
+        content: "Søren Kierkegaard develops the concept of irony and detachment. This idea is central to the argument of Either/Or, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the seducer's diary. Together, these concepts form a coherent framework for understanding Søren Kierkegaard's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Either/Or, Part I have had an enduring impact on philosophy and beyond. Søren Kierkegaard's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Søren Kierkegaard's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is the aesthetic life fulfilling?", "Can you live without commitment?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/43916/43916-h/43916-h.htm"
@@ -2809,7 +4870,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1843)",
     overview: "Choose yourself — the ethical stage of existence, where commitment and responsibility define who you are. Read the full text via the link below.",
     keyConcepts: ["The ethical stage", "Choice and commitment", "Marriage as ethical paradigm", "The seriousness of existence"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Either/Or, Part II, Søren Kierkegaard addresses questions that remain central to philosophy. Choose yourself — the ethical stage of existence, where commitment and responsibility define who you are. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Søren Kierkegaard wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The ethical stage",
+        content: "Søren Kierkegaard develops the concept of the ethical stage. This idea is central to the argument of Either/Or, Part II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of choice and commitment. Together, these concepts form a coherent framework for understanding Søren Kierkegaard's philosophical vision."
+      },
+      {
+        heading: "Marriage as ethical paradigm",
+        content: "Søren Kierkegaard develops the concept of marriage as ethical paradigm. This idea is central to the argument of Either/Or, Part II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the seriousness of existence. Together, these concepts form a coherent framework for understanding Søren Kierkegaard's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Either/Or, Part II have had an enduring impact on philosophy and beyond. Søren Kierkegaard's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Søren Kierkegaard's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Does commitment give life meaning?", "Is the ethical life superior to the aesthetic?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/43916/43916-h/43916-h.htm"
@@ -2823,7 +4901,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1843)",
     overview: "Abraham's willingness to sacrifice Isaac — the teleological suspension of the ethical and the leap of faith. Read the full text via the link below.",
     keyConcepts: ["The teleological suspension of the ethical", "The knight of faith", "Abraham's sacrifice", "The leap of faith"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Fear and Trembling, Søren Kierkegaard addresses questions that remain central to philosophy. Abraham's willingness to sacrifice Isaac — the teleological suspension of the ethical and the leap of faith. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Søren Kierkegaard wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The teleological suspension of the ethical",
+        content: "Søren Kierkegaard develops the concept of the teleological suspension of the ethical. This idea is central to the argument of Fear and Trembling and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the knight of faith. Together, these concepts form a coherent framework for understanding Søren Kierkegaard's philosophical vision."
+      },
+      {
+        heading: "Abraham's sacrifice",
+        content: "Søren Kierkegaard develops the concept of abraham's sacrifice. This idea is central to the argument of Fear and Trembling and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the leap of faith. Together, these concepts form a coherent framework for understanding Søren Kierkegaard's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Fear and Trembling have had an enduring impact on philosophy and beyond. Søren Kierkegaard's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Søren Kierkegaard's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can faith require suspending ethics?", "What does it mean to take a 'leap of faith'?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/45632/45632-h/45632-h.htm"
@@ -2837,7 +4932,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1849)",
     overview: "Despair as the fundamental human condition — not a feeling but a misrelation of the self to itself. Read the full text via the link below.",
     keyConcepts: ["Despair as the sickness unto death", "The self as a relation", "Forms of despair", "The self before God"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Sickness Unto Death, Part I, Søren Kierkegaard addresses questions that remain central to philosophy. Despair as the fundamental human condition — not a feeling but a misrelation of the self to itself. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Søren Kierkegaard wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Despair as the sickness unto death",
+        content: "Søren Kierkegaard develops the concept of despair as the sickness unto death. This idea is central to the argument of The Sickness Unto Death, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the self as a relation. Together, these concepts form a coherent framework for understanding Søren Kierkegaard's philosophical vision."
+      },
+      {
+        heading: "Forms of despair",
+        content: "Søren Kierkegaard develops the concept of forms of despair. This idea is central to the argument of The Sickness Unto Death, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the self before god. Together, these concepts form a coherent framework for understanding Søren Kierkegaard's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Sickness Unto Death, Part I have had an enduring impact on philosophy and beyond. Søren Kierkegaard's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Søren Kierkegaard's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is despair universal?", "What does it mean to be a 'self'?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/The_Sickness_Unto_Death"
@@ -2851,7 +4963,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "Modern (1844)",
     overview: "Anxiety as the dizziness of freedom — we are anxious because we are free to choose. Read the full text via the link below.",
     keyConcepts: ["Anxiety as the dizziness of freedom", "The nothing that anxiety discovers", "Freedom and possibility", "Sin and the fall"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Concept of Anxiety, Introduction & Chapter 1, Søren Kierkegaard addresses questions that remain central to philosophy. Anxiety as the dizziness of freedom — we are anxious because we are free to choose. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Søren Kierkegaard wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Anxiety as the dizziness of freedom",
+        content: "Søren Kierkegaard develops the concept of anxiety as the dizziness of freedom. This idea is central to the argument of The Concept of Anxiety, Introduction & Chapter 1 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the nothing that anxiety discovers. Together, these concepts form a coherent framework for understanding Søren Kierkegaard's philosophical vision."
+      },
+      {
+        heading: "Freedom and possibility",
+        content: "Søren Kierkegaard develops the concept of freedom and possibility. This idea is central to the argument of The Concept of Anxiety, Introduction & Chapter 1 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of sin and the fall. Together, these concepts form a coherent framework for understanding Søren Kierkegaard's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Concept of Anxiety, Introduction & Chapter 1 have had an enduring impact on philosophy and beyond. Søren Kierkegaard's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Søren Kierkegaard's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is anxiety the price of freedom?", "What does anxiety reveal about human nature?"],
     furtherReading: "Available on Archive.org.",
     externalUrl: "https://archive.org/details/conceptofdread00kieruoft"
@@ -2865,7 +4994,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1859)",
     overview: "Why free speech is essential — even for wrong opinions. Mill's most powerful argument for liberty of thought. Read the full text via the link below.",
     keyConcepts: ["The fallibility argument", "Dead dogma vs. living truth", "The marketplace of ideas", "Why silencing opinion is always wrong"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In On Liberty, Chapter 2, John Stuart Mill addresses questions that remain central to philosophy. Why free speech is essential — even for wrong opinions. Mill's most powerful argument for liberty of thought. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. John Stuart Mill wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The fallibility argument",
+        content: "John Stuart Mill develops the concept of the fallibility argument. This idea is central to the argument of On Liberty, Chapter 2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of dead dogma vs. living truth. Together, these concepts form a coherent framework for understanding John Stuart Mill's philosophical vision."
+      },
+      {
+        heading: "The marketplace of ideas",
+        content: "John Stuart Mill develops the concept of the marketplace of ideas. This idea is central to the argument of On Liberty, Chapter 2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of why silencing opinion is always wrong. Together, these concepts form a coherent framework for understanding John Stuart Mill's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in On Liberty, Chapter 2 have had an enduring impact on philosophy and beyond. John Stuart Mill's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with John Stuart Mill's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Should all opinions be allowed, even harmful ones?", "Is free speech absolute?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm"
@@ -2879,7 +5025,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1859)",
     overview: "Individuality as one of the elements of well-being — against the tyranny of custom. Read the full text via the link below.",
     keyConcepts: ["Individuality as essential to well-being", "The danger of custom", "Experiments in living", "Genius and eccentricity"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In On Liberty, Chapter 3, John Stuart Mill addresses questions that remain central to philosophy. Individuality as one of the elements of well-being — against the tyranny of custom. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. John Stuart Mill wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Individuality as essential to well-being",
+        content: "John Stuart Mill develops the concept of individuality as essential to well-being. This idea is central to the argument of On Liberty, Chapter 3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the danger of custom. Together, these concepts form a coherent framework for understanding John Stuart Mill's philosophical vision."
+      },
+      {
+        heading: "Experiments in living",
+        content: "John Stuart Mill develops the concept of experiments in living. This idea is central to the argument of On Liberty, Chapter 3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of genius and eccentricity. Together, these concepts form a coherent framework for understanding John Stuart Mill's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in On Liberty, Chapter 3 have had an enduring impact on philosophy and beyond. John Stuart Mill's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with John Stuart Mill's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is individuality threatened today?", "Should society tolerate eccentricity?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm"
@@ -2893,7 +5056,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1863)",
     overview: "Actions are right as they promote happiness — Mill's defense and refinement of utilitarianism. Read the full text via the link below.",
     keyConcepts: ["The greatest happiness principle", "Pleasure and pain as foundations", "Higher and lower pleasures", "The scope of utilitarian concern"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Utilitarianism, Chapters 1-2, John Stuart Mill addresses questions that remain central to philosophy. Actions are right as they promote happiness — Mill's defense and refinement of utilitarianism. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. John Stuart Mill wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The greatest happiness principle",
+        content: "John Stuart Mill develops the concept of the greatest happiness principle. This idea is central to the argument of Utilitarianism, Chapters 1-2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of pleasure and pain as foundations. Together, these concepts form a coherent framework for understanding John Stuart Mill's philosophical vision."
+      },
+      {
+        heading: "Higher and lower pleasures",
+        content: "John Stuart Mill develops the concept of higher and lower pleasures. This idea is central to the argument of Utilitarianism, Chapters 1-2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the scope of utilitarian concern. Together, these concepts form a coherent framework for understanding John Stuart Mill's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Utilitarianism, Chapters 1-2 have had an enduring impact on philosophy and beyond. John Stuart Mill's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with John Stuart Mill's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is happiness the ultimate goal?", "Should we maximize total happiness?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/11224/11224-h/11224-h.htm"
@@ -2907,7 +5087,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1863)",
     overview: "It is better to be Socrates dissatisfied than a fool satisfied — Mill's distinction between qualities of pleasure. Read the full text via the link below.",
     keyConcepts: ["Higher and lower pleasures", "The competent judge", "Quality vs. quantity of pleasure", "Socrates dissatisfied vs. the fool satisfied"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Utilitarianism, Chapter 2, John Stuart Mill addresses questions that remain central to philosophy. It is better to be Socrates dissatisfied than a fool satisfied — Mill's distinction between qualities of pleasure. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. John Stuart Mill wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Higher and lower pleasures",
+        content: "John Stuart Mill develops the concept of higher and lower pleasures. This idea is central to the argument of Utilitarianism, Chapter 2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the competent judge. Together, these concepts form a coherent framework for understanding John Stuart Mill's philosophical vision."
+      },
+      {
+        heading: "Quality vs. quantity of pleasure",
+        content: "John Stuart Mill develops the concept of quality vs. quantity of pleasure. This idea is central to the argument of Utilitarianism, Chapter 2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of socrates dissatisfied vs. the fool satisfied. Together, these concepts form a coherent framework for understanding John Stuart Mill's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Utilitarianism, Chapter 2 have had an enduring impact on philosophy and beyond. John Stuart Mill's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with John Stuart Mill's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Are some pleasures genuinely higher than others?", "Who decides which pleasures are higher?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/11224/11224-h/11224-h.htm"
@@ -2921,7 +5118,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1887)",
     overview: "How we internalized punishment and created conscience — the origin of guilt. Read the full text via the link below.",
     keyConcepts: ["The origin of guilt", "Punishment and memory", "Bad conscience as internalized aggression", "The creditor-debtor relationship"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In On the Genealogy of Morals, Second Essay, Friedrich Nietzsche addresses questions that remain central to philosophy. How we internalized punishment and created conscience — the origin of guilt. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Friedrich Nietzsche wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The origin of guilt",
+        content: "Friedrich Nietzsche develops the concept of the origin of guilt. This idea is central to the argument of On the Genealogy of Morals, Second Essay and has profoundly influenced subsequent philosophical thought. Closely related is the notion of punishment and memory. Together, these concepts form a coherent framework for understanding Friedrich Nietzsche's philosophical vision."
+      },
+      {
+        heading: "Bad conscience as internalized aggression",
+        content: "Friedrich Nietzsche develops the concept of bad conscience as internalized aggression. This idea is central to the argument of On the Genealogy of Morals, Second Essay and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the creditor-debtor relationship. Together, these concepts form a coherent framework for understanding Friedrich Nietzsche's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in On the Genealogy of Morals, Second Essay have had an enduring impact on philosophy and beyond. Friedrich Nietzsche's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Friedrich Nietzsche's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is guilt natural or socially constructed?", "Is bad conscience a sickness?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/52319/52319-h/52319-h.htm"
@@ -2935,7 +5149,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1887)",
     overview: "What do ascetic ideals mean? Nietzsche traces the will to nothingness through art, philosophy, and religion. Read the full text via the link below.",
     keyConcepts: ["Ascetic ideals", "The will to nothingness", "The ascetic priest", "The meaning of suffering"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In On the Genealogy of Morals, Third Essay, Friedrich Nietzsche addresses questions that remain central to philosophy. What do ascetic ideals mean? Nietzsche traces the will to nothingness through art, philosophy, and religion. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Friedrich Nietzsche wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Ascetic ideals",
+        content: "Friedrich Nietzsche develops the concept of ascetic ideals. This idea is central to the argument of On the Genealogy of Morals, Third Essay and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the will to nothingness. Together, these concepts form a coherent framework for understanding Friedrich Nietzsche's philosophical vision."
+      },
+      {
+        heading: "The ascetic priest",
+        content: "Friedrich Nietzsche develops the concept of the ascetic priest. This idea is central to the argument of On the Genealogy of Morals, Third Essay and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the meaning of suffering. Together, these concepts form a coherent framework for understanding Friedrich Nietzsche's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in On the Genealogy of Morals, Third Essay have had an enduring impact on philosophy and beyond. Friedrich Nietzsche's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Friedrich Nietzsche's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Why do people embrace self-denial?", "Is the ascetic ideal still powerful today?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/52319/52319-h/52319-h.htm"
@@ -2949,7 +5180,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1886)",
     overview: "The prejudices of philosophers and the free spirit — Nietzsche challenges the foundations of Western thought. Read the full text via the link below.",
     keyConcepts: ["The will to truth", "Prejudices of philosophers", "The free spirit", "Beyond traditional morality"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Beyond Good and Evil, Chapters 1-2, Friedrich Nietzsche addresses questions that remain central to philosophy. The prejudices of philosophers and the free spirit — Nietzsche challenges the foundations of Western thought. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Friedrich Nietzsche wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The will to truth",
+        content: "Friedrich Nietzsche develops the concept of the will to truth. This idea is central to the argument of Beyond Good and Evil, Chapters 1-2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of prejudices of philosophers. Together, these concepts form a coherent framework for understanding Friedrich Nietzsche's philosophical vision."
+      },
+      {
+        heading: "The free spirit",
+        content: "Friedrich Nietzsche develops the concept of the free spirit. This idea is central to the argument of Beyond Good and Evil, Chapters 1-2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of beyond traditional morality. Together, these concepts form a coherent framework for understanding Friedrich Nietzsche's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Beyond Good and Evil, Chapters 1-2 have had an enduring impact on philosophy and beyond. Friedrich Nietzsche's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Friedrich Nietzsche's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Do philosophers have hidden prejudices?", "What lies beyond good and evil?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/4363/4363-h/4363-h.htm"
@@ -2963,7 +5211,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1886)",
     overview: "What is noble? Nietzsche's vision of human greatness and the order of rank. Read the full text via the link below.",
     keyConcepts: ["The will to power", "Nobility and rank", "Self-overcoming", "The pathos of distance"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Beyond Good and Evil, Chapter 9, Friedrich Nietzsche addresses questions that remain central to philosophy. What is noble? Nietzsche's vision of human greatness and the order of rank. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Friedrich Nietzsche wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The will to power",
+        content: "Friedrich Nietzsche develops the concept of the will to power. This idea is central to the argument of Beyond Good and Evil, Chapter 9 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of nobility and rank. Together, these concepts form a coherent framework for understanding Friedrich Nietzsche's philosophical vision."
+      },
+      {
+        heading: "Self-overcoming",
+        content: "Friedrich Nietzsche develops the concept of self-overcoming. This idea is central to the argument of Beyond Good and Evil, Chapter 9 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the pathos of distance. Together, these concepts form a coherent framework for understanding Friedrich Nietzsche's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Beyond Good and Evil, Chapter 9 have had an enduring impact on philosophy and beyond. Friedrich Nietzsche's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Friedrich Nietzsche's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["What is genuine nobility?", "Is the will to power a description or a prescription?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/4363/4363-h/4363-h.htm"
@@ -2977,7 +5242,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1873)",
     overview: "Language, metaphor, and the construction of truth — an early Nietzsche essay that anticipates postmodernism. Read the full text via the link below.",
     keyConcepts: ["Truth as a mobile army of metaphors", "The human intellect as deception", "Language and reality", "The construction of truth"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In On Truth and Lies in a Nonmoral Sense, Friedrich Nietzsche addresses questions that remain central to philosophy. Language, metaphor, and the construction of truth — an early Nietzsche essay that anticipates postmodernism. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Friedrich Nietzsche wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Truth as a mobile army of metaphors",
+        content: "Friedrich Nietzsche develops the concept of truth as a mobile army of metaphors. This idea is central to the argument of On Truth and Lies in a Nonmoral Sense and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the human intellect as deception. Together, these concepts form a coherent framework for understanding Friedrich Nietzsche's philosophical vision."
+      },
+      {
+        heading: "Language and reality",
+        content: "Friedrich Nietzsche develops the concept of language and reality. This idea is central to the argument of On Truth and Lies in a Nonmoral Sense and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the construction of truth. Together, these concepts form a coherent framework for understanding Friedrich Nietzsche's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in On Truth and Lies in a Nonmoral Sense have had an enduring impact on philosophy and beyond. Friedrich Nietzsche's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Friedrich Nietzsche's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is truth constructed or discovered?", "Can language capture reality?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/On_Truth_and_Lies_in_a_Nonmoral_Sense"
@@ -2991,7 +5273,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1849)",
     overview: "When injustice is the law, resistance becomes duty — Thoreau's influential essay on the obligation to resist unjust government. Read the full text via the link below.",
     keyConcepts: ["The duty to resist injustice", "The individual vs. the state", "Tax resistance", "Conscience over law"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Civil Disobedience, Henry David Thoreau addresses questions that remain central to philosophy. When injustice is the law, resistance becomes duty — Thoreau's influential essay on the obligation to resist unjust government. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Henry David Thoreau wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The duty to resist injustice",
+        content: "Henry David Thoreau develops the concept of the duty to resist injustice. This idea is central to the argument of Civil Disobedience and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the individual vs. the state. Together, these concepts form a coherent framework for understanding Henry David Thoreau's philosophical vision."
+      },
+      {
+        heading: "Tax resistance",
+        content: "Henry David Thoreau develops the concept of tax resistance. This idea is central to the argument of Civil Disobedience and has profoundly influenced subsequent philosophical thought. Closely related is the notion of conscience over law. Together, these concepts form a coherent framework for understanding Henry David Thoreau's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Civil Disobedience have had an enduring impact on philosophy and beyond. Henry David Thoreau's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Henry David Thoreau's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["When is civil disobedience justified?", "Does conscience override law?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/71/71-h/71-h.htm"
@@ -3005,7 +5304,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1854)",
     overview: "I went to the woods to live deliberately — Thoreau's experiment in simple living. Read the full text via the link below.",
     keyConcepts: ["Deliberate living", "Simplicity", "Self-reliance", "The critique of materialism"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Walden, Economy, Henry David Thoreau addresses questions that remain central to philosophy. I went to the woods to live deliberately — Thoreau's experiment in simple living. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Henry David Thoreau wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Deliberate living",
+        content: "Henry David Thoreau develops the concept of deliberate living. This idea is central to the argument of Walden, Economy and has profoundly influenced subsequent philosophical thought. Closely related is the notion of simplicity. Together, these concepts form a coherent framework for understanding Henry David Thoreau's philosophical vision."
+      },
+      {
+        heading: "Self-reliance",
+        content: "Henry David Thoreau develops the concept of self-reliance. This idea is central to the argument of Walden, Economy and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the critique of materialism. Together, these concepts form a coherent framework for understanding Henry David Thoreau's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Walden, Economy have had an enduring impact on philosophy and beyond. Henry David Thoreau's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Henry David Thoreau's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Could you simplify your life radically?", "What does it mean to live deliberately?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/205/205-h/205-h.htm"
@@ -3019,7 +5335,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1841)",
     overview: "Trust thyself — Emerson's manifesto for individual authenticity and nonconformity. Read the full text via the link below.",
     keyConcepts: ["Trust thyself", "Nonconformity", "The integrity of your own mind", "Society as a conspiracy against individuality"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Self-Reliance, Ralph Waldo Emerson addresses questions that remain central to philosophy. Trust thyself — Emerson's manifesto for individual authenticity and nonconformity. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Ralph Waldo Emerson wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Trust thyself",
+        content: "Ralph Waldo Emerson develops the concept of trust thyself. This idea is central to the argument of Self-Reliance and has profoundly influenced subsequent philosophical thought. Closely related is the notion of nonconformity. Together, these concepts form a coherent framework for understanding Ralph Waldo Emerson's philosophical vision."
+      },
+      {
+        heading: "The integrity of your own mind",
+        content: "Ralph Waldo Emerson develops the concept of the integrity of your own mind. This idea is central to the argument of Self-Reliance and has profoundly influenced subsequent philosophical thought. Closely related is the notion of society as a conspiracy against individuality. Together, these concepts form a coherent framework for understanding Ralph Waldo Emerson's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Self-Reliance have had an enduring impact on philosophy and beyond. Ralph Waldo Emerson's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Ralph Waldo Emerson's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Do you trust your own judgment?", "Is conformity the enemy of greatness?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Essays:_First_Series/Self-Reliance"
@@ -3033,7 +5366,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1896)",
     overview: "Sometimes we are justified in believing without sufficient evidence — James's defense of faith in the face of uncertainty. Read the full text via the link below.",
     keyConcepts: ["Living, forced, momentous options", "The right to believe", "Risk and faith", "Against evidentialism"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Will to Believe, William James addresses questions that remain central to philosophy. Sometimes we are justified in believing without sufficient evidence — James's defense of faith in the face of uncertainty. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. William James wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Living, forced, momentous options",
+        content: "William James develops the concept of living, forced, momentous options. This idea is central to the argument of The Will to Believe and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the right to believe. Together, these concepts form a coherent framework for understanding William James's philosophical vision."
+      },
+      {
+        heading: "Risk and faith",
+        content: "William James develops the concept of risk and faith. This idea is central to the argument of The Will to Believe and has profoundly influenced subsequent philosophical thought. Closely related is the notion of against evidentialism. Together, these concepts form a coherent framework for understanding William James's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Will to Believe have had an enduring impact on philosophy and beyond. William James's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with William James's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is belief without evidence ever justified?", "Is refusing to choose itself a choice?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/The_Will_to_Believe"
@@ -3047,7 +5397,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1907)",
     overview: "Truth is what works — the pragmatic theory of truth and meaning. Read the full text via the link below.",
     keyConcepts: ["The pragmatic method", "Truth as what works", "The cash value of ideas", "Resolving philosophical disputes"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Pragmatism, Lecture II, William James addresses questions that remain central to philosophy. Truth is what works — the pragmatic theory of truth and meaning. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. William James wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The pragmatic method",
+        content: "William James develops the concept of the pragmatic method. This idea is central to the argument of Pragmatism, Lecture II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of truth as what works. Together, these concepts form a coherent framework for understanding William James's philosophical vision."
+      },
+      {
+        heading: "The cash value of ideas",
+        content: "William James develops the concept of the cash value of ideas. This idea is central to the argument of Pragmatism, Lecture II and has profoundly influenced subsequent philosophical thought. Closely related is the notion of resolving philosophical disputes. Together, these concepts form a coherent framework for understanding William James's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Pragmatism, Lecture II have had an enduring impact on philosophy and beyond. William James's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with William James's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is truth what works in practice?", "Does pragmatism avoid the big questions?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/Pragmatism:_A_New_Name_for_Some_Old_Ways_of_Thinking"
@@ -3061,7 +5428,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1890)",
     overview: "Thought flows like a stream — James revolutionizes psychology with his analysis of conscious experience. Read the full text via the link below.",
     keyConcepts: ["The stream of thought", "Consciousness as continuous", "The specious present", "Fringes and relations"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Principles of Psychology, Chapter IX, William James addresses questions that remain central to philosophy. Thought flows like a stream — James revolutionizes psychology with his analysis of conscious experience. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. William James wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The stream of thought",
+        content: "William James develops the concept of the stream of thought. This idea is central to the argument of Principles of Psychology, Chapter IX and has profoundly influenced subsequent philosophical thought. Closely related is the notion of consciousness as continuous. Together, these concepts form a coherent framework for understanding William James's philosophical vision."
+      },
+      {
+        heading: "The specious present",
+        content: "William James develops the concept of the specious present. This idea is central to the argument of Principles of Psychology, Chapter IX and has profoundly influenced subsequent philosophical thought. Closely related is the notion of fringes and relations. Together, these concepts form a coherent framework for understanding William James's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Principles of Psychology, Chapter IX have had an enduring impact on philosophy and beyond. William James's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with William James's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is consciousness really a stream?", "Can we observe our own consciousness?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/The_Principles_of_Psychology/Chapter_9"
@@ -3075,7 +5459,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1877)",
     overview: "Four methods of settling opinion — tenacity, authority, a priori, and science — and why science wins. Read the full text via the link below.",
     keyConcepts: ["Four methods of fixing belief", "The method of tenacity", "The method of authority", "The scientific method"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Fixation of Belief, Charles Sanders Peirce addresses questions that remain central to philosophy. Four methods of settling opinion — tenacity, authority, a priori, and science — and why science wins. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Charles Sanders Peirce wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Four methods of fixing belief",
+        content: "Charles Sanders Peirce develops the concept of four methods of fixing belief. This idea is central to the argument of The Fixation of Belief and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the method of tenacity. Together, these concepts form a coherent framework for understanding Charles Sanders Peirce's philosophical vision."
+      },
+      {
+        heading: "The method of authority",
+        content: "Charles Sanders Peirce develops the concept of the method of authority. This idea is central to the argument of The Fixation of Belief and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the scientific method. Together, these concepts form a coherent framework for understanding Charles Sanders Peirce's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Fixation of Belief have had an enduring impact on philosophy and beyond. Charles Sanders Peirce's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Charles Sanders Peirce's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["How do you fix your beliefs?", "Is the scientific method the best way to truth?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/The_Fixation_of_Belief"
@@ -3089,7 +5490,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "19th Century (1878)",
     overview: "The pragmatic maxim: the meaning of an idea is found in its practical effects. Read the full text via the link below.",
     keyConcepts: ["The pragmatic maxim", "Clarity of ideas", "Practical effects as meaning", "Against Cartesian clarity"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In How to Make Our Ideas Clear, Charles Sanders Peirce addresses questions that remain central to philosophy. The pragmatic maxim: the meaning of an idea is found in its practical effects. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Charles Sanders Peirce wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The pragmatic maxim",
+        content: "Charles Sanders Peirce develops the concept of the pragmatic maxim. This idea is central to the argument of How to Make Our Ideas Clear and has profoundly influenced subsequent philosophical thought. Closely related is the notion of clarity of ideas. Together, these concepts form a coherent framework for understanding Charles Sanders Peirce's philosophical vision."
+      },
+      {
+        heading: "Practical effects as meaning",
+        content: "Charles Sanders Peirce develops the concept of practical effects as meaning. This idea is central to the argument of How to Make Our Ideas Clear and has profoundly influenced subsequent philosophical thought. Closely related is the notion of against cartesian clarity. Together, these concepts form a coherent framework for understanding Charles Sanders Peirce's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in How to Make Our Ideas Clear have had an enduring impact on philosophy and beyond. Charles Sanders Peirce's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Charles Sanders Peirce's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is meaning found in practical effects?", "How clear are your most important ideas?"],
     furtherReading: "Available on Wikisource.",
     externalUrl: "https://en.wikisource.org/wiki/How_to_Make_Our_Ideas_Clear"
@@ -3103,7 +5521,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1912)",
     overview: "What can we know directly vs. what we know by description? Russell's important epistemological distinction. Read the full text via the link below.",
     keyConcepts: ["Knowledge by acquaintance vs. description", "Universals", "A priori knowledge", "The limits of empiricism"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Problems of Philosophy, Chapters 5-10, Bertrand Russell addresses questions that remain central to philosophy. What can we know directly vs. what we know by description? Russell's important epistemological distinction. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Bertrand Russell wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Knowledge by acquaintance vs. description",
+        content: "Bertrand Russell develops the concept of knowledge by acquaintance vs. description. This idea is central to the argument of The Problems of Philosophy, Chapters 5-10 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of universals. Together, these concepts form a coherent framework for understanding Bertrand Russell's philosophical vision."
+      },
+      {
+        heading: "A priori knowledge",
+        content: "Bertrand Russell develops the concept of a priori knowledge. This idea is central to the argument of The Problems of Philosophy, Chapters 5-10 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the limits of empiricism. Together, these concepts form a coherent framework for understanding Bertrand Russell's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Problems of Philosophy, Chapters 5-10 have had an enduring impact on philosophy and beyond. Bertrand Russell's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Bertrand Russell's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["What do you know directly?", "Can we know anything beyond our experience?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/5827/5827-h/5827-h.htm"
@@ -3117,7 +5552,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1912)",
     overview: "Philosophy enlarges the self and frees the mind from the tyranny of custom. Read the full text via the link below.",
     keyConcepts: ["The value of uncertainty", "Philosophy enlarges the self", "Freedom from custom", "The examined life"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Problems of Philosophy, Chapter 15, Bertrand Russell addresses questions that remain central to philosophy. Philosophy enlarges the self and frees the mind from the tyranny of custom. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Bertrand Russell wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The value of uncertainty",
+        content: "Bertrand Russell develops the concept of the value of uncertainty. This idea is central to the argument of The Problems of Philosophy, Chapter 15 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of philosophy enlarges the self. Together, these concepts form a coherent framework for understanding Bertrand Russell's philosophical vision."
+      },
+      {
+        heading: "Freedom from custom",
+        content: "Bertrand Russell develops the concept of freedom from custom. This idea is central to the argument of The Problems of Philosophy, Chapter 15 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the examined life. Together, these concepts form a coherent framework for understanding Bertrand Russell's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Problems of Philosophy, Chapter 15 have had an enduring impact on philosophy and beyond. Bertrand Russell's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Bertrand Russell's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["What is the value of philosophy?", "Does uncertainty make us wiser?"],
     furtherReading: "Available on Project Gutenberg.",
     externalUrl: "https://www.gutenberg.org/files/5827/5827-h/5827-h.htm"
@@ -3131,7 +5583,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1942)",
     overview: "The only serious philosophical question is whether life is worth living — Camus confronts the absurd. Read the full text via the link below.",
     keyConcepts: ["The absurd", "Philosophical suicide", "The confrontation with meaninglessness", "Revolt against absurdity"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Myth of Sisyphus, Chapter 1, Albert Camus addresses questions that remain central to philosophy. The only serious philosophical question is whether life is worth living — Camus confronts the absurd. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Albert Camus wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The absurd",
+        content: "Albert Camus develops the concept of the absurd. This idea is central to the argument of The Myth of Sisyphus, Chapter 1 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of philosophical suicide. Together, these concepts form a coherent framework for understanding Albert Camus's philosophical vision."
+      },
+      {
+        heading: "The confrontation with meaninglessness",
+        content: "Albert Camus develops the concept of the confrontation with meaninglessness. This idea is central to the argument of The Myth of Sisyphus, Chapter 1 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of revolt against absurdity. Together, these concepts form a coherent framework for understanding Albert Camus's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Myth of Sisyphus, Chapter 1 have had an enduring impact on philosophy and beyond. Albert Camus's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Albert Camus's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is life's meaning a genuine philosophical problem?", "How do you respond to absurdity?"],
     furtherReading: "Available on Archive.org.",
     externalUrl: "https://archive.org/details/the-myth-of-sisyphus_202106"
@@ -3145,7 +5614,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1942)",
     overview: "Embracing the absurd: one must imagine Sisyphus happy. Read the full text via the link below.",
     keyConcepts: ["One must imagine Sisyphus happy", "Living without appeal", "The absurd hero", "Revolt, freedom, passion"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Myth of Sisyphus, Chapters 2-4, Albert Camus addresses questions that remain central to philosophy. Embracing the absurd: one must imagine Sisyphus happy. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Albert Camus wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "One must imagine Sisyphus happy",
+        content: "Albert Camus develops the concept of one must imagine sisyphus happy. This idea is central to the argument of The Myth of Sisyphus, Chapters 2-4 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of living without appeal. Together, these concepts form a coherent framework for understanding Albert Camus's philosophical vision."
+      },
+      {
+        heading: "The absurd hero",
+        content: "Albert Camus develops the concept of the absurd hero. This idea is central to the argument of The Myth of Sisyphus, Chapters 2-4 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of revolt, freedom, passion. Together, these concepts form a coherent framework for understanding Albert Camus's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Myth of Sisyphus, Chapters 2-4 have had an enduring impact on philosophy and beyond. Albert Camus's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Albert Camus's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can Sisyphus be happy?", "Is embracing the absurd heroic or foolish?"],
     furtherReading: "Available on Archive.org.",
     externalUrl: "https://archive.org/details/the-myth-of-sisyphus_202106"
@@ -3159,7 +5645,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1946)",
     overview: "We are condemned to be free — Sartre's existentialist manifesto, delivered as a public lecture. Read the full text via the link below.",
     keyConcepts: ["Existence precedes essence", "Radical freedom", "Bad faith", "Responsibility without excuse"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Existentialism Is a Humanism, Jean-Paul Sartre addresses questions that remain central to philosophy. We are condemned to be free — Sartre's existentialist manifesto, delivered as a public lecture. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Jean-Paul Sartre wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Existence precedes essence",
+        content: "Jean-Paul Sartre develops the concept of existence precedes essence. This idea is central to the argument of Existentialism Is a Humanism and has profoundly influenced subsequent philosophical thought. Closely related is the notion of radical freedom. Together, these concepts form a coherent framework for understanding Jean-Paul Sartre's philosophical vision."
+      },
+      {
+        heading: "Bad faith",
+        content: "Jean-Paul Sartre develops the concept of bad faith. This idea is central to the argument of Existentialism Is a Humanism and has profoundly influenced subsequent philosophical thought. Closely related is the notion of responsibility without excuse. Together, these concepts form a coherent framework for understanding Jean-Paul Sartre's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Existentialism Is a Humanism have had an enduring impact on philosophy and beyond. Jean-Paul Sartre's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Jean-Paul Sartre's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Are you condemned to be free?", "What does it mean to define yourself through choices?"],
     furtherReading: "Available on Marxists.org.",
     externalUrl: "https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm"
@@ -3173,7 +5676,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1963)",
     overview: "Evil as thoughtlessness — Arendt's controversial thesis from the trial of Adolf Eichmann. Read the full text via the link below.",
     keyConcepts: ["The banality of evil", "Thoughtlessness and moral failure", "Obedience and responsibility", "The trial as philosophical event"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Eichmann in Jerusalem, Epilogue, Hannah Arendt addresses questions that remain central to philosophy. Evil as thoughtlessness — Arendt's controversial thesis from the trial of Adolf Eichmann. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Hannah Arendt wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The banality of evil",
+        content: "Hannah Arendt develops the concept of the banality of evil. This idea is central to the argument of Eichmann in Jerusalem, Epilogue and has profoundly influenced subsequent philosophical thought. Closely related is the notion of thoughtlessness and moral failure. Together, these concepts form a coherent framework for understanding Hannah Arendt's philosophical vision."
+      },
+      {
+        heading: "Obedience and responsibility",
+        content: "Hannah Arendt develops the concept of obedience and responsibility. This idea is central to the argument of Eichmann in Jerusalem, Epilogue and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the trial as philosophical event. Together, these concepts form a coherent framework for understanding Hannah Arendt's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Eichmann in Jerusalem, Epilogue have had an enduring impact on philosophy and beyond. Hannah Arendt's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Hannah Arendt's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Can evil be 'banal'?", "Is thoughtlessness a moral failing?"],
     furtherReading: "Available on Archive.org.",
     externalUrl: "https://archive.org/details/elonarendtreport00aren"
@@ -3187,7 +5707,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1958)",
     overview: "Labor, work, and action — the three fundamental human activities that define the vita activa. Read the full text via the link below.",
     keyConcepts: ["Labor, work, and action", "The vita activa", "The public and private realms", "Plurality and politics"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Human Condition, Chapters 1-2, Hannah Arendt addresses questions that remain central to philosophy. Labor, work, and action — the three fundamental human activities that define the vita activa. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Hannah Arendt wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Labor, work, and action",
+        content: "Hannah Arendt develops the concept of labor, work, and action. This idea is central to the argument of The Human Condition, Chapters 1-2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the vita activa. Together, these concepts form a coherent framework for understanding Hannah Arendt's philosophical vision."
+      },
+      {
+        heading: "The public and private realms",
+        content: "Hannah Arendt develops the concept of the public and private realms. This idea is central to the argument of The Human Condition, Chapters 1-2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of plurality and politics. Together, these concepts form a coherent framework for understanding Hannah Arendt's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Human Condition, Chapters 1-2 have had an enduring impact on philosophy and beyond. Hannah Arendt's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Hannah Arendt's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["What is the difference between labor and work?", "Is action the highest human activity?"],
     furtherReading: "Available on Archive.org.",
     externalUrl: "https://archive.org/details/humancondition0000aren"
@@ -3201,7 +5738,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1971)",
     overview: "Justice as fairness — Rawls revives social contract theory with a powerful new framework. Read the full text via the link below.",
     keyConcepts: ["Justice as fairness", "The original position", "The two principles of justice", "Reflective equilibrium"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In A Theory of Justice, Chapter 1, John Rawls addresses questions that remain central to philosophy. Justice as fairness — Rawls revives social contract theory with a powerful new framework. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. John Rawls wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Justice as fairness",
+        content: "John Rawls develops the concept of justice as fairness. This idea is central to the argument of A Theory of Justice, Chapter 1 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the original position. Together, these concepts form a coherent framework for understanding John Rawls's philosophical vision."
+      },
+      {
+        heading: "The two principles of justice",
+        content: "John Rawls develops the concept of the two principles of justice. This idea is central to the argument of A Theory of Justice, Chapter 1 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of reflective equilibrium. Together, these concepts form a coherent framework for understanding John Rawls's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in A Theory of Justice, Chapter 1 have had an enduring impact on philosophy and beyond. John Rawls's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with John Rawls's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is justice really about fairness?", "Can we design fair principles for society?"],
     furtherReading: "Available on Archive.org.",
     externalUrl: "https://archive.org/details/theoryofjustice0000rawl"
@@ -3215,7 +5769,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1971)",
     overview: "Designing society without knowing your place in it — the veil of ignorance as a test of fairness. Read the full text via the link below.",
     keyConcepts: ["The veil of ignorance", "The original position", "The difference principle", "Maximin reasoning"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In A Theory of Justice, Chapter 3, John Rawls addresses questions that remain central to philosophy. Designing society without knowing your place in it — the veil of ignorance as a test of fairness. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. John Rawls wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The veil of ignorance",
+        content: "John Rawls develops the concept of the veil of ignorance. This idea is central to the argument of A Theory of Justice, Chapter 3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the original position. Together, these concepts form a coherent framework for understanding John Rawls's philosophical vision."
+      },
+      {
+        heading: "The difference principle",
+        content: "John Rawls develops the concept of the difference principle. This idea is central to the argument of A Theory of Justice, Chapter 3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of maximin reasoning. Together, these concepts form a coherent framework for understanding John Rawls's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in A Theory of Justice, Chapter 3 have had an enduring impact on philosophy and beyond. John Rawls's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with John Rawls's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Would you choose the same society from behind the veil?", "Is the veil of ignorance a good test of fairness?"],
     furtherReading: "Available on Archive.org.",
     externalUrl: "https://archive.org/details/theoryofjustice0000rawl"
@@ -3229,7 +5800,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1962)",
     overview: "Paradigm shifts — how science really progresses, not through accumulation but through revolution. Read the full text via the link below.",
     keyConcepts: ["Paradigms", "Normal science", "Anomalies and crisis", "Scientific revolutions"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In The Structure of Scientific Revolutions, Chapters 1-5, Thomas Kuhn addresses questions that remain central to philosophy. Paradigm shifts — how science really progresses, not through accumulation but through revolution. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Thomas Kuhn wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Paradigms",
+        content: "Thomas Kuhn develops the concept of paradigms. This idea is central to the argument of The Structure of Scientific Revolutions, Chapters 1-5 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of normal science. Together, these concepts form a coherent framework for understanding Thomas Kuhn's philosophical vision."
+      },
+      {
+        heading: "Anomalies and crisis",
+        content: "Thomas Kuhn develops the concept of anomalies and crisis. This idea is central to the argument of The Structure of Scientific Revolutions, Chapters 1-5 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of scientific revolutions. Together, these concepts form a coherent framework for understanding Thomas Kuhn's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in The Structure of Scientific Revolutions, Chapters 1-5 have had an enduring impact on philosophy and beyond. Thomas Kuhn's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Thomas Kuhn's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Does science progress through revolutions?", "Are paradigms incommensurable?"],
     furtherReading: "Available on Archive.org.",
     externalUrl: "https://archive.org/details/structureofscie000kuhn"
@@ -3243,7 +5831,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1953)",
     overview: "Meaning is use — Wittgenstein's revolution in the philosophy of language. Read the full text via the link below.",
     keyConcepts: ["Language games", "Meaning as use", "Family resemblance", "Against private language"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Philosophical Investigations, Sections 1-100, Ludwig Wittgenstein addresses questions that remain central to philosophy. Meaning is use — Wittgenstein's revolution in the philosophy of language. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Ludwig Wittgenstein wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "Language games",
+        content: "Ludwig Wittgenstein develops the concept of language games. This idea is central to the argument of Philosophical Investigations, Sections 1-100 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of meaning as use. Together, these concepts form a coherent framework for understanding Ludwig Wittgenstein's philosophical vision."
+      },
+      {
+        heading: "Family resemblance",
+        content: "Ludwig Wittgenstein develops the concept of family resemblance. This idea is central to the argument of Philosophical Investigations, Sections 1-100 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of against private language. Together, these concepts form a coherent framework for understanding Ludwig Wittgenstein's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Philosophical Investigations, Sections 1-100 have had an enduring impact on philosophy and beyond. Ludwig Wittgenstein's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Ludwig Wittgenstein's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Is meaning really just use?", "Can language be fully precise?"],
     furtherReading: "Available on Archive.org.",
     externalUrl: "https://archive.org/details/philosophicalinv0000witt"
@@ -3257,7 +5862,24 @@ export const chapters: Record<string, ChapterContent> = {
     era: "20th Century (1953)",
     overview: "Can there be a language only one person understands? Wittgenstein argues no. Read the full text via the link below.",
     keyConcepts: ["The private language argument", "Rule-following", "The beetle in the box", "Language as public practice"],
-    sections: [],
+    sections: [
+      {
+        heading: "Context and Background",
+        content: "In Philosophical Investigations, Sections 243-315, Ludwig Wittgenstein addresses questions that remain central to philosophy. Can there be a language only one person understands? Wittgenstein argues no. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Ludwig Wittgenstein wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+      },
+      {
+        heading: "The private language argument",
+        content: "Ludwig Wittgenstein develops the concept of the private language argument. This idea is central to the argument of Philosophical Investigations, Sections 243-315 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of rule-following. Together, these concepts form a coherent framework for understanding Ludwig Wittgenstein's philosophical vision."
+      },
+      {
+        heading: "The beetle in the box",
+        content: "Ludwig Wittgenstein develops the concept of the beetle in the box. This idea is central to the argument of Philosophical Investigations, Sections 243-315 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of language as public practice. Together, these concepts form a coherent framework for understanding Ludwig Wittgenstein's philosophical vision."
+      },
+      {
+        heading: "Significance and Legacy",
+        content: "The ideas presented in Philosophical Investigations, Sections 243-315 have had an enduring impact on philosophy and beyond. Ludwig Wittgenstein's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Ludwig Wittgenstein's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+      }
+    ],
     reflectionQuestions: ["Could you have a language no one else could learn?", "Is all meaning public?"],
     furtherReading: "Available on Archive.org.",
     externalUrl: "https://archive.org/details/philosophicalinv0000witt"
