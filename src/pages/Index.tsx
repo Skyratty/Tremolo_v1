@@ -22,7 +22,7 @@ const Index = () => {
           180 Lessons in Philosophy
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          A guided tour through the greatest works of philosophy.
+          ​With Tremolo you choose what you want to do! You could read summaries, skim to find the parts that interest you, or read full books.                                                                                   
 
         </p>
       </div>
