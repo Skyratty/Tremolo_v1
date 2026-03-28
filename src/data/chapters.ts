@@ -1117,24 +1117,24 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Arguments for the soul's immortality", "The theory of recollection", "The soul's kinship with the Forms", "Socrates' calm acceptance of death"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In Apology, Plato addresses questions that remain central to philosophy. The Apology is Plato's account of the trial of Socrates. Charged with corrupting the youth and impiety, Socrates mounts a defense that is less about saving his life and more about defending the philosophical way of life itself. Rather than beg for mercy, Socrates challenges his accusers and the jury, arguing that his mission of questioning and examining has been a service to Athens. The dialogue culminates in one of philosophy's most famous declarations: 'The unexamined life is not worth living.'. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Plato wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Socrates\' Final Hours",
+        content: "The Phaedo is set in Socrates\' prison cell on the day of his execution. His friends gather around him, and Phaedo later recounts the scene to Echecrates. What strikes everyone is Socrates\' remarkable calm — even cheerfulness — in the face of death. He explains that a true philosopher has spent his whole life preparing for death, because philosophy is the practice of separating the soul from the body. The philosopher seeks truth through pure reason, not through the senses, which distort and deceive. Death, then, is merely the completion of what the philosopher has always been trying to do: free the soul from the body\'s interference."
       },
       {
-        heading: "The Socratic Method",
-        content: "Plato develops the concept of philosophy as relentless questioning. This idea is central to the argument of Apology and has profoundly influenced subsequent philosophical thought. Closely related is the notion of socrates is declared the wisest, because he knows that he knows nothing. Together, these concepts form a coherent framework for understanding Plato's philosophical vision."
+        heading: "The Argument from Opposites",
+        content: "Socrates offers several arguments for the soul\'s immortality. The first draws on the observation that opposites come from opposites: the living come from the dead, and the dead from the living. Just as waking comes from sleeping and sleeping from waking, there must be a process by which souls pass from life to death and back again. If this cycle didn\'t operate in both directions, eventually everything would be dead and nothing would come back to life. Therefore, the souls of the dead must exist somewhere from which they can return."
       },
       {
-        heading: "The Gadfly",
-        content: "Plato develops the concept of socrates as a pest who stings athens into wakefulness. This idea is central to the argument of Apology and has profoundly influenced subsequent philosophical thought. Closely related is the notion of a life without reflection lacks true value. Together, these concepts form a coherent framework for understanding Plato's philosophical vision."
+        heading: "The Theory of Recollection",
+        content: "The second argument builds on the theory introduced in the Meno. We possess knowledge of abstract concepts — equality, beauty, goodness — that we could not have derived from sensory experience alone. No two sticks are perfectly equal, yet we understand perfect equality. Socrates argues that we must have acquired this knowledge before birth, when the soul existed in a disembodied state and had direct contact with the Forms. Learning is therefore recollection (anamnesis), and the soul must have existed before it entered the body."
       },
       {
-        heading: "Intellectual Humility",
-        content: "Plato develops the concept of wisdom begins with acknowledging ignorance. This idea is central to the argument of Apology and has profoundly influenced subsequent philosophical thought."
+        heading: "The Affinity Argument",
+        content: "Socrates then argues from the soul\'s nature. There are two kinds of things: the visible, changing, composite things of the physical world, and the invisible, unchanging, simple realities (the Forms). The body is clearly akin to the first kind — it changes, decays, and can be perceived by the senses. The soul is akin to the second — it is invisible, it grasps unchanging truths, and it is most itself when reasoning independently of the body. Since the soul resembles the eternal and indestructible Forms, it is unlikely to be destroyed at death."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in Apology have had an enduring impact on philosophy and beyond. Plato's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Plato's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "The Final Argument from Forms",
+        content: "After entertaining and answering objections from Simmias and Cebes — including the devastating suggestion that the soul might be like a harmony that perishes when the instrument is destroyed — Socrates presents his final argument. The soul is that which brings life to the body. Life is the soul\'s essential characteristic, just as heat is fire\'s essential characteristic. Fire can never be cold; similarly, the soul can never admit death. When death approaches, the soul must either withdraw or be destroyed — but since it cannot admit its opposite, it must withdraw. The soul is therefore deathless. Socrates then drinks the hemlock with extraordinary composure, his friends weeping around him."
       }
     ],
     reflectionQuestions: ["Is the soul immortal?", "Can philosophy help us face death?"],
@@ -2423,20 +2423,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Wu wei as effortless action", "The Tao as source of all things", "Simplicity and naturalness", "The soft overcomes the hard"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In Tao Te Ching, Chapters 21-40, Lao Tzu addresses questions that remain central to philosophy. Action through non-action — the Taoist paradox of achieving by not striving. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Lao Tzu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "The Paradox of Wu Wei",
+        content: "Wu wei — literally \'non-action\' or \'non-doing\' — is perhaps the most misunderstood concept in all of Eastern philosophy. It does not mean passivity, laziness, or withdrawal from the world. Rather, wu wei describes a mode of action that is perfectly aligned with the natural flow of things. It is effortless effort — like water flowing downhill, finding the path of least resistance while carving through solid rock over time. A person acting in wu wei does not force, strain, or contrive; they respond spontaneously and appropriately to each situation as it arises, like an expert musician who no longer thinks about where to place their fingers."
       },
       {
-        heading: "Wu wei as effortless action",
-        content: "Lao Tzu develops the concept of wu wei as effortless action. This idea is central to the argument of Tao Te Ching, Chapters 21-40 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the tao as source of all things. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+        heading: "The Tao as the Source",
+        content: "Chapters 21-25 of the Tao Te Ching explore the nature of the Tao itself — the ultimate reality that underlies and generates all things. The Tao is described as dim and dark, vague and elusive, yet within it are images and essences. It existed before heaven and earth, silent and solitary, standing alone and unchanging, reaching everywhere without being exhausted. Lao Tzu famously says he does not know its name but calls it \'Tao,\' and if forced to give it a further name, calls it \'Great.\' The Tao is not a god or a being but the principle of naturalness itself — the way things spontaneously unfold when not interfered with."
       },
       {
-        heading: "Simplicity and naturalness",
-        content: "Lao Tzu develops the concept of simplicity and naturalness. This idea is central to the argument of Tao Te Ching, Chapters 21-40 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the soft overcomes the hard. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+        heading: "Softness Overcomes Hardness",
+        content: "One of the Tao Te Ching\'s most distinctive teachings is that the soft and yielding overcome the hard and rigid. Lao Tzu points to water as the supreme example: nothing in the world is softer or weaker than water, yet nothing can surpass it for attacking what is hard and strong. A living tree is supple and bends in the wind; a dead tree is stiff and snaps. Newborn babies are soft and flexible; corpses are hard and rigid. Softness is thus allied with life, hardness with death. This reversal of conventional values — where weakness is strength, emptiness is fullness, yielding is victory — runs throughout these chapters."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in Tao Te Ching, Chapters 21-40 have had an enduring impact on philosophy and beyond. Lao Tzu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Lao Tzu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "The Return to Simplicity",
+        content: "Lao Tzu advocates a return to \'pu\' — the \'uncarved block,\' a metaphor for original simplicity before desire, ambition, and artifice have shaped us. Chapters 28-37 develop the theme that civilization, with its distinctions of good and bad, beautiful and ugly, wise and foolish, actually creates the problems it claims to solve. The more laws and regulations, the more thieves and criminals. The more weapons, the more disorder. The more clever and cunning people become, the more strange things happen. The sage therefore governs by emptying minds and filling bellies, weakening ambitions and strengthening bones — not through stupidity, but through a return to the natural wholeness that existed before artificial distinctions fractured experience."
       }
     ],
     reflectionQuestions: ["What would effortless action look like in your life?", "Is striving counterproductive?"],
@@ -2454,20 +2454,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Leadership through humility", "Governing without force", "The virtue of yielding", "Simplicity in government"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In Tao Te Ching, Chapters 41-60, Lao Tzu addresses questions that remain central to philosophy. Leadership through humility and yielding — the Taoist vision of the ideal ruler. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Lao Tzu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "The Tao and Political Leadership",
+        content: "Chapters 41-60 of the Tao Te Ching articulate Lao Tzu\'s radical vision of political leadership. The best rulers, he argues, are barely noticed by the people; the next best are loved and praised; the next are feared; and the worst are despised. When the best leader\'s work is done, the people say, \'We did it ourselves.\' This is leadership through wu wei applied to governance — the ruler creates conditions for things to flourish without imposing their will. Lao Tzu contrasts this with the Confucian and Legalist approaches to government, which rely on moral instruction, ritual, and law respectively."
       },
       {
-        heading: "Leadership through humility",
-        content: "Lao Tzu develops the concept of leadership through humility. This idea is central to the argument of Tao Te Ching, Chapters 41-60 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of governing without force. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+        heading: "The Virtue of Yielding",
+        content: "Chapter 43 states that the softest thing in the world overcomes the hardest. Chapter 44 asks: which is more important, your name or your body? Your body or your possessions? Gaining or losing? The one who is content is never disgraced; the one who knows when to stop avoids danger. Lao Tzu develops a sustained argument that the conventional pursuits of power, fame, and wealth are not merely unsuccessful strategies — they are inversions of the natural order. The great rivers and seas are kings of the hundred valleys because they lie below them. The sage who would lead the people must place himself behind them."
       },
       {
-        heading: "The virtue of yielding",
-        content: "Lao Tzu develops the concept of the virtue of yielding. This idea is central to the argument of Tao Te Ching, Chapters 41-60 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of simplicity in government. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+        heading: "Governing Without Force",
+        content: "Chapters 46-50 develop the political implications. When the Tao prevails in the world, warhorses are used for farming; when the Tao is absent, warhorses are bred on the borders. There is no greater curse than discontent, no greater sin than desire. The sage governs without traveling, knows without seeing, accomplishes without acting. This is not anti-political quietism but a sophisticated critique of the activist, interventionist state. Lao Tzu argues that most political problems are created by rulers who cannot leave things alone — their \'solutions\' generate new problems in an endless cycle of intervention."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in Tao Te Ching, Chapters 41-60 have had an enduring impact on philosophy and beyond. Lao Tzu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Lao Tzu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "The Mysterious Female",
+        content: "Lao Tzu repeatedly uses feminine imagery to describe the Tao and ideal leadership. The \'valley spirit\' and the \'mysterious female\' represent receptivity, openness, and the power of the void. Chapter 55 compares the person of perfect virtue to a newborn baby — full of vitality yet utterly without aggression. Chapter 56 introduces the famous paradox: those who know do not speak; those who speak do not know. The sage teaches without words and acts without action, achieving a kind of magnetic influence that draws people naturally, without coercion. This vision of leadership through receptive presence rather than forceful command continues to influence management theory, psychotherapy, and political philosophy today."
       }
     ],
     reflectionQuestions: ["Can a leader truly lead by yielding?", "Is humility a strength?"],
@@ -2485,20 +2485,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Water as the model of the Tao", "Softness overcomes hardness", "Contentment and simplicity", "Returning to the source"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In Tao Te Ching, Chapters 61-81, Lao Tzu addresses questions that remain central to philosophy. The strength of softness, the power of water — Lao Tzu's final teachings on the Tao. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Lao Tzu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Water as Supreme Teacher",
+        content: "In the final section of the Tao Te Ching, Lao Tzu returns to his most beloved image: water. Chapter 78 states it definitively: \'Nothing in the world is as soft and yielding as water, yet for dissolving the hard and inflexible, nothing can surpass it.\' Water succeeds precisely because it doesn\'t compete. It seeks the lowest places that everyone else avoids. It adapts its shape to any container. It carves the Grand Canyon not through force but through persistence and patience. For Lao Tzu, water embodies the deepest truth about reality: that authentic power works through yielding, not domination, through persistence, not violence."
       },
       {
-        heading: "Water as the model of the Tao",
-        content: "Lao Tzu develops the concept of water as the model of the tao. This idea is central to the argument of Tao Te Ching, Chapters 61-81 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of softness overcomes hardness. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+        heading: "Small States and Simple Living",
+        content: "Chapters 61-67 develop Lao Tzu\'s political vision to its radical conclusion. Large states should take the lower position in dealing with small states, just as the ocean accepts all rivers by lying below them. Chapter 80 describes his utopia: a small state with few people, where there are weapons but no one uses them, boats and carriages but no one rides them, writing but no need to use it. The people enjoy their food, are pleased with their clothing, feel secure in their homes, and delight in their customs. Neighboring states can see and hear each other, but the people grow old and die without traveling between them. This is not a blueprint for policy but a meditation on what human beings actually need versus what civilization tells them they need."
       },
       {
-        heading: "Contentment and simplicity",
-        content: "Lao Tzu develops the concept of contentment and simplicity. This idea is central to the argument of Tao Te Ching, Chapters 61-81 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of returning to the source. Together, these concepts form a coherent framework for understanding Lao Tzu's philosophical vision."
+        heading: "Contentment and the Return",
+        content: "Chapters 68-75 develop the theme of contentment. The person who knows they have enough is rich. The person who perseveres has willpower. The person who does not lose their place endures. Lao Tzu warns repeatedly against excess: \'There is no greater misfortune than wanting more.\' The concept of \'returning\' (fan) is crucial — the movement of the Tao is to return, to cycle back to the origin. All things flourish and then return to their root. Returning to the root is called stillness; stillness is called returning to one\'s destiny. This cyclical view contrasts sharply with Western ideas of linear progress."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in Tao Te Ching, Chapters 61-81 have had an enduring impact on philosophy and beyond. Lao Tzu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Lao Tzu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "True Words and Farewell",
+        content: "The final chapter (81) offers a series of memorable paradoxes that summarize the entire work: \'True words are not beautiful; beautiful words are not true. The good are not argumentative; the argumentative are not good. The wise are not learned; the learned are not wise.\' The sage does not hoard — the more they give to others, the more they have themselves. The Tao of heaven benefits and does not harm; the Tao of the sage acts and does not compete. With these deceptively simple words, Lao Tzu concludes a text that has been translated more often than any book except the Bible — a testament to the enduring power of its paradoxical wisdom."
       }
     ],
     reflectionQuestions: ["In what ways is water powerful?", "Is contentment the highest achievement?"],
@@ -2516,20 +2516,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Ren as the highest virtue", "Li as the form of virtue", "The unity of inner feeling and outer form", "The gentleman vs. the petty person"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Analects, Books III-IV, Confucius addresses questions that remain central to philosophy. Ren (benevolence) and Li (ritual propriety) as the twin pillars of Confucian ethics. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Li: The Forms of Civilization",
+        content: "Book III of the Analects is almost entirely devoted to li — ritual propriety, ceremony, and the forms of civilized life. Confucius saw li not as empty formality but as the embodiment of respect, order, and humanity in concrete action. When asked about the root of ritual, he responded that in ritual, simplicity is better than extravagance; in mourning, genuine grief is better than meticulous observance. The outer form must express genuine inner feeling. Confucius was deeply disturbed when he saw the Ji family performing the Eight Row Dance — a ritual reserved for the Son of Heaven — in their own courtyard. \'If this can be tolerated, what cannot be tolerated?\' he asked, seeing in the transgression a symptom of the social disorder consuming his age."
       },
       {
-        heading: "Ren as the highest virtue",
-        content: "Confucius develops the concept of ren as the highest virtue. This idea is central to the argument of The Analects, Books III-IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of li as the form of virtue. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Ren: The Heart of Virtue",
+        content: "Book IV turns to ren — humaneness, benevolence, or love — the supreme virtue in Confucius\'s ethics. Ren is notoriously difficult to define because Confucius resists giving it a fixed definition, instead pointing to it from different angles. It means loving others. It means overcoming oneself and returning to propriety. A person of ren is \'slow to speak\' because they are concerned with deeds, not words. Confucius says he has never seen a person who truly loved ren or truly hated its absence. Ren is achievable — \'Is ren really so far away? If I want ren, it is here\' — yet Confucius refuses to attribute it to anyone definitively, including himself. This combination of accessibility and elusiveness makes ren a perpetual aspiration rather than an achieved state."
       },
       {
-        heading: "The unity of inner feeling and outer form",
-        content: "Confucius develops the concept of the unity of inner feeling and outer form. This idea is central to the argument of The Analects, Books III-IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the gentleman vs. the petty person. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "The Unity of Inner and Outer",
+        content: "The genius of Confucius\'s ethics lies in his insistence that ren (inner virtue) and li (outer form) are inseparable. Ritual without genuine feeling is hollow performance; feeling without ritual is formless sentimentality. The person who has ren naturally expresses it through proper ritual behavior; the practice of ritual, in turn, cultivates and deepens ren. This creates a virtuous circle: by bowing properly to your elders, you strengthen the feeling of respect; by genuinely respecting your elders, you bow with sincerity. Confucius rejects the idea that you must first perfect your inner life and then express it outwardly — the inner and outer develop together, each reinforcing the other."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Analects, Books III-IV have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "The Junzi and the Petty Person",
+        content: "Throughout Books III-IV, Confucius draws sharp contrasts between the junzi (the exemplary person, the \'gentleman\') and the xiaoren (the petty or small person). The junzi understands what is right; the xiaoren understands what is profitable. The junzi is at ease without being arrogant; the xiaoren is arrogant without being at ease. The junzi seeks to bring out the best in others; the xiaoren seeks to bring out the worst. The junzi is concerned with virtue; the xiaoren is concerned with land. These are not social classes but moral types — anyone can become a junzi through self-cultivation, and anyone can become a xiaoren through moral laziness. The distinction provides a constant moral compass throughout the Analects."
       }
     ],
     reflectionQuestions: ["Can ritual be genuinely meaningful?", "Is benevolence natural or cultivated?"],
@@ -2547,20 +2547,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Junzi as moral ideal", "Self-cultivation", "Learning from others", "Moral courage"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Analects, Books V-VIII, Confucius addresses questions that remain central to philosophy. The ideal of the junzi — the morally cultivated person who embodies virtue. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "The Ideal of the Junzi",
+        content: "Books V-VIII of the Analects develop the portrait of the junzi — the morally cultivated person — in rich detail through anecdotes, evaluations of historical figures, and Confucius\'s own conduct. The junzi possesses five essential qualities: gravity (so as not to be frivolous), generosity of soul, sincerity, earnestness, and kindness. Confucius evaluates his own students and contemporaries against this standard, praising some and gently criticizing others. Yan Hui, his favorite student, came closest to the ideal — he could go three months without departing from ren, while others could manage it for only a day or a month."
       },
       {
-        heading: "Junzi as moral ideal",
-        content: "Confucius develops the concept of junzi as moral ideal. This idea is central to the argument of The Analects, Books V-VIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of self-cultivation. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Learning and Self-Cultivation",
+        content: "For Confucius, learning (xue) is not the passive absorption of information but an active process of moral self-transformation. \'Learning without thinking is a waste; thinking without learning is dangerous.\' Book VII reveals Confucius as a passionate, tireless learner: \'I am not one who was born with knowledge; I am one who loves antiquity and is earnest in seeking it.\' He describes himself as someone so eager to learn that he forgets to eat, so happy in learning that he forgets his worries, not even noticing that old age is approaching. This model of the teacher as perpetual student has profoundly shaped East Asian educational culture."
       },
       {
-        heading: "Learning from others",
-        content: "Confucius develops the concept of learning from others. This idea is central to the argument of The Analects, Books V-VIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of moral courage. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Learning from Others",
+        content: "One of Confucius\'s most attractive qualities is his genuine openness to learning from anyone. \'When I walk with two others, I always find a teacher among them. I follow the good in one and correct the bad in myself using the other.\' This is not false modesty — Confucius genuinely believed that moral cultivation requires constant observation of others and honest self-assessment. He also insisted that his teaching was available to all, regardless of social background: \'I have never refused to teach anyone who came to me with even the smallest token of willingness to learn.\' This democratic impulse within an aristocratic framework is one of the creative tensions that makes the Analects so enduringly rich."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Analects, Books V-VIII have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Moral Courage and Integrity",
+        content: "The junzi must have moral courage — the willingness to speak truth to power and to maintain integrity even at personal cost. Confucius praises those who served good rulers and withdrew from bad ones, and he criticizes those who compromised their principles for the sake of a comfortable position. Book VIII includes meditations on the proper use of office: \'When the Way prevails in a state, accept a salary; when the Way does not prevail, to accept a salary is shameful.\' Yet Confucius is no rigid moralist — he acknowledges that moral situations are complex and that the junzi must exercise judgment (yi, righteousness) rather than mechanically following rules. The true test of character is not adherence to a code but the ability to do what is right in the specific situation."
       }
     ],
     reflectionQuestions: ["What does it mean to be a 'gentleman' in Confucius' sense?", "Is moral cultivation a lifelong process?"],
@@ -2578,20 +2578,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Government by moral example", "The ruler's virtue influences the people", "Rectification of names", "Justice and benevolence in governance"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Analects, Books XII-XIII, Confucius addresses questions that remain central to philosophy. How rulers should govern through moral example rather than force. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Governing by Virtue",
+        content: "Books XII and XIII of the Analects contain Confucius\'s most developed political teachings. When asked about government, Confucius responds: \'To govern is to be correct. If you lead the people by being correct, who will dare to be incorrect?\' The ruler\'s primary duty is not to create laws or distribute punishments but to embody virtue. \'If a ruler is upright, things will get done without orders being given. If a ruler is not upright, even though orders are given, they will not be obeyed.\' This is governance by moral example — the ruler\'s character radiates outward and transforms the people, just as wind bends grass."
       },
       {
-        heading: "Government by moral example",
-        content: "Confucius develops the concept of government by moral example. This idea is central to the argument of The Analects, Books XII-XIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the ruler's virtue influences the people. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "The Priority of Trust",
+        content: "In one of the Analects\' most famous exchanges, a student asks Confucius about the essentials of government. Confucius lists three things: sufficient food, sufficient arms, and the trust of the people. Pressed to give up one, he surrenders arms. Pressed again, he surrenders food. \'From antiquity, death has come to all people, but a people without trust cannot stand.\' This is a radical claim: that legitimacy depends not on force or prosperity but on the moral bond between rulers and ruled. Without trust, no amount of military power or economic wealth can sustain a political order. This insight resonates powerfully in an age of institutional distrust."
       },
       {
-        heading: "Rectification of names",
-        content: "Confucius develops the concept of rectification of names. This idea is central to the argument of The Analects, Books XII-XIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of justice and benevolence in governance. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "The Rectification of Names",
+        content: "When asked what he would do first if given power, Confucius says he would \'rectify names\' (zhengming). If names are not correct, speech does not accord with reality; if speech does not accord with reality, affairs cannot be carried out; if affairs cannot be carried out, rites and music do not flourish; if rites and music do not flourish, punishments miss the mark; if punishments miss the mark, the people have nowhere to put hand or foot. This seemingly abstract doctrine has profound practical implications: calling something by the wrong name — calling a tyrant a \'leader,\' calling exploitation \'opportunity\' — corrupts thought, action, and ultimately the entire social order."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Analects, Books XII-XIII have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Reciprocity and the Golden Rule",
+        content: "Book XII contains Confucius\'s formulation of what is often called the \'Silver Rule\': \'Do not impose on others what you do not wish for yourself.\' Unlike the positive formulation (\'Do unto others as you would have them do unto you\'), Confucius\'s version emphasizes restraint — not imposing on others. This is characteristically Confucian: the emphasis is on self-discipline and respect for others\' autonomy rather than on active intervention. Confucius\'s student Zigong asked whether there was a single word that could guide one\'s conduct throughout life. Confucius responded: \'Is it not shu — reciprocity? Do not impose on others what you do not wish for yourself.\' This principle of empathetic consideration became the thread running through Confucian ethics."
       }
     ],
     reflectionQuestions: ["Can moral example really govern?", "What makes a leader legitimate?"],
@@ -2609,20 +2609,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["The rectification of names", "Language and social order", "When a prince is not princely", "Truth in language as moral obligation"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Analects, Book XIII, Confucius addresses questions that remain central to philosophy. When words lose their meaning, society falls apart — naming things correctly is a political and moral act. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Why Names Matter",
+        content: "The Rectification of Names (zhengming) is one of Confucius\'s most distinctive and far-reaching doctrines. It begins from a seemingly simple observation: when words no longer accurately describe reality, everything falls apart. If a \'ruler\' doesn\'t actually rule justly, if a \'father\' doesn\'t fulfill his fatherly duties, if a \'minister\' doesn\'t serve the state — then the names have become lies, and the entire social fabric unravels. Confucius insisted that the first task of governance was to ensure that titles, roles, and descriptions accurately corresponded to the realities they named. This wasn\'t pedantry; it was a theory of social order rooted in linguistic integrity."
       },
       {
-        heading: "The rectification of names",
-        content: "Confucius develops the concept of the rectification of names. This idea is central to the argument of The Analects, Book XIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of language and social order. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Language and Social Order",
+        content: "Confucius saw a direct causal chain from linguistic to social disorder. When a usurper claims the title of king, the word \'king\' loses its meaning. When ministers use the rituals reserved for the Son of Heaven, the ritual vocabulary is corrupted. When people call selfishness \'self-care\' or cruelty \'strength,\' moral reasoning becomes impossible. The rectification of names is therefore not a linguistic exercise but a political and ethical imperative. It requires the courage to call things by their true names — to say that a tyrant is a tyrant, that injustice is injustice, regardless of what those in power wish to call it."
       },
       {
-        heading: "When a prince is not princely",
-        content: "Confucius develops the concept of when a prince is not princely. This idea is central to the argument of The Analects, Book XIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of truth in language as moral obligation. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Names and Responsibilities",
+        content: "The doctrine has a deeply practical dimension: every name carries responsibilities. To be called \'ruler\' is to be obligated to govern justly; to be called \'father\' is to be obligated to care for and educate one\'s children; to be called \'friend\' is to be obligated to loyalty and honesty. When Confucius says \'Let the ruler be a ruler, the minister a minister, the father a father, the son a son,\' he is not stating tautologies — he is insisting that people fulfill the obligations inherent in their social roles. The gap between what a title promises and what a person actually does is, for Confucius, the primary source of social breakdown."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Analects, Book XIII have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Contemporary Relevance",
+        content: "The rectification of names has found new relevance in contemporary philosophy of language, political theory, and media studies. George Orwell\'s analysis of political language in \'Politics and the English Language\' — where he describes how euphemism, question-begging, and vagueness are used to defend the indefensible — echoes Confucius\'s insight that corrupted language corrupts thought and action. The modern phenomena of \'spin,\' \'doublespeak,\' and \'post-truth\' politics are precisely the kind of linguistic-moral disorder that Confucius warned against twenty-five centuries ago. His remedy remains challenging: the intellectual honesty and moral courage to insist that words mean what they say."
       }
     ],
     reflectionQuestions: ["Does political language corrupt thought?", "Why does naming matter morally?"],
@@ -2640,20 +2640,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Filial piety as foundational virtue", "The family as moral training ground", "Respect for elders", "The connection between family and state"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Analects, Books I-II & IV, Confucius addresses questions that remain central to philosophy. The family as the root of all virtue — xiao (filial piety) as the foundation of ethics. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Xiao: The Root of Virtue",
+        content: "Filial piety (xiao) occupies a unique place in Confucian ethics — it is called the \'root of humaneness\' (ren) and the foundation of all virtue. The idea is that the family is the school of morality: one first learns to love, respect, and serve within the intimate bonds of parent and child, and then extends these capacities outward to society. A person who cannot honor their parents is unlikely to honor their ruler, their community, or their moral obligations. But Confucius\'s understanding of filial piety is far more nuanced than simple obedience. It involves genuine love, attentive care, and — crucially — the willingness to correct a parent\'s errors with gentle remonstrance."
       },
       {
-        heading: "Filial piety as foundational virtue",
-        content: "Confucius develops the concept of filial piety as foundational virtue. This idea is central to the argument of The Analects, Books I-II & IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the family as moral training ground. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Beyond Mere Obedience",
+        content: "Confucius explicitly rejects the idea that filial piety means blind obedience. When asked about xiao, he responds: \'Nowadays people think they are being filial if they simply feed their parents. But we feed dogs and horses too — without respect, what\'s the difference?\' True filial piety requires an inner attitude of reverence and love, not merely external compliance. Furthermore, Confucius argues that a truly filial child must gently admonish a parent who is acting wrongly. If the parent doesn\'t listen, the child should continue to be respectful and not resentful, but should not simply acquiesce in wrongdoing. Filial piety is thus compatible with moral integrity."
       },
       {
-        heading: "Respect for elders",
-        content: "Confucius develops the concept of respect for elders. This idea is central to the argument of The Analects, Books I-II & IV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the connection between family and state. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Filial Piety and Social Order",
+        content: "The Classic of Filial Piety (Xiaojing), traditionally attributed to Confucius, extends xiao from the family to the state. Just as children serve parents, subjects serve rulers; just as siblings maintain harmony, colleagues maintain cooperation. This analogy between family and state became one of the most powerful — and most contested — ideas in East Asian political thought. Critics argue that it enabled authoritarian rule by casting political obedience as a filial duty. Defenders respond that it also empowered critique: just as a filial child must remonstrate with an erring parent, a loyal minister must speak truth to an erring ruler. The obligation runs both ways."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Analects, Books I-II & IV have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Mourning and Memory",
+        content: "Confucius placed great emphasis on mourning rituals as an expression of filial piety. The three-year mourning period for parents was, for him, a minimum: \'A child does not leave its parents\' arms until it is three years old — three years of mourning is the universal mourning observed throughout the world.\' This seemingly archaic practice embodies a profound psychological insight: that genuine love requires time and space for grief, that honoring the dead is essential to maintaining one\'s own moral identity, and that the way a society treats its dead reveals its deepest values. The Confucian emphasis on ancestral rites kept the past present and gave individuals a sense of identity rooted in something larger than themselves."
       }
     ],
     reflectionQuestions: ["Is the family the foundation of all morality?", "What obligations do children owe parents?"],
@@ -2671,20 +2671,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Self-cultivation as lifelong practice", "The stages of moral development", "Learning and reflection", "Persistence in virtue"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Analects, Books XIV-XV, Confucius addresses questions that remain central to philosophy. The lifelong process of moral self-improvement and the stages of Confucius' own development. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "The Project of Self-Cultivation",
+        content: "For Confucius, becoming a good person is not a matter of following rules or obeying commandments but of cultivating one\'s character over a lifetime. He describes his own journey: \'At fifteen, I set my heart on learning. At thirty, I took my stand. At forty, I was no longer confused. At fifty, I knew the will of Heaven. At sixty, my ear was attuned. At seventy, I could follow my heart\'s desire without overstepping the boundaries.\' This autobiography traces a path from youthful aspiration through intellectual maturity to effortless virtue — the point where doing right becomes second nature. It suggests that moral development is a lifelong process, not a one-time achievement."
       },
       {
-        heading: "Self-cultivation as lifelong practice",
-        content: "Confucius develops the concept of self-cultivation as lifelong practice. This idea is central to the argument of The Analects, Books XIV-XV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the stages of moral development. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "The Role of Ritual Practice",
+        content: "Self-cultivation in the Confucian framework is not purely internal or meditative — it happens through practice. By repeatedly performing rituals with sincerity, one gradually internalizes the attitudes they express. Bowing shapes humility; ceremony shapes respect; mourning shapes grief into dignity. This is remarkably similar to Aristotle\'s insight that we become virtuous by practicing virtue — we learn courage by acting courageously, generosity by acting generously. For Confucius, the external forms of ritual are the gymnasium of the soul, the discipline through which character is forged. Without practice, good intentions remain formless; without sincerity, practice remains empty."
       },
       {
-        heading: "Learning and reflection",
-        content: "Confucius develops the concept of learning and reflection. This idea is central to the argument of The Analects, Books XIV-XV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of persistence in virtue. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Learning and Reflection",
+        content: "Confucius insists on the complementarity of learning and thinking: \'Learning without thinking is labor lost; thinking without learning is perilous.\' The cultivated person absorbs the wisdom of the past (through studying the classics, history, and the examples of sages) but does not simply accept it passively. They reflect on what they learn, test it against their own experience, and make it their own. Confucius also emphasizes the importance of finding good teachers and companions: \'When you see a worthy person, think about how you might equal them; when you see an unworthy person, reflect inwardly on yourself.\' Self-cultivation is thus a social practice, requiring models, mirrors, and honest friends."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Analects, Books XIV-XV have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "The Goal: Effortless Virtue",
+        content: "The endpoint of Confucian self-cultivation is not rigid moral perfection but a kind of moral grace — what Confucius describes as \'following my heart\'s desire without overstepping the boundaries.\' At this stage, the cultivated person does what is right naturally, spontaneously, without inner struggle or external compulsion. This closely parallels the Taoist concept of wu wei and Aristotle\'s idea of the person of practical wisdom (phronesis) who perceives and responds to moral situations with trained intuition. The Confucian sage is not someone who white-knuckles their way through moral dilemmas but someone whose character has been so thoroughly shaped by cultivation that goodness flows from them as naturally as water flows downhill."
       }
     ],
     reflectionQuestions: ["Is moral growth ever complete?", "What stage of development are you in?"],
@@ -2702,20 +2702,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Music as moral education", "Poetry and emotional cultivation", "The arts and character formation", "Harmony in music and in life"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Analects, Books III & XVII, Confucius addresses questions that remain central to philosophy. How the arts shape character — Confucius on the moral power of music and poetry. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Music as Moral Education",
+        content: "For Confucius, music was not merely entertainment but one of the most powerful tools for moral cultivation. He believed that music directly shapes character because it works on the emotions, harmonizing them and bringing them into proper proportion. The right kind of music — stately, measured, expressing appropriate feelings — cultivates inner harmony and social virtue. The wrong kind — excessively sensual, violent, or chaotic — corrupts the soul and destabilizes society. Confucius said of the music of Shao that it was \'perfectly beautiful and perfectly good,\' while the music of Wu was \'perfectly beautiful but not perfectly good\' — beauty alone is insufficient; music must also express moral truth."
       },
       {
-        heading: "Music as moral education",
-        content: "Confucius develops the concept of music as moral education. This idea is central to the argument of The Analects, Books III & XVII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of poetry and emotional cultivation. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Music and Social Harmony",
+        content: "Confucius saw a direct analogy between musical harmony and social harmony. In an orchestra, different instruments play different parts, but they come together in a unified whole. Similarly, in a well-ordered society, different people occupy different roles but contribute to a harmonious community. The Confucian ideal is not uniformity (everyone playing the same note) but harmony (different notes combining into something greater than any individual part). This distinction between harmony (he) and uniformity (tong) is one of Confucius\'s most important conceptual contributions. The junzi harmonizes but does not merely conform; the petty person conforms but does not truly harmonize."
       },
       {
-        heading: "The arts and character formation",
-        content: "Confucius develops the concept of the arts and character formation. This idea is central to the argument of The Analects, Books III & XVII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of harmony in music and in life. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Ritual and Music as Paired Arts",
+        content: "In Confucian thought, ritual (li) and music (yue) are complementary. Ritual establishes order, differentiation, and respect for hierarchy; music promotes unity, emotional connection, and communal feeling. Ritual without music becomes rigid and cold; music without ritual becomes chaotic and self-indulgent. Together, they create a society that is both ordered and warm, both disciplined and joyful. Confucius lamented that in his own era, \'ritual and music have not been restored\' — the forms survived but the spirit had drained away. Genuine ritual and music require the same inner sincerity that ren demands: external performance animated by authentic feeling."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Analects, Books III & XVII have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "The Loss and Recovery of Music",
+        content: "Confucius\'s emphasis on music had practical consequences for Chinese civilization. Music became a formal part of education, a required competence for officials, and a subject of philosophical reflection for over two thousand years. The \'Book of Music\' (Yueji), traditionally attributed to Confucius\'s school, develops these ideas systematically, arguing that the sounds of a well-governed state are peaceful and joyful, the sounds of a disordered state are resentful and angry, and the sounds of a perishing state are sorrowful and anxious. You can diagnose a society by listening to its music. While the specific musical forms Confucius championed have largely been lost, his insight that aesthetic experience shapes moral character remains profoundly relevant in an age saturated with sound and image."
       }
     ],
     reflectionQuestions: ["Can music shape character?", "Should art serve moral purposes?"],
@@ -2733,20 +2733,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Shu — the principle of reciprocity", "The negative golden rule", "Empathy as moral foundation", "The 'one thread' of Confucian ethics"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Analects, Books IV & XV, Confucius addresses questions that remain central to philosophy. Do not impose on others what you do not wish for yourself — shu as the thread running through Confucian ethics. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Shu: The Principle of Reciprocity",
+        content: "When asked if there was a single principle that could guide one\'s entire life, Confucius answered with one word: shu — reciprocity, or empathetic consideration. He defined it as: \'Do not impose on others what you do not wish for yourself.\' This \'Silver Rule\' is both simpler and more modest than the \'Golden Rule\' of Christianity (\'Do unto others as you would have them do unto you\'). Rather than actively prescribing how to treat others based on your own preferences — which might not match theirs — Confucius\'s formulation emphasizes restraint: before acting, consider whether your action would be welcome if directed at you."
       },
       {
-        heading: "Shu",
-        content: "Confucius develops the concept of the principle of reciprocity. This idea is central to the argument of The Analects, Books IV & XV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the negative golden rule. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "Zhongshu: Loyalty and Reciprocity",
+        content: "Confucius paired shu (reciprocity) with zhong (loyalty or conscientiousness) to describe the \'one thread\' running through his teachings. Zhong means doing one\'s best, being true to oneself and one\'s commitments. Shu means extending that conscientiousness outward by considering others\' perspectives. Together, zhongshu describes a moral life centered on integrity and empathy. The person of zhongshu doesn\'t need a vast moral code because they carry within themselves the capacity to judge right action in any situation: be true to your best self, and treat others as you would wish to be treated."
       },
       {
-        heading: "Empathy as moral foundation",
-        content: "Confucius develops the concept of empathy as moral foundation. This idea is central to the argument of The Analects, Books IV & XV and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the 'one thread' of confucian ethics. Together, these concepts form a coherent framework for understanding Confucius's philosophical vision."
+        heading: "The Practice of Empathy",
+        content: "Shu is not merely an abstract principle but a practice. Confucius\'s student Zigong asked: \'Is there a single saying that one can act upon all day and every day?\' Confucius\'s answer — shu — suggests that moral life is fundamentally about the habit of perspective-taking. Before criticizing, ask: would I want to be criticized this way? Before demanding, ask: would I want this demanded of me? Before ignoring someone\'s need, ask: would I want to be ignored? This ongoing practice of imaginative identification with others is, for Confucius, more reliable than any set of rules because it adapts to every situation. It requires no special learning — only the willingness to consider another person\'s experience."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Analects, Books IV & XV have had an enduring impact on philosophy and beyond. Confucius's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Universal Ethics from Particular Relationships",
+        content: "What makes Confucius\'s approach distinctive is that he derives universal ethical principles from particular human relationships rather than from abstract reason. The Golden Rule traditions in Western philosophy (Kant\'s categorical imperative, for instance) tend to start with universal principles and apply them to specific cases. Confucius starts with the concrete experience of family and community — the love between parent and child, the trust between friends, the loyalty between ruler and subject — and extrapolates outward. This gives Confucian ethics a warmth and concreteness that more abstract systems sometimes lack, while the principle of shu ensures that particular attachments don\'t become mere tribalism."
       }
     ],
     reflectionQuestions: ["Is the negative golden rule better than the positive version?", "Is empathy the foundation of morality?"],
@@ -2764,20 +2764,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["The Mean as cosmic harmony", "Sincerity (cheng)", "Balance in emotions and action", "The unity of heaven and human nature"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Doctrine of the Mean, Confucius (attr.) addresses questions that remain central to philosophy. Harmony, balance, and the path of moderation in Confucian thought. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius (attr.) wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "The Doctrine of the Mean",
+        content: "The Doctrine of the Mean (Zhongyong), attributed to Confucius\'s grandson Zisi, explores one of Confucius\'s most important but elusive concepts: zhongyong, the mean or center. This is not mediocrity or compromise but the precisely right response to each unique situation — hitting the mark perfectly, like an archer. The person who has achieved zhongyong experiences emotions — joy, anger, sorrow, pleasure — but always in the right measure, at the right time, directed at the right object. Before emotions are aroused, the mind is in a state of equilibrium (zhong); when they are aroused and hit the mark, this is called harmony (he). Equilibrium and harmony are the great foundations of the world."
       },
       {
-        heading: "The Mean as cosmic harmony",
-        content: "Confucius (attr.) develops the concept of the mean as cosmic harmony. This idea is central to the argument of The Doctrine of the Mean and has profoundly influenced subsequent philosophical thought. Closely related is the notion of sincerity (cheng). Together, these concepts form a coherent framework for understanding Confucius (attr.)'s philosophical vision."
+        heading: "Sincerity and Self-Realization",
+        content: "The Zhongyong develops the concept of cheng (sincerity or authenticity) as the metaphysical foundation of morality. Sincerity is not merely \'not lying\' but the complete alignment of one\'s inner nature with the Way of Heaven. \'Sincerity is the Way of Heaven; to become sincere is the Way of human beings.\' The sincere person fully realizes their own nature; by fully realizing their own nature, they can fully realize the nature of others; by fully realizing the nature of others, they can fully realize the nature of things; and by fully realizing the nature of things, they can assist in the transforming and nourishing powers of Heaven and Earth. This is a remarkably ambitious vision of human possibility."
       },
       {
-        heading: "Balance in emotions and action",
-        content: "Confucius (attr.) develops the concept of balance in emotions and action. This idea is central to the argument of The Doctrine of the Mean and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the unity of heaven and human nature. Together, these concepts form a coherent framework for understanding Confucius (attr.)'s philosophical vision."
+        heading: "The Mean in Practice",
+        content: "Confucius acknowledged that the Mean is extraordinarily difficult to achieve and sustain. \'The path of the Mean — how long the world has been unable to follow it!\' Most people err in one direction or another: the clever overshoot, the stupid fall short; the bold are reckless, the timid are passive. The Mean requires what Aristotle would later call practical wisdom (phronesis): the ability to perceive the right action in the particular circumstances. It cannot be reduced to a formula. It requires experience, reflection, sensitivity to context, and above all the kind of self-knowledge that comes from sustained self-cultivation."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Doctrine of the Mean have had an enduring impact on philosophy and beyond. Confucius (attr.)'s arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius (attr.)'s conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Cosmic Significance of the Mean",
+        content: "The Zhongyong makes the remarkable claim that the person who achieves the Mean participates in the creative activity of the cosmos itself. By achieving equilibrium and harmony within themselves, they help establish equilibrium and harmony in the world. \'When equilibrium and harmony are realized to the highest degree, heaven and earth take their proper positions and all things are nourished.\' This is not supernatural mysticism but a philosophical claim that human moral achievement has cosmic significance — that the order of the universe and the order of the human soul are intimately connected. This vision of the moral person as a microcosm of the cosmic order profoundly influenced all subsequent Confucian philosophy, especially the Neo-Confucians of the Song dynasty."
       }
     ],
     reflectionQuestions: ["Is moderation always the right path?", "What is the relationship between sincerity and virtue?"],
@@ -2795,20 +2795,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["The eight steps from self-cultivation to world peace", "Investigation of things", "Sincerity of thought", "The connection between personal and political virtue"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Great Learning, Confucius (attr.) addresses questions that remain central to philosophy. From cultivating the self to ordering the state — the Confucian program for social harmony. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Confucius (attr.) wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "The Eight Steps of Self-Cultivation",
+        content: "The Great Learning (Daxue) lays out an ascending sequence of eight steps from personal cultivation to world transformation: investigate things, extend knowledge, make intentions sincere, rectify the heart-mind, cultivate the person, regulate the family, order the state, bring peace to the world. This sequence embodies the Confucian conviction that political order begins with personal virtue. You cannot govern a state if you cannot govern your family; you cannot govern your family if you cannot govern yourself; you cannot govern yourself if you do not understand reality. The chain is unbreakable: skip any link, and the whole project fails."
       },
       {
-        heading: "The eight steps from self-cultivation to world peace",
-        content: "Confucius (attr.) develops the concept of the eight steps from self-cultivation to world peace. This idea is central to the argument of The Great Learning and has profoundly influenced subsequent philosophical thought. Closely related is the notion of investigation of things. Together, these concepts form a coherent framework for understanding Confucius (attr.)'s philosophical vision."
+        heading: "The Investigation of Things",
+        content: "The first step — \'the investigation of things\' (gewu) — became one of the most debated concepts in the entire Confucian tradition. What does it mean to \'investigate things\'? The Neo-Confucian philosopher Zhu Xi (12th century) interpreted it as the study of the external world through careful observation and reading — a kind of proto-empiricism. Wang Yangming (15th century) dramatically disagreed, arguing that it meant examining one\'s own mind and its innate moral knowledge. Wang famously spent seven days staring at bamboo trying to \'investigate\' it by Zhu Xi\'s method, became ill, and concluded that truth must be sought within. This debate shaped Chinese intellectual history for centuries."
       },
       {
-        heading: "Sincerity of thought",
-        content: "Confucius (attr.) develops the concept of sincerity of thought. This idea is central to the argument of The Great Learning and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the connection between personal and political virtue. Together, these concepts form a coherent framework for understanding Confucius (attr.)'s philosophical vision."
+        heading: "Sincerity of Intentions",
+        content: "The Great Learning insists that moral cultivation requires \'making one\'s intentions sincere\' (chengyi). This means eliminating self-deception — the human tendency to rationalize, to pretend to ourselves that our motives are purer than they are. The text uses a vivid metaphor: the sincere person is watchful over themselves even when alone, because virtue is not a performance for others but an alignment of inner reality with outer behavior. \'What is truly within will be manifested without.\' A person who is generous in public but stingy in private, brave before witnesses but cowardly alone, has not made their intentions sincere. Genuine moral transformation requires confronting what you are when no one is watching."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Great Learning have had an enduring impact on philosophy and beyond. Confucius (attr.)'s arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Confucius (attr.)'s conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "From Self to World",
+        content: "The Great Learning\'s most distinctive contribution is its systematic connection of personal ethics to political order. The text argues that the way a ruler manages their own emotions directly affects how they govern: a ruler consumed by anger cannot be just; a ruler blinded by pleasure cannot be wise; a ruler paralyzed by anxiety cannot be decisive. By the same logic, a family led by a self-cultivated person will naturally be harmonious, and a state governed by people of cultivated character will naturally be well-ordered. This vision — that good governance is a function of good character rather than good institutions — has been both the greatest strength and the most criticized weakness of the Confucian political tradition."
       }
     ],
     reflectionQuestions: ["Can personal virtue really lead to social harmony?", "What does 'investigation of things' mean?"],
@@ -2826,20 +2826,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["The giant fish and bird (Kun and Peng)", "Relativity of perspectives", "The uselessness of usefulness", "Freedom from convention"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Inner Chapters, Chapters 1-3, Zhuangzi addresses questions that remain central to philosophy. Freedom, perspective, and the limits of knowledge — Zhuangzi challenges all fixed viewpoints. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Zhuangzi wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "The Boundless and the Free",
+        content: "The opening chapter of the Zhuangzi, \'Free and Easy Wandering\' (Xiaoyao You), begins with one of the most spectacular images in all of philosophy: a fish named Kun, so enormous it spans thousands of miles, which transforms into a bird named Peng, whose wings are like clouds covering the sky. Peng soars to a height of ninety thousand miles and rides the wind south to the Pool of Heaven. Small creatures like the cicada and the dove laugh at Peng — why fly so high when you can flutter from tree to tree? Zhuangzi\'s point is that each creature is limited by its own perspective. The small cannot comprehend the great, and everyone assumes their own experience is the measure of all things."
       },
       {
-        heading: "The giant fish and bird (Kun and Peng)",
-        content: "Zhuangzi develops the concept of the giant fish and bird (kun and peng). This idea is central to the argument of The Inner Chapters, Chapters 1-3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of relativity of perspectives. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+        heading: "The Relativity of Perspectives",
+        content: "Zhuangzi uses this opening parable to introduce his fundamental theme: the relativity of all perspectives and judgments. What seems enormous to one creature is tiny to another. What seems important from one vantage point is trivial from another. The person who is admired in one village may be laughed at in the next. Even the sage-king Yao, who governs the entire world, realizes that his perspective is limited when he meets the recluse Xu You, who has no desire for power. Zhuangzi doesn\'t conclude that all perspectives are equally valid — rather, he suggests that true freedom comes from transcending any fixed perspective and \'wandering\' freely through the infinite variety of viewpoints."
       },
       {
-        heading: "The uselessness of usefulness",
-        content: "Zhuangzi develops the concept of the uselessness of usefulness. This idea is central to the argument of The Inner Chapters, Chapters 1-3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of freedom from convention. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+        heading: "Uselessness as Freedom",
+        content: "The chapter includes several parables about \'useless\' trees — trees so gnarled and knotty that no carpenter would cut them down. Because they are useless, they survive and grow to enormous size, providing shade for thousands. Zhuangzi suggests that \'usefulness\' is a trap: the useful ox is sacrificed, the useful tree is felled, the useful person is exploited. By being \'useless\' by conventional standards — by refusing to fit into society\'s categories of utility — one can preserve one\'s life and freedom. This is not an endorsement of laziness but a radical questioning of the values by which society judges worth."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Inner Chapters, Chapters 1-3 have had an enduring impact on philosophy and beyond. Zhuangzi's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Zhuangzi's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "True Freedom",
+        content: "Zhuangzi describes the truly free person as one who \'rides the normality of heaven and earth, masters the changes of the six energies, and wanders through the limitless.\' Such a person depends on nothing external — they are not constrained by social expectations, conventional judgments, or even the fear of death. This is not the Stoic freedom of self-discipline or the Buddhist freedom of detachment but something more playful and expansive: the freedom to be fully responsive to each moment without being trapped by any fixed identity, role, or belief. Zhuangzi\'s sage \'wanders\' — not to any destination but for the sheer joy of the journey."
       }
     ],
     reflectionQuestions: ["Is usefulness the right measure of value?", "Can we ever escape our limited perspective?"],
@@ -2857,20 +2857,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["The relativity of identity", "Dream and reality", "The transformation of things", "Skepticism about knowledge"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Inner Chapters, Chapter 2, Zhuangzi addresses questions that remain central to philosophy. Am I a man dreaming of being a butterfly, or a butterfly dreaming of being a man? Read the full text via the link below.. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Zhuangzi wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "The Dream of the Butterfly",
+        content: "At the end of Chapter 2, Zhuangzi tells the most famous parable in Chinese philosophy: \'Once Zhuangzi dreamt he was a butterfly, a butterfly flitting and fluttering around, happy with itself and doing as it pleased. It didn\'t know it was Zhuangzi. Suddenly he woke up, and there he was, solid and unmistakable Zhuangzi. But he didn\'t know if he was Zhuangzi who had dreamt he was a butterfly, or a butterfly dreaming he was Zhuangzi.\' This is not mere whimsy — it raises profound questions about the nature of self, reality, and the boundaries between states of consciousness."
       },
       {
-        heading: "The relativity of identity",
-        content: "Zhuangzi develops the concept of the relativity of identity. This idea is central to the argument of The Inner Chapters, Chapter 2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of dream and reality. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+        heading: "The Equality of Things",
+        content: "The butterfly dream appears in the chapter called \'On the Equality of Things\' (Qi Wu Lun), which argues that all the distinctions we draw — between right and wrong, beautiful and ugly, large and small, life and death — are products of our limited perspective rather than features of reality itself. From the standpoint of the Tao, all things are equal. \'There is nothing in the world bigger than the tip of an autumn hair, and Mount Tai is small.\' This sounds absurd, but Zhuangzi\'s point is that size, importance, and value are relative to the observer. The Tao encompasses all perspectives without privileging any one of them."
       },
       {
-        heading: "The transformation of things",
-        content: "Zhuangzi develops the concept of the transformation of things. This idea is central to the argument of The Inner Chapters, Chapter 2 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of skepticism about knowledge. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+        heading: "Language and Its Limits",
+        content: "Chapter 2 contains Zhuangzi\'s most sustained critique of language and logical argument. He observes that every philosophical debate — between Confucians and Mohists, for instance — involves each side affirming what the other denies. \'If you and I have an argument, and you win, does that mean you\'re right? If I win, does that mean I\'m right? Is one of us right and the other wrong? Are both of us right? Are both wrong? You and I can\'t know, and others are even more in the dark.\' Zhuangzi suggests that language and logic are tools that work within a particular framework but cannot step outside all frameworks to reveal absolute truth."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Inner Chapters, Chapter 2 have had an enduring impact on philosophy and beyond. Zhuangzi's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Zhuangzi's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "The Hinge of the Tao",
+        content: "Instead of trying to win arguments or establish final truths, Zhuangzi advocates what he calls standing at \'the hinge of the Tao\' — the still point at the center of the circle from which all perspectives can be seen without being captured by any. This is not relativism (the claim that nothing is true) but perspectivism (the recognition that truth looks different from different angles). The sage doesn\'t abandon judgment but holds judgments lightly, ready to see things differently. The butterfly dream embodies this: rather than anxiously insisting \'I am Zhuangzi, not a butterfly,\' the sage rests comfortably in the ambiguity, recognizing that the question itself reveals the fluidity of identity and the limits of certainty."
       }
     ],
     reflectionQuestions: ["How do you know you're not dreaming?", "Is identity fixed or fluid?"],
@@ -2888,20 +2888,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Skill beyond technique", "Wu wei in practice", "Following the natural grain", "The art of effortless mastery"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Inner Chapters, Chapter 3, Zhuangzi addresses questions that remain central to philosophy. Cook Ding's perfect skill — wu wei in action and the art of living effortlessly. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Zhuangzi wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Cook Ding Cuts the Ox",
+        content: "In one of philosophy\'s most vivid parables, Cook Ding (or Butcher Ding) demonstrates his art for Lord Wen-hui. His knife moves through the ox with perfect fluidity — every touch, every pressure, every stroke follows the natural structure of the animal. The ox falls apart as if it were dissolving. Lord Wen-hui exclaims, \'Wonderful! That technique can reach such heights?\' Cook Ding puts down his knife and replies: \'What I follow is the Tao, which goes beyond mere technique.\' He explains that when he first began cutting oxen, all he could see was the whole ox. After three years, he no longer saw the whole ox — he perceived its natural structure, the spaces between joints, the pathways through tissue. Now he goes by spirit rather than sight, following the natural structure with his mind rather than his eyes."
       },
       {
-        heading: "Skill beyond technique",
-        content: "Zhuangzi develops the concept of skill beyond technique. This idea is central to the argument of The Inner Chapters, Chapter 3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of wu wei in practice. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+        heading: "Wu Wei in Practice",
+        content: "Cook Ding\'s knife has been in use for nineteen years and has cut up thousands of oxen, yet it is still as sharp as if fresh from the grindstone. Why? Because it passes through the natural openings without touching bone or sinew. \'Whenever I come to a complicated place, I assess the difficulties, tell myself to be careful, focus my vision, slow down, and move the blade with the greatest subtlety, until — flop! — the whole thing comes apart like a clod of earth crumbling to the ground.\' This is wu wei made concrete: not forcing, not striving, but following the natural grain of things. The skill is not in overpowering the material but in perceiving and moving with its inherent structure."
       },
       {
-        heading: "Following the natural grain",
-        content: "Zhuangzi develops the concept of following the natural grain. This idea is central to the argument of The Inner Chapters, Chapter 3 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the art of effortless mastery. Together, these concepts form a coherent framework for understanding Zhuangzi's philosophical vision."
+        heading: "Skill Beyond Technique",
+        content: "Lord Wen-hui\'s response reveals the deeper lesson: \'Excellent! I have heard the words of Cook Ding and learned how to nurture life.\' The story is not really about butchery — it\'s about how to live. Life, like an ox carcass, has a natural structure with joints and openings. The wise person perceives this structure and moves through it without forcing. The foolish person hacks away blindly, meets resistance at every turn, and quickly dulls their blade (exhausts their vitality). Zhuangzi is offering an alternative to the Confucian model of moral effort and the Mohist model of relentless self-sacrifice: a model of skilled, responsive engagement that preserves life while accomplishing what needs to be done."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Inner Chapters, Chapter 3 have had an enduring impact on philosophy and beyond. Zhuangzi's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Zhuangzi's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "The Philosophy of Craft",
+        content: "The Cook Ding story inaugurates a rich tradition in Chinese philosophy: the use of craft and skill as models for understanding the good life. Zhuangzi tells similar stories about a wheelwright, a swimmer, a cicada-catcher, and a woodcarver, all of whom achieve mastery not through conscious effort but by entering a state of absorption where the self and the task merge. This anticipates modern psychology\'s concept of \'flow\' — the state of complete engagement where action and awareness become one. For Zhuangzi, this state is not a special achievement but the natural condition of a person who has stopped interfering with their own spontaneous responsiveness. The obstacle to mastery is not insufficient effort but excessive self-consciousness."
       }
     ],
     reflectionQuestions: ["Have you ever experienced effortless mastery?", "Can skill transcend conscious effort?"],
@@ -2919,20 +2919,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Separation of powers", "Three types of government", "The principle of each government", "Liberty and the structure of law"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Spirit of the Laws, Books I-VIII, Montesquieu addresses questions that remain central to philosophy. The separation of powers and the principles behind different forms of government. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Montesquieu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Laws as Products of Climate and Geography",
+        content: "Montesquieu\'s The Spirit of the Laws (1748) revolutionized political thought by arguing that laws are not arbitrary commands or divine decrees but products of a society\'s specific conditions — its climate, geography, religion, commerce, customs, and form of government. Different conditions produce different laws, and what works in one society may fail in another. Cold climates produce vigorous, courageous peoples suited to self-government; hot climates produce languid peoples more easily governed by despots. While these specific claims about climate are now outdated and criticized as ethnocentric, the underlying insight — that good governance must be tailored to actual conditions — remains foundational to political science."
       },
       {
-        heading: "Separation of powers",
-        content: "Montesquieu develops the concept of separation of powers. This idea is central to the argument of The Spirit of the Laws, Books I-VIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of three types of government. Together, these concepts form a coherent framework for understanding Montesquieu's philosophical vision."
+        heading: "The Separation of Powers",
+        content: "Montesquieu\'s most influential contribution is his theory of the separation of powers. Observing the English constitution (somewhat idealized), he argued that political liberty can only be maintained when legislative, executive, and judicial powers are held by separate, independent bodies. When any two of these powers are combined in the same hands, tyranny results. This insight became the architectural blueprint for the United States Constitution and countless other democratic constitutions worldwide. Montesquieu\'s genius was not in inventing the concept of separate powers — precursors exist in Aristotle and Locke — but in systematically demonstrating why concentration of power inevitably leads to its abuse."
       },
       {
-        heading: "The principle of each government",
-        content: "Montesquieu develops the concept of the principle of each government. This idea is central to the argument of The Spirit of the Laws, Books I-VIII and has profoundly influenced subsequent philosophical thought. Closely related is the notion of liberty and the structure of law. Together, these concepts form a coherent framework for understanding Montesquieu's philosophical vision."
+        heading: "Three Forms of Government",
+        content: "Montesquieu identifies three forms of government, each animated by a distinct principle. Republics are driven by civic virtue — the willingness of citizens to put the common good above private interest. Monarchies are driven by honor — the desire to distinguish oneself and gain recognition within a hierarchical order. Despotisms are driven by fear — the ruler\'s power rests entirely on intimidation. Each form has characteristic laws, institutions, and social structures. The importance of this analysis is its insight that political systems are not just different arrangements of power but different ways of life, each shaping the character of citizens in distinctive ways."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Spirit of the Laws, Books I-VIII have had an enduring impact on philosophy and beyond. Montesquieu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Montesquieu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Commerce, Freedom, and Moderation",
+        content: "Montesquieu was among the first to systematically analyze the relationship between commerce and political freedom. He argued that commerce tends to promote peace, tolerance, and mutual respect between nations and individuals — what he called \'gentle commerce\' (doux commerce). Trading nations develop habits of negotiation, compromise, and reliability that are conducive to free government. However, Montesquieu was no utopian: he recognized that unchecked commerce could also corrode civic virtue and create new forms of inequality. His overarching recommendation is moderation — the idea that good government avoids extremes and maintains balance between competing goods. This temperate, empirical approach to politics continues to inform liberal democratic thought."
       }
     ],
     reflectionQuestions: ["Why is separation of powers important?", "Does the form of government shape the character of the people?"],
@@ -2950,20 +2950,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["All warfare is based on deception", "Know your enemy and know yourself", "The five factors of war", "Winning without fighting"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Art of War, Chapters 1-6, Sun Tzu addresses questions that remain central to philosophy. Strategy, deception, and the philosophy of conflict — winning without fighting is the highest art. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Sun Tzu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "War as a Matter of Life and Death",
+        content: "The Art of War opens with a stark declaration: \'War is a matter of vital importance to the state; the province of life and death; the road to survival or ruin.\' Sun Tzu insists that warfare must never be undertaken lightly, emotionally, or without exhaustive calculation. The first chapter, \'Laying Plans,\' establishes that victory depends on five fundamental factors: the Moral Law (the unity of ruler and people), Heaven (weather, seasons, timing), Earth (terrain, distances, danger), the Commander (wisdom, sincerity, benevolence, courage, strictness), and Method and Discipline (organization, logistics, supply). Before any battle is fought, the outcome can be predicted by comparing these factors between the two sides."
       },
       {
-        heading: "All warfare is based on deception",
-        content: "Sun Tzu develops the concept of all warfare is based on deception. This idea is central to the argument of The Art of War, Chapters 1-6 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of know your enemy and know yourself. Together, these concepts form a coherent framework for understanding Sun Tzu's philosophical vision."
+        heading: "The Art of Deception",
+        content: "Sun Tzu\'s most famous principle is that \'all warfare is based on deception.\' When capable, feign incapacity; when active, feign inactivity; when near, make the enemy believe you are far; when far, that you are near. Offer bait to lure the enemy; feign disorder to crush them. If the enemy is well-prepared, be ready for them; if strong, avoid them; if angry, provoke them; if at rest, make them move. Attack where they are unprepared; appear where you are not expected. This emphasis on deception and psychological manipulation was revolutionary in an era when many military traditions valued heroic, head-on confrontation. Sun Tzu values intelligence over brute force."
       },
       {
-        heading: "The five factors of war",
-        content: "Sun Tzu develops the concept of the five factors of war. This idea is central to the argument of The Art of War, Chapters 1-6 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of winning without fighting. Together, these concepts form a coherent framework for understanding Sun Tzu's philosophical vision."
+        heading: "Winning Without Fighting",
+        content: "The supreme art of war, Sun Tzu argues, is to subdue the enemy without fighting. \'To fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy\'s resistance without fighting.\' The best military strategy is to attack the enemy\'s plans (disrupt their strategy before it can be executed); the next best is to disrupt their alliances; the next is to attack their army; and the worst is to besiege their cities. This hierarchy values strategic thinking over tactical prowess and diplomacy over violence. A commander who wins every battle but at enormous cost has failed; a commander who wins without battle has achieved the ideal."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Art of War, Chapters 1-6 have had an enduring impact on philosophy and beyond. Sun Tzu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Sun Tzu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Know Yourself, Know Your Enemy",
+        content: "Sun Tzu\'s most quoted maxim encapsulates his entire philosophy: \'If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle.\' This emphasis on intelligence — both self-knowledge and knowledge of the opponent — makes The Art of War as much a work of epistemology as of military strategy. It has been applied far beyond the battlefield: to business competition, political campaigns, legal strategy, and personal development. The fundamental message is that information and understanding, not force alone, determine the outcome of any conflict."
       }
     ],
     reflectionQuestions: ["Is deception ever justified?", "Can Sun Tzu's principles apply beyond warfare?"],
@@ -2981,20 +2981,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Adaptability to terrain", "The use of spies", "Fire attacks", "Knowing when not to fight"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Art of War, Chapters 7-13, Sun Tzu addresses questions that remain central to philosophy. Flexibility, intelligence, and knowing when not to fight. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Sun Tzu wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Terrain and Adaptation",
+        content: "The later chapters of The Art of War develop Sun Tzu\'s analysis of terrain — both physical and strategic. He identifies nine types of ground (dispersive, frontier, key, open, intersecting, serious, difficult, surrounded, and death ground) and prescribes specific strategies for each. On death ground — where retreat is impossible — fight with the courage of desperation. On easy ground, maintain communication. On key ground, establish alliances. The underlying principle is adaptation: there is no single correct strategy, only the strategy appropriate to the specific circumstances. \'Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe he is facing.\'"
       },
       {
-        heading: "Adaptability to terrain",
-        content: "Sun Tzu develops the concept of adaptability to terrain. This idea is central to the argument of The Art of War, Chapters 7-13 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the use of spies. Together, these concepts form a coherent framework for understanding Sun Tzu's philosophical vision."
+        heading: "The Use of Spies",
+        content: "The final chapter of The Art of War is devoted entirely to espionage — a topic most military treatises of the ancient world ignored or treated as dishonorable. Sun Tzu identifies five types of spies: local (using inhabitants of the enemy\'s territory), inside (using enemy officials), reverse (turning enemy spies), dead (feeding false information through agents who will be caught), and living (agents who return with intelligence). He argues that the sovereign who wishes to win must invest heavily in intelligence: \'What enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is foreknowledge.\' This foreknowledge cannot come from the gods or from analogy with past events — it can only come from people who know the enemy\'s situation."
       },
       {
-        heading: "Fire attacks",
-        content: "Sun Tzu develops the concept of fire attacks. This idea is central to the argument of The Art of War, Chapters 7-13 and has profoundly influenced subsequent philosophical thought. Closely related is the notion of knowing when not to fight. Together, these concepts form a coherent framework for understanding Sun Tzu's philosophical vision."
+        heading: "Economy of Force",
+        content: "A consistent theme throughout The Art of War is the economy of force — achieving maximum results with minimum expenditure. \'There is no instance of a country having benefited from prolonged warfare.\' Sun Tzu warns against the economic devastation of extended campaigns: armies consume resources at a prodigious rate, prices rise, the people are impoverished, and the state is weakened regardless of who wins on the battlefield. The ideal campaign is swift, decisive, and limited. This principle of economy extends to every aspect of warfare: use fire, water, terrain, timing, and psychology to multiply your force rather than relying on numbers alone. The cleverest warrior is not the one who wins the most battles but the one who achieves objectives with the least expenditure of blood and treasure."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Art of War, Chapters 7-13 have had an enduring impact on philosophy and beyond. Sun Tzu's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Sun Tzu's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Leadership and Character",
+        content: "Sun Tzu\'s ideal commander combines five qualities: wisdom (the ability to recognize changing circumstances), sincerity (the capacity to inspire trust), benevolence (genuine concern for the welfare of soldiers), courage (the willingness to act decisively), and strictness (the discipline to enforce standards). A commander who is brave but not wise will be reckless; one who is wise but not brave will be indecisive; one who is benevolent but not strict will lose control. The Art of War is ultimately a book about decision-making under uncertainty — how to gather information, assess situations, choose strategies, and act with conviction while remaining flexible enough to adapt when circumstances change. These are skills relevant far beyond the battlefield."
       }
     ],
     reflectionQuestions: ["When is retreat the wisest strategy?", "How important is adaptability?"],
@@ -3012,20 +3012,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["The tree of knowledge", "Reason as the guide to truth", "The unity of human knowledge", "The Enlightenment project"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In Encyclopédie, Denis Diderot & Jean le Rond d'Alembert addresses questions that remain central to philosophy. The manifesto of the Enlightenment — a systematic map of all human knowledge. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Denis Diderot & Jean le Rond d'Alembert wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "The Great Enterprise of Knowledge",
+        content: "The Encyclopédie, or Systematic Dictionary of the Sciences, Arts, and Crafts (1751-1772), edited by Denis Diderot and Jean le Rond d\'Alembert, was far more than a reference work — it was a revolutionary act disguised as a dictionary. Comprising 28 volumes with 71,818 articles and 3,129 illustrations, it aimed to gather all human knowledge and present it systematically, free from the distortions of religious dogma and political censorship. Diderot described its purpose as \'changing the general way of thinking\' — and it did. The Encyclopédie became the flagship of the Enlightenment, a weapon of reason against superstition, authority, and tradition."
       },
       {
-        heading: "The tree of knowledge",
-        content: "Denis Diderot & Jean le Rond d'Alembert develops the concept of the tree of knowledge. This idea is central to the argument of Encyclopédie and has profoundly influenced subsequent philosophical thought. Closely related is the notion of reason as the guide to truth. Together, these concepts form a coherent framework for understanding Denis Diderot & Jean le Rond d'Alembert's philosophical vision."
+        heading: "The Organization of Knowledge",
+        content: "The Encyclopédie\'s most revolutionary feature was its system of organization. Following Francis Bacon\'s classification of knowledge into Memory (History), Reason (Philosophy), and Imagination (Poetry), it placed human reason at the center of all inquiry. Theology, which had occupied the summit of medieval knowledge hierarchies, was classified as a branch of philosophy. Trades and crafts — traditionally despised as manual labor — were given detailed, respectful treatment with elaborate illustrations of workshops, tools, and techniques. A pin-maker\'s craft received the same careful attention as metaphysics. This was a deliberate statement: practical knowledge is as worthy of respect as theoretical knowledge, and the artisan contributes as much to human progress as the philosopher."
       },
       {
-        heading: "The unity of human knowledge",
-        content: "Denis Diderot & Jean le Rond d'Alembert develops the concept of the unity of human knowledge. This idea is central to the argument of Encyclopédie and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the enlightenment project. Together, these concepts form a coherent framework for understanding Denis Diderot & Jean le Rond d'Alembert's philosophical vision."
+        heading: "Subversion Through Cross-References",
+        content: "Diderot developed an ingenious strategy for evading censorship: the system of cross-references (renvois). An article on a politically safe topic might contain a cross-reference to a dangerously subversive article elsewhere in the encyclopedia. The article on \'Cannibals\' might refer readers to \'Eucharist\'; the article on \'Authority\' might point to \'Natural Right.\' These cross-references created a hidden web of radical thought beneath the surface of a seemingly neutral reference work. Diderot wrote: \'The cross-references are the most important part of our encyclopedic scheme. They serve to connect ideas, to indicate distant relations that otherwise would be difficult to perceive, and to invite comparison.\'"
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in Encyclopédie have had an enduring impact on philosophy and beyond. Denis Diderot & Jean le Rond d'Alembert's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Denis Diderot & Jean le Rond d'Alembert's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Legacy and Impact",
+        content: "The Encyclopédie was repeatedly banned, its printing stopped, and its publishers threatened with imprisonment. The Jesuits attacked it; the government censored it; Diderot\'s co-editor d\'Alembert abandoned the project under pressure. Yet Diderot persisted for over twenty years, recruiting over 140 contributors including Voltaire, Rousseau, and Montesquieu. The completed work sold some 25,000 copies — an enormous number for the time — and was widely pirated and translated. It helped create an informed public opinion that would eventually fuel the French Revolution, and it established the model for all subsequent encyclopedias, including Wikipedia. Its deepest legacy is the conviction that knowledge should be free, accessible, and organized by human reason rather than religious or political authority."
       }
     ],
     reflectionQuestions: ["Can all knowledge be systematized?", "Is the Enlightenment project still relevant?"],
@@ -3043,20 +3043,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["The perfectibility of humanity", "Progress through reason", "Universal education", "The march of civilization"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In Sketch for a Historical Picture of the Progress of the Human Mind, Marquis de Condorcet addresses questions that remain central to philosophy. Humanity's future perfection through reason, science, and universal education. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Marquis de Condorcet wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "The March of the Human Mind",
+        content: "The Marquis de Condorcet wrote his Sketch for a Historical Picture of the Progress of the Human Mind (1795) while hiding from the Terror of the French Revolution — the very revolution he had helped to inspire. Despite his desperate circumstances, Condorcet produced the most optimistic work of the Enlightenment: a history of humanity as the story of continuous intellectual and moral progress, from primitive tribes to the threshold of a future golden age. He divided history into ten epochs, each marked by a decisive advance in knowledge, and argued that this progress was not accidental but the natural result of human reason working itself free from the chains of ignorance, superstition, and tyranny."
       },
       {
-        heading: "The perfectibility of humanity",
-        content: "Marquis de Condorcet develops the concept of the perfectibility of humanity. This idea is central to the argument of Sketch for a Historical Picture of the Progress of the Human Mind and has profoundly influenced subsequent philosophical thought. Closely related is the notion of progress through reason. Together, these concepts form a coherent framework for understanding Marquis de Condorcet's philosophical vision."
+        heading: "The Perfectibility of Humanity",
+        content: "Condorcet\'s central claim is that human beings are \'indefinitely perfectible\' — not that they will achieve perfection, but that there is no fixed limit to their improvement. Each generation builds on the discoveries of the last; each advance in knowledge opens new possibilities for further advances. The invention of writing allowed knowledge to accumulate across generations; the invention of printing made it widely accessible; the development of scientific method accelerated discovery. Condorcet extrapolated these trends into the future, predicting the equality of nations, the equality of individuals within nations, and the genuine perfection of humanity through universal education, rational legislation, and the progress of science."
       },
       {
-        heading: "Universal education",
-        content: "Marquis de Condorcet develops the concept of universal education. This idea is central to the argument of Sketch for a Historical Picture of the Progress of the Human Mind and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the march of civilization. Together, these concepts form a coherent framework for understanding Marquis de Condorcet's philosophical vision."
+        heading: "Reason Against Prejudice",
+        content: "Condorcet\'s history is simultaneously a history of enlightenment and a history of the forces that have opposed it. He identifies two great enemies of progress: religious priesthoods, which monopolize knowledge and enforce superstition, and political tyrants, who benefit from keeping the people ignorant. The alliance of altar and throne has repeatedly blocked human advancement, but reason has always eventually broken through. Condorcet was among the first to argue systematically for gender equality, the abolition of slavery, universal education, and democratic government — causes he saw as natural consequences of the progress of reason. His faith in reason survived even the Revolution\'s descent into violence."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in Sketch for a Historical Picture of the Progress of the Human Mind have had an enduring impact on philosophy and beyond. Marquis de Condorcet's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Marquis de Condorcet's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "The Tenth Epoch: The Future",
+        content: "The most remarkable section of the Sketch is the tenth epoch — Condorcet\'s prediction of the future. He foresaw the destruction of inequality between nations through the spread of knowledge and commerce; the destruction of inequality within nations through education and legal reform; and the genuine improvement of human nature through better nutrition, medicine, and moral education. He even speculated about the extension of human lifespan. Writing these words while hunted by men who would soon cause his death, Condorcet demonstrates either extraordinary courage or extraordinary faith — or both. His work became the philosophical foundation of progressive politics and the idea that the future can and should be better than the past."
       }
     ],
     reflectionQuestions: ["Is human progress inevitable?", "Has reason delivered on the Enlightenment's promises?"],
@@ -3074,20 +3074,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Universal love vs. graded love", "Consequentialism", "Against offensive warfare", "The will of Heaven"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In Mozi, Mozi addresses questions that remain central to philosophy. Mozi challenges Confucianism with the doctrine of universal love — we should love all equally, not according to social roles. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Mozi wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Universal Love vs. Partial Love",
+        content: "Mozi (c. 470-391 BCE) offered the most radical ethical proposal in ancient Chinese philosophy: jian ai, or universal love. He argued that all the disorders of the world — war, theft, exploitation, the strong oppressing the weak — arise from one cause: partiality. People love their own families but not others\' families, their own states but not others\' states. If everyone loved others\' families and states as they love their own, there would be no reason for conflict. Mozi presents this not as a sentimental wish but as a practical program: universal love is more useful than partial love because it creates a world where everyone benefits."
       },
       {
-        heading: "Universal love vs. graded love",
-        content: "Mozi develops the concept of universal love vs. graded love. This idea is central to the argument of Mozi and has profoundly influenced subsequent philosophical thought. Closely related is the notion of consequentialism. Together, these concepts form a coherent framework for understanding Mozi's philosophical vision."
+        heading: "The Utilitarian Argument",
+        content: "What makes Mozi distinctive is his relentlessly practical, consequentialist reasoning. He doesn\'t argue that universal love is commanded by the gods or required by cosmic order (though he does invoke Heaven\'s will as supporting his view). Instead, he argues that universal love produces better outcomes. A ruler who loves all the people will govern well; a father who loves all children will raise them well; if everyone practiced universal love, war would cease, theft would end, and everyone would be fed, clothed, and housed. Mozi anticipates the utilitarian tradition that would emerge in Europe two thousand years later with Bentham and Mill: the right action is the one that produces the greatest benefit for the greatest number."
       },
       {
-        heading: "Against offensive warfare",
-        content: "Mozi develops the concept of against offensive warfare. This idea is central to the argument of Mozi and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the will of heaven. Together, these concepts form a coherent framework for understanding Mozi's philosophical vision."
+        heading: "Against the Confucians",
+        content: "Mozi\'s doctrine was explicitly directed against the Confucian emphasis on graded love — the idea that we should love our parents more than strangers, our community more than distant peoples. For Confucius, love naturally radiates outward from intimate relationships, growing weaker with distance. Mozi rejected this as a rationalization for selfishness: if I love my family more, I may steal from yours to benefit mine. The Confucian response, developed by Mencius, was that universal love is psychologically impossible and morally misguided — it ignores the special bonds that give life meaning and provide the emotional foundation for wider moral concern. This debate between universal and partial love remains one of the great unresolved questions in ethics."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in Mozi have had an enduring impact on philosophy and beyond. Mozi's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Mozi's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Organization and Action",
+        content: "Unlike many philosophers, Mozi built an organization to implement his ideas. The Mohist school was quasi-military: disciplined, hierarchically organized, and actively engaged in politics. Mohists traveled between warring states, using their engineering skills to help small states defend against large ones, and their rhetorical skills to argue against aggressive war. They practiced extreme frugality, rejecting the elaborate rituals and music that Confucius championed as wasteful. Mozi\'s followers developed sophisticated logical and scientific methods, advancing optics, geometry, and the theory of argumentation. Though Mohism declined after the Qin unification of China, its emphasis on impartial justice, pragmatic reasoning, and opposition to aggressive war has been rediscovered as a remarkably modern voice in ancient Chinese thought."
       }
     ],
     reflectionQuestions: ["Should we love everyone equally?", "Is universal love practical?"],
@@ -3105,20 +3105,20 @@ export const chapters: Record<string, ChapterContent> = {
     keyConcepts: ["Sympathy as moral foundation", "The impartial spectator", "Propriety of action", "The social basis of morality"],
     sections: [
       {
-        heading: "Context and Background",
-        content: "In The Theory of Moral Sentiments, Part I, Adam Smith addresses questions that remain central to philosophy. Sympathy as the foundation of morality — Adam Smith's ethical masterpiece, written before The Wealth of Nations. Understanding the historical and intellectual context of this work illuminates why these arguments were revolutionary in their time and continue to resonate today. Adam Smith wrote in response to the philosophical debates of their era, seeking to advance human understanding of fundamental questions about reality, knowledge, ethics, and the good life."
+        heading: "Sympathy as the Moral Foundation",
+        content: "Before writing The Wealth of Nations, Adam Smith published The Theory of Moral Sentiments (1759), which he considered his more important work. It begins with a striking claim: \'How selfish soever man may be supposed, there are evidently some principles in his nature, which interest him in the fortune of others.\' Smith argues that morality is grounded not in reason or divine command but in sympathy — our natural capacity to imaginatively enter into another person\'s feelings. When we see someone suffering, we imagine ourselves in their situation and feel a reflected version of their pain. This sympathetic identification is the foundation of all moral judgment."
       },
       {
-        heading: "Sympathy as moral foundation",
-        content: "Adam Smith develops the concept of sympathy as moral foundation. This idea is central to the argument of The Theory of Moral Sentiments, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the impartial spectator. Together, these concepts form a coherent framework for understanding Adam Smith's philosophical vision."
+        heading: "The Impartial Spectator",
+        content: "Smith\'s most original contribution is the concept of the \'impartial spectator\' — an imagined observer who represents the perspective of a fair-minded, well-informed person. We judge our own conduct by imagining how such a spectator would view it. When we act well, we enjoy the approval of this internal judge; when we act badly, we feel its condemnation. The impartial spectator is not the voice of society (which may be prejudiced) or of God (which requires theological assumptions) but of our own best moral reasoning. Smith recognizes that this internal judge can be corrupted — by self-interest, by custom, by the desire for praise — but argues that it remains our most reliable moral guide."
       },
       {
-        heading: "Propriety of action",
-        content: "Adam Smith develops the concept of propriety of action. This idea is central to the argument of The Theory of Moral Sentiments, Part I and has profoundly influenced subsequent philosophical thought. Closely related is the notion of the social basis of morality. Together, these concepts form a coherent framework for understanding Adam Smith's philosophical vision."
+        heading: "The Corruption of Moral Sentiments",
+        content: "Smith offers a penetrating analysis of how wealth and power distort moral judgment. We tend to admire the rich and powerful simply because they are rich and powerful, and to despise the poor simply because they are poor. This \'disposition to admire the rich and great, and to despise persons of poor and mean condition\' is, Smith says, \'the great and most universal cause of the corruption of our moral sentiments.\' We sympathize more easily with joy than with sorrow, which means we are naturally drawn to the successful and away from the unfortunate. Smith sees this as both a social lubricant (it motivates industry and ambition) and a moral danger (it leads us to confuse wealth with virtue)."
       },
       {
-        heading: "Significance and Legacy",
-        content: "The ideas presented in The Theory of Moral Sentiments, Part I have had an enduring impact on philosophy and beyond. Adam Smith's arguments continue to be debated, refined, and applied in contemporary discussions. Whether one ultimately agrees with Adam Smith's conclusions or not, engaging with these ideas sharpens our thinking about the most fundamental questions of human existence. The text rewards careful, repeated reading — each encounter reveals new layers of meaning and new connections to our own experience."
+        heading: "Justice and Beneficence",
+        content: "Smith distinguishes sharply between justice and beneficence. Justice — not harming others, keeping promises, respecting property — is like the grammar of social life: it can be precisely stated, is absolutely required, and can legitimately be enforced. Beneficence — generosity, kindness, charity — is like the ornament of language: it beautifies life but cannot be demanded. A society can survive without beneficence (though it will be cold and joyless) but cannot survive without justice. This distinction influenced the entire liberal tradition, including Kant and John Stuart Mill, and continues to shape debates about the proper scope of law and the limits of moral obligation."
       }
     ],
     reflectionQuestions: ["Is sympathy the basis of morality?", "Who is the 'impartial spectator' in your life?"],
