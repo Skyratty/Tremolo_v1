@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Tremolo
 
-TODO: Document your project here
+Educational philosophy website.
